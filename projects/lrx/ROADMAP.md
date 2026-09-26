@@ -1,6 +1,6 @@
 # LRX: текущая карта доказательства
 
-Срез свидетельств: 2026-09-26T10:35:00Z. Версия 2026-09-26.3. SHA-256 реестра: `ee4160a983ff035b42dc2d809ebd29df22cd837c4a0a0c1e567098c11c5b1383`.
+Срез свидетельств: 2026-09-26T10:35:00Z. Версия 2026-09-26.3-schema2. SHA-256 реестра: `e5cb7c96435645618d24df58426a8a8f84fdbb8fe5a53e721278d7efcf6b6ed4`.
 
 Срез доступных сообщений до №2960 и авторских архивов/рецензий. Это снимок, не live-runtime. Принятие и проверка отделены от отправки; события после10:35UTC сюда не включены.
 
@@ -16,14 +16,14 @@
 | [D](#d) · Нижняя граница | Готово | A / B / MathSavant / completed | — |
 | [U-SOURCE](#u-source) · Рукопись → формальные обязательства | Работа | Координатор / accepted | — |
 | [LIFT](#lift) · Хороший подъём | Готово | A / координатор / completed | — |
-| [BRIDGE](#bridge) · Периодический подъём и конечное окно | Проверка | A / proposed | LIFT, MODEL |
-| [PLAN](#plan) · Построить допустимый план | Работа | Тимлид / accepted | BRIDGE, U-SOURCE |
+| [BRIDGE](#bridge) · Периодический подъём и конечное окно | Проверка | A / proposed | LIFT [assumption-discharge], MODEL [assumption-discharge] |
+| [PLAN](#plan) · Построить допустимый план | Работа | Тимлид / accepted | BRIDGE [assumption-discharge], U-SOURCE [assumption-discharge] |
 | [EXEC](#exec) · Исполнить допустимый план | Проверка | Тимлид / accepted | — |
 | [CAP](#cap) · Конечные скалярные утверждения | Проверка | B / accepted | — |
-| [COST](#cost) · Геометрия → сертификат → бюджет | Работа | B / тимлид / accepted | PLAN, EXEC, CAP, U-SOURCE |
-| [SMALL](#small) · Остаточные размеры | Очередь | Координатор / accepted | MODEL, U-SOURCE |
-| [U-ALL](#u-all) · Верхняя для всех перестановок | Очередь | Координатор / accepted | MODEL, BRIDGE, PLAN, EXEC, COST, SMALL |
-| [EQ](#eq) · Равенство диаметра | Очередь | Координатор / accepted | D, U-ALL |
+| [COST](#cost) · Геометрия → сертификат → бюджет | Работа | B / тимлид / accepted | PLAN [assumption-discharge], EXEC [assumption-discharge], CAP [assumption-discharge], U-SOURCE [assumption-discharge] |
+| [SMALL](#small) · Остаточные размеры | Очередь | Координатор / accepted | MODEL [assumption-discharge], U-SOURCE [assumption-discharge] |
+| [U-ALL](#u-all) · Верхняя для всех перестановок | Очередь | Координатор / accepted | MODEL [assumption-discharge], BRIDGE [assumption-discharge], PLAN [assumption-discharge], EXEC [assumption-discharge], COST [assumption-discharge], SMALL [assumption-discharge] |
+| [EQ](#eq) · Равенство диаметра | Очередь | Координатор / accepted | D [assumption-discharge], U-ALL [assumption-discharge] |
 | [ALT-C](#alt-c) · Альтернатива C: совместный selector | Проверка | C / MathSavant / completed | — |
 | [RELEASE](#release) · Пакет и публикация | Работа | Координатор / accepted | — |
 | [MEAN-2908](#mean-2908) · Отдельная ветка: продолжение статьи Ивана | Очередь | Тимлид; A/B/C предложены / proposed | — |
@@ -32,163 +32,178 @@
 
 Для n≥4 вершины — перестановки n различных меток; L/R циклические сдвиги, X меняет первые два места; цена каждого хода 1. Установить связь root-distance и диаметра.
 
-- Утверждение: partial; проверка: independently-reproduced; публикация: pending.
+- Утверждение: partial; проверка: independently-reproduced (partial): independently-reproduced; публикация: pending.
 - Приёмка: Точные определения PDF/Lean и общий тип графа совпадают; перечислены исключения n.
 - Следующий шаг: Свести типы и версии в финальном модуле.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/5, https://github.com/TryDotAtwo/AutoMathLab/pull/10.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## D
 
 ∀n≥4 ∃p ∀w: run(w,p)=identity → length(w)≥n(n−1)/2.
 
-- Утверждение: proved; проверка: formally-checked; публикация: partial; graph-source permission pending.
+- Утверждение: proved; проверка: formally-checked (full): formally-checked; публикация: partial; graph-source permission pending.
 - Приёмка: Безусловная native-нижняя и связь с исходным графом; независимый replay точной версии.
 - Следующий шаг: Не повторять поиск; отдельно завершить публикацию graph-исходников.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/8.
-- Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/5, https://github.com/TryDotAtwo/AutoMathLab/pull/10.
+- Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/5, https://github.com/TryDotAtwo/AutoMathLab/pull/10, https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean.md, https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/reviews/2026-09-25-coordinator-native-lower-lean.md.
+- Проверяющий: Координатор Codex; независимая сборка 2026-09-25, сохранённый review. Артефакт: https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean.md (git:29264dd2a6fe412a5ee7373a02b197782745d3e4). Проверка: https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/reviews/2026-09-25-coordinator-native-lower-lean.md (git:29264dd2a6fe412a5ee7373a02b197782745d3e4).
 
 ## U-SOURCE
 
 Зафиксировать исправленную версию верхней Сергея и сопоставить каждой используемой лемме точное Lean-утверждение или незакрытое обязательство.
 
-- Утверждение: partial; проверка: not-reviewed; публикация: pending.
+- Утверждение: partial; проверка: not-reviewed (none): not-reviewed; публикация: pending.
 - Приёмка: Таблица source section → theorem → assumptions → review; нет неявных замен C-минимума энергетическим минимумом.
 - Следующий шаг: Составлена проверяемая таблица 12 разделов U19 → формальные компоненты/пробелы. Завершить по-леммное покрытие, включая внешнюю shallow-характеристику; полная математическая рецензия этим не заменяется.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: https://t.me/c/4375515554/2851, https://github.com/TryDotAtwo/AutoMathLab/blob/main/projects/lrx/reviews/2026-09-26-coordinator-upper-source-formal-map.md.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## LIFT
 
 Для любой перестановки n>0 существует сбалансированный фазовый подъём с subset-ограничениями и строгой короткостью; C-минимальность не утверждается.
 
-- Утверждение: proved; проверка: formally-checked; публикация: PR7 open; review update pending.
+- Утверждение: proved; проверка: formally-checked (full): formally-checked; публикация: PR7 open; review update pending.
 - Приёмка: Точная локальная теорема и независимый replay; downstream совместимость проверяется отдельно.
 - Следующий шаг: Выбор подъёма завершён и отдельно проверен. Дальнейший вопрос — где этот же подъём допускает конечное окно; не повторять выбор.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/6.
-- Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/7, https://t.me/c/4375515554/2884.
+- Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/7, https://t.me/c/4375515554/2884, https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/UpperLiftSelection.lean, https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/BUILD_RECEIPT.json.
+- Проверяющий: Координатор Codex; исходная авторская Lean-проверка, не новый независимый replay. Артефакт: https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/UpperLiftSelection.lean (git:b8c0e32d67a96cc50c125649cfcc04a88567abe8). Проверка: https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/BUILD_RECEIPT.json (git:b8c0e32d67a96cc50c125649cfcc04a88567abe8).
 
 ## BRIDGE
 
 Тот же периодический F при настоящем закрытом разрезе даёт конечное σ с сохранением стрелок, смещений и разрезов; нужно вывести применимость в исходной несвязной ветви и отдельно покрыть связную.
 
-- Утверждение: open; проверка: formally-checked within explicit closed-cut hypothesis; independent replay recorded; публикация: pending.
+- Утверждение: open; проверка: formally-checked (partial): formally-checked within explicit closed-cut hypothesis; independent replay recorded; публикация: pending.
 - Приёмка: Один типизированный интерфейс без предположения уже готовой identity/бесплатного вращения; пример только диагностический.
 - Следующий шаг: A2949: условный переход и n=12 минимум энергии108 без разреза независимо проверены2951. Минимальность энергии не гарантирует окно. Следующий предложенный пакет: связать беззнаковую круговую нагрузку и закрытый целый разрез; доставка/принятие нового продолжения A не подтверждены. Отдельно остаются исполнение/фаза и связная ветвь.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/14.
 - Свидетельства: https://t.me/c/4375515554/2929, https://t.me/c/4375515554/2933, https://t.me/c/4375515554/2949, https://t.me/c/4375515554/2951.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## PLAN
 
 Из условий выбранного источника для каждой входной перестановки существует конечный допустимый план; выбор завершается.
 
-- Утверждение: partial; проверка: author-checked; публикация: pending.
+- Утверждение: partial; проверка: author-checked (partial): author-checked; публикация: pending.
 - Приёмка: Существование Valid не остаётся предпосылкой; есть мера завершения и соответствие тому же lift/target.
 - Следующий шаг: Тимлид продолжает существование завершающегося плана. Для отдельного семейства произвольных сбалансированных целей записаны жадная ловушка и выход из пяти переходов ценой13; авторские бумажные результаты, Lean/независимая проверка отсутствуют. Нужны соответствие исходной конструкции, мера завершения и общий бюджет; условный исполнитель плана этого не доказывает.
 - Reviewer: A / координатор. Checkpoint: 2026-09-26T11:40:00Z.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/15.
 - Свидетельства: https://t.me/c/4375515554/2898, https://t.me/c/4375515554/2940.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## EXEC
 
 Каждый допустимый план реализуется словом L/R/X с заявленными эффектом, обмоткой и точной стоимостью.
 
-- Утверждение: partial; проверка: independently-reproduced for 21-module baseline; supplements scoped separately; публикация: PR13 open; baseline replay commit 8ebba577.
+- Утверждение: partial; проверка: independently-reproduced (partial): independently-reproduced for 21-module baseline; supplements scoped separately; публикация: PR13 open; baseline replay commit 8ebba577.
 - Приёмка: Применимый компилятор всего выбранного класса планов; явные предпосылки, полный replay.
 - Следующий шаг: База21 модуль/100 аудитов независимо пересобрана координатором в PR13 commit8ebba577. Новые условные расширения и две отдельно перепроверенные динамические части не закрывают существование плана.
 - Reviewer: Координатор. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/11.
 - Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/13, https://t.me/c/4375515554/2930.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## CAP
 
 ScalarCapChecked 1 и 2: автор сообщает проверку ядром Lean; общий геометрический мост не входит в это утверждение.
 
-- Утверждение: proved; проверка: author-checked; публикация: Новый архив B cf341715…; публикация полного cap-пакета pending.
+- Утверждение: proved; проверка: author-checked (partial): author-checked; публикация: Новый архив B cf341715…; публикация полного cap-пакета pending.
 - Приёмка: Точные cap-теоремы проходят ядро; конечный каталог не заменяет доказательства условий применимости.
 - Следующий шаг: Авторский пакет2907:538 модулей/599 аудитов. Независимый replay23/538, следующие агрегаторы и финальные cap-теоремы ещё не перепроверены полностью. Не считать изолированную проверку новых геометрических лемм полным replay сертификата.
 - Reviewer: Тимлид / координатор. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/9.
 - Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/12, https://t.me/c/4375515554/2907, https://t.me/c/4375515554/2909, https://t.me/c/4375515554/2930.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## COST
 
 Все планы из PLAN удовлетворяют условиям сертификата; полная длина вместе с фазой ≤n(n−1)/2.
 
-- Утверждение: open; проверка: independently-reproduced for G2/G4 on explicitly isolated definitions; global cost open; публикация: pending.
+- Утверждение: open; проверка: independently-reproduced (partial): independently-reproduced for G2/G4 on explicitly isolated definitions; global cost open; публикация: pending.
 - Приёмка: Выведены SCC/credit/sign, исключения и цена; ни один геометрический факт не скрыт в предпосылке.
 - Следующий шаг: B2943 построил полное разложение произвольного конечного σ; B2950 вывел L+v+a=n и размерные Int-ограничения при заданной большой компоненте длины>ceil(n/2). Проверки2945/2954 пересобрали новые исходники на точных изолированных определениях, не всю цепочку CAP. B2956 принял следующий вывод ε и ограничений fixed из balanced/subset_bound; входные файлы отправлены2959, доступ получателя пока не подтверждён. SCC, остальные фильтры и оплаченный маршрут остаются открытыми.
 - Reviewer: B / координатор. Checkpoint: 2026-09-26T12:30:00Z.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/15.
 - Свидетельства: https://t.me/c/4375515554/2924, https://t.me/c/4375515554/2943, https://t.me/c/4375515554/2945, https://t.me/c/4375515554/2950, https://t.me/c/4375515554/2954, https://t.me/c/4375515554/2956.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## SMALL
 
 Закрыть n=4…10 отдельно: именно этот диапазон использует §13 U19 (SHA8547daf9…); общая конструкция источника начинается с n≥11.
 
-- Утверждение: open; проверка: not-reviewed; публикация: pending.
+- Утверждение: open; проверка: not-reviewed (none): not-reviewed; публикация: pending.
 - Приёмка: Полнота конечного пространства/сертификата и проверка ядром; связь с MODEL.
 - Следующий шаг: Сопоставить существующие конечные сертификаты с полным состоянием исходного графа и выбрать проверяемый ядром способ; broad BFS сейчас не запускать.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/blob/main/projects/lrx/reviews/2026-09-26-coordinator-upper-source-formal-map.md.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## U-ALL
 
 ∀n≥4 ∀p ∃w: run(w,p)=identity ∧ length(w)≤n(n−1)/2.
 
-- Утверждение: open; проверка: not-reviewed; публикация: pending.
+- Утверждение: open; проверка: not-reviewed (none): not-reviewed; публикация: pending.
 - Приёмка: Безусловный Lean statement для исходного графа; все зависимости совместимы по версиям и кванторам.
 - Следующий шаг: Интегрировать основной путь либо полностью закрытую альтернативу, не требовать обе.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: обязательство; результата пока нет.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## EQ
 
 ∀n≥4 diam(LRX_n)=n(n−1)/2.
 
-- Утверждение: open; проверка: not-reviewed; публикация: pending.
+- Утверждение: open; проверка: not-reviewed (none): not-reviewed; публикация: pending.
 - Приёмка: Одна безусловная теорема, fresh replay, стандартные аксиомы; совпадение с финальным PDF.
 - Следующий шаг: Соединить D и U-ALL; независимо проверить итоговый scope.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: обязательство; результата пока нет.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## ALT-C
 
 Совместно выбрать подъём, доступное промежуточное состояние и оплаченный хвост с общим бюджетом.
 
-- Утверждение: partial; проверка: author package with agent review; no new Lean; coordinator intake only; публикация: pending.
+- Утверждение: partial; проверка: author-checked (partial): author package with agent review; no new Lean; coordinator intake only; публикация: pending.
 - Приёмка: Общий selector и бюджет либо строгое препятствие указанной схеме; семейный результат не закрывает общую U.
 - Следующий шаг: C2957: предъявлено аналитическое покрытие области s<n/2 круговых обменов от обратного порядка, допускающее пересекающиеся дефекты; синхронный выбор терминалов опровергнут, независимый остаётся открытым. Получены источник, агентская рецензия и точечные сертификаты. Новая полная независимая проверка координатором и новая Lean-формализация не заявляются; общий альтернативный путь не закрыт.
 - Reviewer: Тимлид. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/3.
 - Свидетельства: https://t.me/c/4375515554/2893, https://t.me/c/4375515554/2897, https://t.me/c/4375515554/2957.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## RELEASE
 
 Версии PDF, Lean, исходников, логов и прав распространения согласованы; полнота формализации явно обозначена.
 
-- Утверждение: partial; проверка: author-checked; публикация: pending.
+- Утверждение: partial; проверка: author-checked (partial): author-checked; публикация: pending.
 - Приёмка: Воспроизводимый manifest; точные границы утверждений; разрешения на сторонние исходники; submission требования подтверждены.
 - Следующий шаг: Собирается v3 EN/RU: неизменный полный v2, авторское приложение Сергея, новые исходные архивы и отдельные границы независимых проверок. Это редакционный пакет для группы, не внешняя подача или завершённая Lean-U. Человеческая приёмка, авторский состав, площадка и timezone срока15:00 не подтверждены.
 - Reviewer: Координатор / независимый reviewer. Checkpoint: новый срок не подтверждён.
 - Issue: https://github.com/TryDotAtwo/AutoMathLab/issues/16.
 - Свидетельства: https://github.com/TryDotAtwo/AutoMathLab/pull/10, https://github.com/TryDotAtwo/AutoMathLab/pull/13.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.
 
 ## MEAN-2908
 
 Развить формулы (13)–(15) статьи Ивана для указанного в ней графа, включая генератор (1,n). Точная формула среднего не доказана; это не исходный диаметр LRX.
 
-- Утверждение: open; проверка: not-reviewed; публикация: Постановка и задания №2910–2911.
+- Утверждение: open; проверка: not-reviewed (none): not-reviewed; публикация: Постановка и задания №2910–2911.
 - Приёмка: Сначала relation-to-goal: точный узел основной карты, нужная лемма из статьи Ивана и корректный мост между графами. Если связи нет — отдельный backlog, без смены цели. Затем критерии математического пакета и принятие исполнителем.
 - Следующий шаг: Условие владельца: брать только при доказанной связи с общей теоремой LRX. Сначала предъявить точную используемую лемму и перенос между моделями; до этого не запускать отдельный многочасовой поиск среднего. Транспортное принятие A также не подтверждено.
 - Reviewer: C предложен; принятие не подтверждено. Checkpoint: новый срок не подтверждён.
 - Issue: см. общую координацию #3.
 - Свидетельства: https://t.me/c/4375515554/2908, https://t.me/c/4375515554/2911, https://t.me/c/4375515554/2912.
+- Версионная запись отсутствует; готовность всей формулировки не подтверждена.

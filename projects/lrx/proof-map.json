@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "revision": "2026-09-26.3",
+  "schema_version": 2,
+  "revision": "2026-09-26.3-schema2",
   "evidence_cutoff": "2026-09-26T10:35:00Z",
   "goal": "∀n≥4: diam(LRXₙ)=n(n−1)/2",
   "scope": "original distinct-label permutations; every L/R/X costs 1; no rotation quotient",
@@ -44,7 +44,12 @@
       "assignment": "accepted",
       "state": "integration",
       "claim": "partial",
-      "verification": "independently-reproduced",
+      "verification": {
+        "status": "independently-reproduced",
+        "coverage": "partial",
+        "notes": "independently-reproduced",
+        "record": null
+      },
       "publication": "pending",
       "requires": [],
       "strategy": "main",
@@ -56,7 +61,10 @@
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "D",
@@ -67,7 +75,23 @@
       "assignment": "completed",
       "state": "done",
       "claim": "proved",
-      "verification": "formally-checked",
+      "verification": {
+        "status": "formally-checked",
+        "coverage": "full",
+        "notes": "formally-checked",
+        "record": {
+          "statement": "∀n≥4 ∃p ∀w: run(w,p)=identity → length(w)≥n(n−1)/2.",
+          "reviewer": "Координатор Codex; независимая сборка 2026-09-25, сохранённый review",
+          "artifact": {
+            "url": "https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean.md",
+            "revision": "git:29264dd2a6fe412a5ee7373a02b197782745d3e4"
+          },
+          "review": {
+            "url": "https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/reviews/2026-09-25-coordinator-native-lower-lean.md",
+            "revision": "git:29264dd2a6fe412a5ee7373a02b197782745d3e4"
+          }
+        }
+      },
       "publication": "partial; graph-source permission pending",
       "requires": [],
       "strategy": "main",
@@ -75,11 +99,16 @@
       "next_action": "Не повторять поиск; отдельно завершить публикацию graph-исходников.",
       "evidence": [
         "https://github.com/TryDotAtwo/AutoMathLab/pull/5",
-        "https://github.com/TryDotAtwo/AutoMathLab/pull/10"
+        "https://github.com/TryDotAtwo/AutoMathLab/pull/10",
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean.md",
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/reviews/2026-09-25-coordinator-native-lower-lean.md"
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/8"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/8",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "U-SOURCE",
@@ -90,7 +119,12 @@
       "assignment": "accepted",
       "state": "working",
       "claim": "partial",
-      "verification": "not-reviewed",
+      "verification": {
+        "status": "not-reviewed",
+        "coverage": "none",
+        "notes": "not-reviewed",
+        "record": null
+      },
       "publication": "pending",
       "requires": [],
       "strategy": "main",
@@ -102,7 +136,10 @@
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "LIFT",
@@ -113,7 +150,23 @@
       "assignment": "completed",
       "state": "done",
       "claim": "proved",
-      "verification": "formally-checked",
+      "verification": {
+        "status": "formally-checked",
+        "coverage": "full",
+        "notes": "formally-checked",
+        "record": {
+          "statement": "Для любой перестановки n>0 существует сбалансированный фазовый подъём с subset-ограничениями и строгой короткостью; C-минимальность не утверждается.",
+          "reviewer": "Координатор Codex; исходная авторская Lean-проверка, не новый независимый replay",
+          "artifact": {
+            "url": "https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/UpperLiftSelection.lean",
+            "revision": "git:b8c0e32d67a96cc50c125649cfcc04a88567abe8"
+          },
+          "review": {
+            "url": "https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/BUILD_RECEIPT.json",
+            "revision": "git:b8c0e32d67a96cc50c125649cfcc04a88567abe8"
+          }
+        }
+      },
       "publication": "PR7 open; review update pending",
       "requires": [],
       "strategy": "main",
@@ -121,11 +174,16 @@
       "next_action": "Выбор подъёма завершён и отдельно проверен. Дальнейший вопрос — где этот же подъём допускает конечное окно; не повторять выбор.",
       "evidence": [
         "https://github.com/TryDotAtwo/AutoMathLab/pull/7",
-        "https://t.me/c/4375515554/2884"
+        "https://t.me/c/4375515554/2884",
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/UpperLiftSelection.lean",
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/b8c0e32d67a96cc50c125649cfcc04a88567abe8/projects/lrx/results/2026-09-26-codex-upper-lift-selection/BUILD_RECEIPT.json"
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/6"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/6",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "BRIDGE",
@@ -136,7 +194,12 @@
       "assignment": "proposed",
       "state": "review",
       "claim": "open",
-      "verification": "formally-checked within explicit closed-cut hypothesis; independent replay recorded",
+      "verification": {
+        "status": "formally-checked",
+        "coverage": "partial",
+        "notes": "formally-checked within explicit closed-cut hypothesis; independent replay recorded",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "LIFT",
@@ -153,7 +216,13 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/14"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/14",
+      "dependency_kinds": {
+        "LIFT": "assumption-discharge",
+        "MODEL": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "PLAN",
@@ -164,7 +233,12 @@
       "assignment": "accepted",
       "state": "working",
       "claim": "partial",
-      "verification": "author-checked",
+      "verification": {
+        "status": "author-checked",
+        "coverage": "partial",
+        "notes": "author-checked",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "BRIDGE",
@@ -179,7 +253,13 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": "2026-09-26T11:40:00Z",
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/15"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/15",
+      "dependency_kinds": {
+        "BRIDGE": "assumption-discharge",
+        "U-SOURCE": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "EXEC",
@@ -190,7 +270,12 @@
       "assignment": "accepted",
       "state": "review",
       "claim": "partial",
-      "verification": "independently-reproduced for 21-module baseline; supplements scoped separately",
+      "verification": {
+        "status": "independently-reproduced",
+        "coverage": "partial",
+        "notes": "independently-reproduced for 21-module baseline; supplements scoped separately",
+        "record": null
+      },
       "publication": "PR13 open; baseline replay commit 8ebba577",
       "requires": [],
       "strategy": "main",
@@ -202,7 +287,12 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/11"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/11",
+      "dependency_kinds": {},
+      "proof_scope": "conditional",
+      "assumptions": [
+        "Предъявлен допустимый план выбранного класса."
+      ]
     },
     {
       "id": "CAP",
@@ -213,7 +303,12 @@
       "assignment": "accepted",
       "state": "review",
       "claim": "proved",
-      "verification": "author-checked",
+      "verification": {
+        "status": "author-checked",
+        "coverage": "partial",
+        "notes": "author-checked",
+        "record": null
+      },
       "publication": "Новый архив B cf341715…; публикация полного cap-пакета pending",
       "requires": [],
       "strategy": "main",
@@ -227,7 +322,10 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/9"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/9",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "COST",
@@ -238,7 +336,12 @@
       "assignment": "accepted",
       "state": "working",
       "claim": "open",
-      "verification": "independently-reproduced for G2/G4 on explicitly isolated definitions; global cost open",
+      "verification": {
+        "status": "independently-reproduced",
+        "coverage": "partial",
+        "notes": "independently-reproduced for G2/G4 on explicitly isolated definitions; global cost open",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "PLAN",
@@ -259,7 +362,15 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": "2026-09-26T12:30:00Z",
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/15"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/15",
+      "dependency_kinds": {
+        "PLAN": "assumption-discharge",
+        "EXEC": "assumption-discharge",
+        "CAP": "assumption-discharge",
+        "U-SOURCE": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "SMALL",
@@ -270,7 +381,12 @@
       "assignment": "accepted",
       "state": "backlog",
       "claim": "open",
-      "verification": "not-reviewed",
+      "verification": {
+        "status": "not-reviewed",
+        "coverage": "none",
+        "notes": "not-reviewed",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "MODEL",
@@ -284,7 +400,13 @@
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {
+        "MODEL": "assumption-discharge",
+        "U-SOURCE": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "U-ALL",
@@ -295,7 +417,12 @@
       "assignment": "accepted",
       "state": "backlog",
       "claim": "open",
-      "verification": "not-reviewed",
+      "verification": {
+        "status": "not-reviewed",
+        "coverage": "none",
+        "notes": "not-reviewed",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "MODEL",
@@ -311,7 +438,17 @@
       "evidence": [],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {
+        "MODEL": "assumption-discharge",
+        "BRIDGE": "assumption-discharge",
+        "PLAN": "assumption-discharge",
+        "EXEC": "assumption-discharge",
+        "COST": "assumption-discharge",
+        "SMALL": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "EQ",
@@ -322,7 +459,12 @@
       "assignment": "accepted",
       "state": "backlog",
       "claim": "open",
-      "verification": "not-reviewed",
+      "verification": {
+        "status": "not-reviewed",
+        "coverage": "none",
+        "notes": "not-reviewed",
+        "record": null
+      },
       "publication": "pending",
       "requires": [
         "D",
@@ -334,7 +476,13 @@
       "evidence": [],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {
+        "D": "assumption-discharge",
+        "U-ALL": "assumption-discharge"
+      },
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "ALT-C",
@@ -345,7 +493,12 @@
       "assignment": "completed",
       "state": "review",
       "claim": "partial",
-      "verification": "author package with agent review; no new Lean; coordinator intake only",
+      "verification": {
+        "status": "author-checked",
+        "coverage": "partial",
+        "notes": "author package with agent review; no new Lean; coordinator intake only",
+        "record": null
+      },
       "publication": "pending",
       "requires": [],
       "strategy": "alternative",
@@ -358,7 +511,10 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/3"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/3",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "RELEASE",
@@ -369,7 +525,12 @@
       "assignment": "accepted",
       "state": "working",
       "claim": "partial",
-      "verification": "author-checked",
+      "verification": {
+        "status": "author-checked",
+        "coverage": "partial",
+        "notes": "author-checked",
+        "record": null
+      },
       "publication": "pending",
       "requires": [],
       "strategy": "publication",
@@ -381,7 +542,10 @@
       ],
       "observed_at": "2026-09-26T10:35:00Z",
       "next_checkpoint": null,
-      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
+      "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16",
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     },
     {
       "id": "MEAN-2908",
@@ -392,7 +556,12 @@
       "assignment": "proposed",
       "state": "backlog",
       "claim": "open",
-      "verification": "not-reviewed",
+      "verification": {
+        "status": "not-reviewed",
+        "coverage": "none",
+        "notes": "not-reviewed",
+        "record": null
+      },
       "publication": "Постановка и задания №2910–2911",
       "requires": [],
       "strategy": "separate",
@@ -405,7 +574,10 @@
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
-      "issue": null
+      "issue": null,
+      "dependency_kinds": {},
+      "proof_scope": "unconditional",
+      "assumptions": []
     }
   ]
 }
