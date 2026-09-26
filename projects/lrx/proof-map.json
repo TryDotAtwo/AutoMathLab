@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "2026-09-26.1",
+  "revision": "2026-09-26.2",
   "evidence_cutoff": "2026-09-26T08:39:00Z",
   "goal": "∀n≥4: diam(LRXₙ)=n(n−1)/2",
   "scope": "original distinct-label permutations; every L/R/X costs 1; no rotation quotient",
@@ -95,9 +95,10 @@
       "requires": [],
       "strategy": "main",
       "acceptance": "Таблица source section → theorem → assumptions → review; нет неявных замен C-минимума энергетическим минимумом.",
-      "next_action": "Свести существующие адресные проверки и явно отметить оставшиеся стыки.",
+      "next_action": "Составлена проверяемая таблица 12 разделов U19 → формальные компоненты/пробелы. Завершить по-леммное покрытие, включая внешнюю shallow-характеристику; полная математическая рецензия этим не заменяется.",
       "evidence": [
-        "https://t.me/c/4375515554/2851"
+        "https://t.me/c/4375515554/2851",
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/main/projects/lrx/reviews/2026-09-26-coordinator-upper-source-formal-map.md"
       ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
@@ -250,7 +251,7 @@
     {
       "id": "SMALL",
       "title": "Остаточные размеры",
-      "statement": "Полностью закрыть размеры и случаи, исключённые выбранной общей теоремой; диапазон берётся из её точной версии.",
+      "statement": "Закрыть n=4…10 отдельно: именно этот диапазон использует §13 U19 (SHA8547daf9…); общая конструкция источника начинается с n≥11.",
       "owner": "Координатор",
       "reviewer": "Координатор / независимый reviewer",
       "assignment": "accepted",
@@ -264,8 +265,10 @@
       ],
       "strategy": "main",
       "acceptance": "Полнота конечного пространства/сертификата и проверка ядром; связь с MODEL.",
-      "next_action": "Сначала определить точный диапазон (в текущем источнике указан 4…10), затем оценить существующие сертификаты.",
-      "evidence": [],
+      "next_action": "Сопоставить существующие конечные сертификаты с полным состоянием исходного графа и выбрать проверяемый ядром способ; broad BFS сейчас не запускать.",
+      "evidence": [
+        "https://github.com/TryDotAtwo/AutoMathLab/blob/main/projects/lrx/reviews/2026-09-26-coordinator-upper-source-formal-map.md"
+      ],
       "observed_at": "2026-09-26T08:39:00Z",
       "next_checkpoint": null,
       "issue": "https://github.com/TryDotAtwo/AutoMathLab/issues/16"
