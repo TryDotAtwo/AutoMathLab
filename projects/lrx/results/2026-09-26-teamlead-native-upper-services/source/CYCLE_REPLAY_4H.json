@@ -1,0 +1,25 @@
+{
+  "all_pass": true,
+  "cases": 3240,
+  "n_range": [
+    2,
+    9
+  ],
+  "cycle_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "transport_signs": [
+    -1,
+    0,
+    1
+  ],
+  "max_word_length": 381,
+  "scope": "literal native fixtures, self-audit; not independent review or all-n proof"
+}

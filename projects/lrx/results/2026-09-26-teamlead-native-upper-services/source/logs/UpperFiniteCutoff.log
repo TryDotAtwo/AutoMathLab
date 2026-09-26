@@ -1,0 +1,9 @@
+/data/workspace/artifacts/lrx-full-2810/formal/UpperFiniteCutoff.lean:12:38: warning: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'LRX.UpperFiniteCutoff.component_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperFiniteCutoff.half_size_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperFiniteCutoff.size_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,67 @@
+'LRX.UpperAffineBuffer.contract_shift' depends on axioms: [propext]
+'LRX.UpperAffineBuffer.contract_forward_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.contract_forward_other' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.contract_backward_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.contract_backward_other' depends on axioms: [propext, Classical.choice, Quot.sound]
+UpperLogicalStep.lean:92:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+UpperLogicalStep.lean:96:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:96:38: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+UpperLogicalStep.lean:101:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:101:38: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:86:16: warning: Variable name `hab` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hab
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+UpperLogicalStep.lean:92:25: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+UpperLogicalStep.lean:96:38: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange, if_neg ha, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+UpperLogicalStep.lean:112:25: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:112:37: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+UpperLogicalStep.lean:116:27: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+UpperLogicalStep.lean:116:39: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:121:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:121:38: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+UpperLogicalStep.lean:112:37: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange, if_neg hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+UpperLogicalStep.lean:116:27: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange, if_neg hc, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.UpperAffineBuffer.logical_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.logical_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+UpperLogicalStep.lean:156:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+UpperLogicalStep.lean:180:49: warning: This simp argument is unused:
+  List.length_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.length_append, List.length_cons, Nat.cast_add, Nat.cast_one] at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+UpperLogicalStep.lean:187:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'LRX.UpperNativeLift.macro_XL_logical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.macro_RX_logical' depends on axioms: [propext, Classical.choice, Quot.sound]

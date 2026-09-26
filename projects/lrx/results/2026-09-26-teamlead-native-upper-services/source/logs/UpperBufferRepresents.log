@@ -1,0 +1,21 @@
+/data/workspace/artifacts/lrx-full-2810/formal/UpperBufferRepresents.lean:25:37: warning: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperBufferRepresents.lean:60:44: warning: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, decide_true, Represents, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.UpperAffineBuffer.buffer_residue' depends on axioms: [propext, Quot.sound]
+'LRX.UpperAffineBuffer.passive_residue_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.contract_head' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.represents_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.represents_tag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.represents_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.represents_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.represents_reframe' depends on axioms: [propext, Classical.choice, Quot.sound]

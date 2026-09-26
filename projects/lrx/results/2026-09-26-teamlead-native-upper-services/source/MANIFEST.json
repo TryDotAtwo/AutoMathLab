@@ -1,0 +1,206 @@
+{
+  "BUILD_RECEIPT.json": {
+    "sha256": "32d32aa3eca3657d6166a6dad7ed87e8a59ec114a27b8ec3da2e75e5e70b12e4",
+    "bytes": 15185
+  },
+  "CYCLE_REPLAY_4H.json": {
+    "sha256": "db48a7097fb53ef2dba1512162255d20f3cddf415733906a8cc4735cc0b1df8c",
+    "bytes": 316
+  },
+  "EXPORTS_AXIOMS.json": {
+    "sha256": "42abded05a1447831834203259fea9d7a403687a5e0cca348e7a52db4532795f",
+    "bytes": 9723
+  },
+  "EXTERNAL_NATIVE_GRAPH_MANIFEST.json": {
+    "sha256": "73389c080d35106f497214a044cd6832aeb354b43f42ecf759b08c4c817485e5",
+    "bytes": 15901
+  },
+  "README.md": {
+    "sha256": "f9e5764079ec0dd75a18766d4e9c1cdd952bbf431b2c6152b490eb4d60bacb27",
+    "bytes": 4218
+  },
+  "check_cycle_service.py": {
+    "sha256": "cbdf5a1acc89dda01d5f62894cf410170bb1f3f0d6a2ce7d1cefb49dc62a8787",
+    "bytes": 1807
+  },
+  "formal/UpperAffineBuffer.lean": {
+    "sha256": "5599139952a039eea8925df964bd75fb03ffb121a21f8577c9e6a87cba84b782",
+    "bytes": 2434
+  },
+  "formal/UpperBufferContraction.lean": {
+    "sha256": "035739e44ba5aad6cfc2e4b8ee0e8a84bab8ce923822bf100949a33fe3e8f359",
+    "bytes": 3277
+  },
+  "formal/UpperBufferNative.lean": {
+    "sha256": "d27b0de246bd0a0cf07925be386ef61fe050e15ac5937207ba1785f19b78f212",
+    "bytes": 1833
+  },
+  "formal/UpperBufferRepresents.lean": {
+    "sha256": "e2403375048ac2cf2f3d73b32155dc115778a053fa93c5aaf177f2a7af8bc5e9",
+    "bytes": 3491
+  },
+  "formal/UpperBufferState.lean": {
+    "sha256": "887292dab190aae3f41da8231fdae358209d7a83f19f3f67e7198cc7adbd1a93",
+    "bytes": 4634
+  },
+  "formal/UpperCyclePrefix.lean": {
+    "sha256": "ffd8193e05af69f38551e24adcbda27d5269171abdb5411a16fd310069e6e5a8",
+    "bytes": 5684
+  },
+  "formal/UpperCycleService.lean": {
+    "sha256": "0453e97b5232a3275735d841e453755072d3fda6c947cc2a1b8f2763aa9f95d4",
+    "bytes": 9806
+  },
+  "formal/UpperExceptionalTours.lean": {
+    "sha256": "327251e2e773440051a6284b9c11f5585f119b9fcbf7c5558f501650ad7a0757",
+    "bytes": 795
+  },
+  "formal/UpperFiniteCutoff.lean": {
+    "sha256": "35a3d80c64785d3d1d2fc8dc1b75f8592015e4b00b88c87a9961fd82f75905b5",
+    "bytes": 1799
+  },
+  "formal/UpperHeadPort.lean": {
+    "sha256": "6d128a0274b945012bef14fc3f5fd916df1cddc1a90ad68236ec52cd8fae618e",
+    "bytes": 3648
+  },
+  "formal/UpperLogicalStep.lean": {
+    "sha256": "c648a51c05c9c1c4bf2998e340445904d314eada3682c9aeb13b0bc7b81100f5",
+    "bytes": 8108
+  },
+  "formal/UpperNativeLift.lean": {
+    "sha256": "b9b9b89821dc0c67974b9033734822a077a970964b7eff18f1c39a47614b3b0c",
+    "bytes": 4992
+  },
+  "formal/UpperNativeState.lean": {
+    "sha256": "a3fd92d6467cf8756f71bd313dc38d25242653c1c3f7ef050a59a2f5a478962d",
+    "bytes": 5117
+  },
+  "formal/UpperPairService.lean": {
+    "sha256": "b88548171e5fa7268947726f66d5b29c2f339fc43428ee6f8ef830f5edebb4d7",
+    "bytes": 3256
+  },
+  "formal/UpperRecursiveInsertion.lean": {
+    "sha256": "d5c1300c0ec6c7931fa55be59f84d5e57d525fa1d4524006670e3bed26be9d7b",
+    "bytes": 3858
+  },
+  "formal/UpperRecursiveService.lean": {
+    "sha256": "70be39db693e6319c390c22aa5564b509dc0a1b8cc1ce95bdb86e9bfd6451339",
+    "bytes": 5120
+  },
+  "formal/UpperServiceInterface.lean": {
+    "sha256": "d1adb52299ef034cab45d0b2ca88e8d44352cd2911ed086ad7b1c9ec2625599b",
+    "bytes": 7159
+  },
+  "formal/UpperSingletonService.lean": {
+    "sha256": "5d9a5e5dfb4377d3229981fe23c74362b4a2fe9aa956a1930602aa5c31711bb8",
+    "bytes": 3872
+  },
+  "formal/UpperTargetEdge.lean": {
+    "sha256": "a07860697e5c04d720a29e8beb5f86aa97b66b948427e96b28fda13b4059b2e2",
+    "bytes": 5781
+  },
+  "formal/UpperTargetStep.lean": {
+    "sha256": "1774f333ed6d94f5efea3220bf999bcda4a2134b48e49fd9d7eeefbb39963eae",
+    "bytes": 3367
+  },
+  "formal/UpperTransport.lean": {
+    "sha256": "90f04d8a90ab878be42c3a7487aafe0f137e83064c005576c47c3912e1cd0da1",
+    "bytes": 5121
+  },
+  "lake-manifest.json": {
+    "sha256": "93649f44044aaabd47b77d27ad59be61df311e2073019283866f41817172f6e5",
+    "bytes": 3121
+  },
+  "lean-toolchain": {
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "bytes": 25
+  },
+  "logs/UpperAffineBuffer.log": {
+    "sha256": "8c76f6f187049cdd23cf406c0517a0ee87fbe6dce9466feed8bcb74a0d897941",
+    "bytes": 529
+  },
+  "logs/UpperBufferContraction.log": {
+    "sha256": "bb83ade8a0c954b3e3d8439e74f54f34753b9d2a54c5108f900fd12f5ba50bfe",
+    "bytes": 398
+  },
+  "logs/UpperBufferNative.log": {
+    "sha256": "fd7257c4bbf08850b04ecfeefe10b52fe5266e18b893a0eb6b2b39ac854ad0d5",
+    "bytes": 410
+  },
+  "logs/UpperBufferRepresents.log": {
+    "sha256": "fc9f1c55538ce894e36c6ff8a7f1e90758f87eb2455e981c9e2535ac82b5c9a4",
+    "bytes": 1489
+  },
+  "logs/UpperBufferState.log": {
+    "sha256": "4c1b3b361355f0c845392e1d6b8a9265cd9a3fe5a9273a6a2e151654d9730b14",
+    "bytes": 681
+  },
+  "logs/UpperCyclePrefix.log": {
+    "sha256": "6c0c198be67508ebd09a4a49b677621557590693223fc007574cf70c8001e272",
+    "bytes": 1024
+  },
+  "logs/UpperCycleService.log": {
+    "sha256": "9554f870319256784950c2681eee24aa6a34b56025e62b23aac37cfad07763ed",
+    "bytes": 1234
+  },
+  "logs/UpperExceptionalTours.log": {
+    "sha256": "fe7cd36eb11cba79b3d6e1edf2c1632545bcb8c3d3abbd4df3ffe83252377b95",
+    "bytes": 132
+  },
+  "logs/UpperFiniteCutoff.log": {
+    "sha256": "26e4c9ef5ddb29ca741a44c2c617f0d691c9462d9a19b8aaa8bf56355d7f3007",
+    "bytes": 672
+  },
+  "logs/UpperHeadPort.log": {
+    "sha256": "26ec6f2858fc4db003f48f4266b9b6ab7dd6bd65f79d542e35fc453d550d2b57",
+    "bytes": 1123
+  },
+  "logs/UpperLogicalStep.log": {
+    "sha256": "35d08e0d14ba1a576d89cb8f8c0d6bda9680e02964e0b4f98c52ad5c5c9f6a8c",
+    "bytes": 4845
+  },
+  "logs/UpperNativeLift.log": {
+    "sha256": "74d5dbc2f4a7bebcf2e33a9eca501e94e454bd786bacf7716dd8ffaee1ba2195",
+    "bytes": 421
+  },
+  "logs/UpperNativeState.log": {
+    "sha256": "0d209172fb4b2450daf18b2519fd85ad3fe7dfc0a983a1adf21ca2e95ac92c28",
+    "bytes": 474
+  },
+  "logs/UpperPairService.log": {
+    "sha256": "e5dd16a54c87001dd00d75315910b692617647082f90a6230b41198d63a09daf",
+    "bytes": 552
+  },
+  "logs/UpperRecursiveInsertion.log": {
+    "sha256": "d2c3ef2f77b4d7292da9091e94666d9ebf383f37800d2fb430d29857085179bb",
+    "bytes": 426
+  },
+  "logs/UpperRecursiveService.log": {
+    "sha256": "bc5804160e5f67ff9c260b972c4320e67d25afe576219e09096b7ba32eda533f",
+    "bytes": 716
+  },
+  "logs/UpperServiceInterface.log": {
+    "sha256": "3c259080df90e2356a0f10e43b47297b7d2dd71c0131353da1575820e1e00eab",
+    "bytes": 3851
+  },
+  "logs/UpperSingletonService.log": {
+    "sha256": "a60bb582c8e2b403678f6645425bef826d6eb011f19c6455c1e4fab5d921a732",
+    "bytes": 202
+  },
+  "logs/UpperTargetEdge.log": {
+    "sha256": "b5338918489f14991a22a71aa9fb97b2a18f87083170e8571ea9f101d863d386",
+    "bytes": 1837
+  },
+  "logs/UpperTargetStep.log": {
+    "sha256": "71e07197f96f41784d2711a80ad5c2c349c895360ec1940d095baf2b4e738ca8",
+    "bytes": 1167
+  },
+  "logs/UpperTransport.log": {
+    "sha256": "764dad30bdebf2db70157430d7c1870af3d6158a49e43a5c83647f9b8043b26f",
+    "bytes": 1628
+  },
+  "replay.py": {
+    "sha256": "4bbe9b3930acecfcd5144c29402039935267432f3cb07025323f54a3b3a0f1ed",
+    "bytes": 2889
+  }
+}

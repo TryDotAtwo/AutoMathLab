@@ -1,0 +1,258 @@
+[
+  {
+    "module": "GraphBridge.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/GraphBridge.lean",
+    "sha256": "ac9d6ec6202b17fab053534b730fbf66fdbe3ae1c86763218aaa13c7beba0791",
+    "author": "MathSavant (LRX_Math_Savant), delivery2626",
+    "included": false,
+    "publication_rights": "Graph3: pending author permission, LB-G1 archive has no LICENSE"
+  },
+  {
+    "module": "GraphLower.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/GraphLower.lean",
+    "sha256": "c9ae6d4eed36699a34ceb30f4da32da5657d957fc02a88c6d8a08f521475af5a",
+    "author": "MathSavant (LRX_Math_Savant), delivery2626",
+    "included": false,
+    "publication_rights": "Graph3: pending author permission, LB-G1 archive has no LICENSE"
+  },
+  {
+    "module": "LRX/BlockExchange.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/BlockExchange.lean",
+    "sha256": "ea3ddc39c3ee43b4ebfc3942065ea73851cf63bd304329fa6d4e4108876b5cd0",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11BlockReversal.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11BlockReversal.lean",
+    "sha256": "bfb349fc7a38c7d6a7b47c51f86d8a0266e4b0b471e4654554ba390b5deafb45",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11PairEncounter.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11PairEncounter.lean",
+    "sha256": "918ae70048d407965e509db84a964bb453ded28421dd5c421861eeabeffadff2",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11RigidPairMoves.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11RigidPairMoves.lean",
+    "sha256": "1f83c4c6a442e5f99e62d6f072dbb3469cc95d85849330d96960b6c3c853dd47",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11StructuralBridge.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11StructuralBridge.lean",
+    "sha256": "86f9b85ed8d843d171a36ec1f8a6cc829aa4a991f8131449865075d2e9a14e28",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11TwoLabelRepair.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11TwoLabelRepair.lean",
+    "sha256": "8c18e014efe8956cf68893ddde3c7c33d2d4e7d3dca80e42c7858561159db9d7",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/Cycle11WordSymmetry.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/Cycle11WordSymmetry.lean",
+    "sha256": "4f02255f708eceb01d4792e4d66babb5bc10599e87c51f5b8e18797ca079e15b",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundCyclicContiguity.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundCyclicContiguity.lean",
+    "sha256": "de69d10f1cce9c32db997689e85f007a00b4207dc73b17273e37396b045ce94d",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptional.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptional.lean",
+    "sha256": "d0c0984d173b936286b7f6ff879daaf727aefe52b0e37c4451856c971beddfe5",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptionalAudit.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptionalAudit.lean",
+    "sha256": "b051e4f114fc95f51a806c921147e0bf235749d38c7c7404c0d262bba558bea9",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptionalCount.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptionalCount.lean",
+    "sha256": "66c9419a76d20705aed80e59837a7485cc3245f0cdd152e4c8ec69f33b1b685d",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptionalEndpoint.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptionalEndpoint.lean",
+    "sha256": "4a52e36bd2f5a9825c029a4911a5e081f66049b59ddb7ac7a6e8deeca3b03463",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptionalNative.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptionalNative.lean",
+    "sha256": "eab76d67db92d3513257d018fc6a854d285d139a260f85c83c34d85c41a85c97",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundExceptionalReduction.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundExceptionalReduction.lean",
+    "sha256": "4647f9b6f9a30de3e7bf53f9ae29768c9d0bdebc2efefb98b96e56bbe20db6f7",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundFoldedTransport.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundFoldedTransport.lean",
+    "sha256": "b833cdd2f0b24416cfbc2b1c801851373688bb5349ba5afff96041c1c1753c4e",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundFourParity.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundFourParity.lean",
+    "sha256": "dae0590ee263fcf1523222f931dbd3d33bac94811345898c6e0ace866b40f36d",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundNativeComplete.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundNativeComplete.lean",
+    "sha256": "4ea21e24136b1c36ef806f522f2de1d9977b484adcd9900c029904c5e959309f",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundNativeTrace.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundNativeTrace.lean",
+    "sha256": "502ec3a4d43aaab04dbe8ceab10f38f24653cf700fb6ceec62203a81f07688fc",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundNoRepeat.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundNoRepeat.lean",
+    "sha256": "5a2ae00a722cb1caee04a60713b57260ef799b7859a2f7e4ae59994ca1ed34aa",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundPaidProjection.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundPaidProjection.lean",
+    "sha256": "238f4042c0f5a52496d7f02fe79006a7ce70302b4ace67b8c7690f953a1585f5",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundPairParity.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundPairParity.lean",
+    "sha256": "613131fb8092ee522dac28e482292fa9ee7b81ffeca6f580cf813dbb18cd621a",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundSwapBudget.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundSwapBudget.lean",
+    "sha256": "820562915833f003a02bb56239a3474bc3f8e852b7888ce58cc1eca8375052dd",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundSwapCount.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundSwapCount.lean",
+    "sha256": "d163c585a761a53ef40991de79b2dc8d2967c38a56fd2f177972323a3a720393",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/LowerBoundSwapGraph.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/LowerBoundSwapGraph.lean",
+    "sha256": "3bc343718fb55359e035312bb04f991277bb421f08bd182ba68dc3359f994cf5",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/ReducedPrice.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/ReducedPrice.lean",
+    "sha256": "83bbd4342abdb2206fef724f638e5d4eb64e99551222dac70516e20a79822921",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/ReflectionWitness.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/ReflectionWitness.lean",
+    "sha256": "15be8b2c3a1c54a7bc180884d55c362eba39038810a86e106c8adda9bb9deccf",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/ReflectionWitnessAudit.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/ReflectionWitnessAudit.lean",
+    "sha256": "3f4d4909945b90d3d1349713e6a54182f821c1281d99d5bea2249507472ca539",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "LRX/ReflectionWitnessDistance.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/LRX/ReflectionWitnessDistance.lean",
+    "sha256": "2aa79f02e2bc55ae43c6c6540fc493e27081bd5755a7fac47787b8a8b2713ab6",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  },
+  {
+    "module": "Reachability.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/Reachability.lean",
+    "sha256": "b86698d0c4427208f3776f03300a0d8cd0f489d8a87cadcc9fac94cefeb7608d",
+    "author": "MathSavant (LRX_Math_Savant), delivery2626",
+    "included": false,
+    "publication_rights": "Graph3: pending author permission, LB-G1 archive has no LICENSE"
+  },
+  {
+    "module": "Submission.lean",
+    "sourcepath": "/data/workspace/artifacts/u-svc-portable-20260926/formal/Submission.lean",
+    "sha256": "68eb143235cea3bcfb1b10e8ce0df58d4319e85381071c2d7f232a5c3e82a30b",
+    "author": "A/B native lower and exact witness; coordinator Submission; retained module headers are authoritative",
+    "included": false,
+    "publication_rights": "external dependency; coordinator must preserve source attribution and established rights"
+  }
+]

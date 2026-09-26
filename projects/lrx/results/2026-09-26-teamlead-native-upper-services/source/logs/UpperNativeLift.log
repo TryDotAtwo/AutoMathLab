@@ -1,0 +1,5 @@
+'LRX.UpperNativeLift.canonical' depends on axioms: [propext]
+'LRX.UpperNativeLift.native_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.step_L' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.step_R' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.step_X' depends on axioms: [propext, Classical.choice, Quot.sound]

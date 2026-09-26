@@ -1,0 +1,5 @@
+'LRX.UpperNativeLift.residue_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.native_unique_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.macro_XL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.macro_RX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.decoded_head' depends on axioms: [propext, Classical.choice, Quot.sound]

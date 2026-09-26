@@ -1,0 +1,458 @@
+{
+  "LRX.UpperAffineBuffer.passive_backward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.buffer_forward": [
+    "propext"
+  ],
+  "LRX.UpperAffineBuffer.buffer_backward": [
+    "propext"
+  ],
+  "LRX.UpperAffineBuffer.head_positions": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.div_sub_one": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.passive_forward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperFiniteCutoff.component_cutoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperFiniteCutoff.half_size_cutoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperFiniteCutoff.size_cutoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperBufferNative.run_U": [
+    "propext"
+  ],
+  "LRX.UpperBufferNative.run_V": [
+    "propext"
+  ],
+  "LRX.UpperBufferNative.run_forward": [
+    "propext"
+  ],
+  "LRX.UpperBufferNative.run_backward": [
+    "propext"
+  ],
+  "LRX.UpperBufferNative.forward_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperBufferNative.backward_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_passive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.buffer_contract": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.passive_contract": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.buffer_residue": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.passive_residue_ne": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_head": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.represents_contract": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.represents_tag": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.represents_decode": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.represents_unique": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.represents_reframe": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.liftedSlots_residue": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.liftedSlots_complete": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.state_decode": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.state_unique": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.state_exactly_one_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.state_reframe": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.canonical": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.native_residue": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.step_L": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.step_R": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.step_X": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.residue_complete": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.native_unique_buffer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.macro_XL": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.macro_RX": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.decoded_head": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_shift": [
+    "propext"
+  ],
+  "LRX.UpperAffineBuffer.contract_forward_neighbor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_forward_other": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_backward_neighbor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_backward_other": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.logical_forward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.logical_backward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.macro_XL_logical": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.macro_RX_logical": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.forward_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.forward_transport_cost": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.forward_transport_endpoint": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.backward_transport": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.backward_transport_cost": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.backward_transport_endpoint": [
+    "propext"
+  ],
+  "LRX.UpperAffineBuffer.contract_glued_slots": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.handoff_logical": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.append": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_handoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.outside": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.paid_forward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_backward": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.SubtreeService.parent_logical": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_native_positive": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperAffineBuffer.contract_native_zero": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.passive_head_iff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_ready_handoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_signed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.signed_target_ready": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.buffer_logical_winding": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.target_edge_ready": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_target_handoff": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.signed_native_shape": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.signed_target_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_singleton_return": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.singleton_service": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.close_parent": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.native_step_perm": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.native_run_perm": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.perm": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.extend_target": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.extend_fresh_target": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_pair_return": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_cycle_return": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.cycleDelta_eq": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.cycleCost_eq": [
+    "propext",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.cycle_service": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.extend_fixed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.close_fixed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.PaidEffect.finish_cycle": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.paid_empty": [
+    "propext"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.realize": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.returning_service": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.valid_congr": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.insert_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.insert_realize": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "LRX.UpperNativeLift.ServiceTree.delta_outside": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

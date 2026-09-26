@@ -1,0 +1,14 @@
+UpperTargetStep.lean:9:8: warning: automatically included section variable(s) unused in theorem `_private.UpperTargetStep.0.LRX.UpperNativeLift.left_perm`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+UpperTargetStep.lean:17:8: warning: automatically included section variable(s) unused in theorem `_private.UpperTargetStep.0.LRX.UpperNativeLift.iterate_perm`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.UpperNativeLift.signed_native_shape' depends on axioms: [propext]
+'LRX.UpperNativeLift.signed_target_step' depends on axioms: [propext, Classical.choice, Quot.sound]

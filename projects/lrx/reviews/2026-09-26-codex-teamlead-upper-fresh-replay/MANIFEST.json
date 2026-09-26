@@ -1,0 +1,102 @@
+{
+  "DEPENDENCIES_VERIFIED.json": {
+    "bytes": 787,
+    "sha256": "9433ddcabc140c0e5565b7353ab9ff736d8844a310a40e1cab7f96c6051d4ed1"
+  },
+  "DEPENDENCY_BUILD.log": {
+    "bytes": 1134,
+    "sha256": "4fb3deb4012f0819d5eb2f7b6fa9aa610973159f5d617f18282e72a51ee2eb81"
+  },
+  "REPLAY.log": {
+    "bytes": 711,
+    "sha256": "4f2b45847a49dfb510a900ac3dc084c870694c9af7d434d36c3b1dea63b84861"
+  },
+  "fresh-build/UpperRecursiveInsertion.log": {
+    "bytes": 426,
+    "sha256": "d2c3ef2f77b4d7292da9091e94666d9ebf383f37800d2fb430d29857085179bb"
+  },
+  "fresh-build/UpperBufferNative.log": {
+    "bytes": 410,
+    "sha256": "fd7257c4bbf08850b04ecfeefe10b52fe5266e18b893a0eb6b2b39ac854ad0d5"
+  },
+  "fresh-build/UpperTransport.log": {
+    "bytes": 1487,
+    "sha256": "da0371d7edc58b727161145e50767c1862eeeecf1e652790f4db21377ab00779"
+  },
+  "fresh-build/UpperAffineBuffer.log": {
+    "bytes": 529,
+    "sha256": "8c76f6f187049cdd23cf406c0517a0ee87fbe6dce9466feed8bcb74a0d897941"
+  },
+  "fresh-build/UpperHeadPort.log": {
+    "bytes": 1029,
+    "sha256": "0524e011d0fc66ad76329cffcc6ed0873719c5d1b1366044931c667544a3c040"
+  },
+  "fresh-build/UpperBufferState.log": {
+    "bytes": 681,
+    "sha256": "4c1b3b361355f0c845392e1d6b8a9265cd9a3fe5a9273a6a2e151654d9730b14"
+  },
+  "fresh-build/UpperPairService.log": {
+    "bytes": 458,
+    "sha256": "99ea4fd7a06a5a381acc7ff7f848017eb8221c32e408c891b5b479593d93ab5c"
+  },
+  "fresh-build/UpperSingletonService.log": {
+    "bytes": 202,
+    "sha256": "a60bb582c8e2b403678f6645425bef826d6eb011f19c6455c1e4fab5d921a732"
+  },
+  "fresh-build/UpperLogicalStep.log": {
+    "bytes": 3952,
+    "sha256": "5a5e93aba6689d628bf7eba037391fbe94356bfe1b239c3d7b7bc56115a502aa"
+  },
+  "fresh-build/UpperTargetEdge.log": {
+    "bytes": 1649,
+    "sha256": "7f3868a842d93c8bb3368953eb7a1a5601255cfdd2945fd1cca84d1f2f0e8bdc"
+  },
+  "fresh-build/UpperExceptionalTours.log": {
+    "bytes": 132,
+    "sha256": "fe7cd36eb11cba79b3d6e1edf2c1632545bcb8c3d3abbd4df3ffe83252377b95"
+  },
+  "fresh-build/UpperNativeLift.log": {
+    "bytes": 421,
+    "sha256": "74d5dbc2f4a7bebcf2e33a9eca501e94e454bd786bacf7716dd8ffaee1ba2195"
+  },
+  "fresh-build/UpperBufferRepresents.log": {
+    "bytes": 1395,
+    "sha256": "d4739ba9797f872cb94918f70f1c2a545e0cdfa3a42797241e79246ecf7c8145"
+  },
+  "fresh-build/UpperServiceInterface.log": {
+    "bytes": 3522,
+    "sha256": "9e16b066bbc0408bbf4c80574183fd432b6362a93f9aabb410b1d5956558e254"
+  },
+  "fresh-build/UpperRecursiveService.log": {
+    "bytes": 669,
+    "sha256": "c6e9977a62531bf1fc11b8100a683246bd466f65b8485d020c67ac7142315b75"
+  },
+  "fresh-build/UpperCyclePrefix.log": {
+    "bytes": 942,
+    "sha256": "cb84d9e795caabf225017180175272a91e3fd3ad1442249614dd82524809adf1"
+  },
+  "fresh-build/UpperBufferContraction.log": {
+    "bytes": 398,
+    "sha256": "bb83ade8a0c954b3e3d8439e74f54f34753b9d2a54c5108f900fd12f5ba50bfe"
+  },
+  "fresh-build/UpperFiniteCutoff.log": {
+    "bytes": 625,
+    "sha256": "04821cb226d83294e1e3338d7cdca98a36eb4f07e8622a1fb2c62c2265ca87b5"
+  },
+  "fresh-build/BUILD_RECEIPT.json": {
+    "bytes": 26381,
+    "sha256": "eadd003438fa48ca6298789277f0d454da9eb856457a89c726e913c4c4ba7aa9"
+  },
+  "fresh-build/UpperTargetStep.log": {
+    "bytes": 1003,
+    "sha256": "d76d16a7fe772a4750fae84e3c7377f945aad41e71418d5d07fb01cdf90ac80c"
+  },
+  "fresh-build/UpperNativeState.log": {
+    "bytes": 474,
+    "sha256": "0d209172fb4b2450daf18b2519fd85ad3fe7dfc0a983a1adf21ca2e95ac92c28"
+  },
+  "fresh-build/UpperCycleService.log": {
+    "bytes": 1140,
+    "sha256": "b1b14c9a3f2964e64b5dcf421087673ec353c15caa9f52e08db745ee29977722"
+  }
+}

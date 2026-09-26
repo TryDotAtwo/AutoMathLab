@@ -1,0 +1,9 @@
+/data/workspace/artifacts/lrx-full-2810/formal/UpperRecursiveService.lean:45:0: warning: automatically included section variable(s) unused in theorem `LRX.UpperNativeLift.paid_empty`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.UpperNativeLift.paid_empty' depends on axioms: [propext]
+'LRX.UpperNativeLift.ServiceTree.realize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.ServiceTree.returning_service' depends on axioms: [propext, Classical.choice, Quot.sound]

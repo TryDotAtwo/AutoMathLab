@@ -1,0 +1,7 @@
+'LRX.UpperAffineBuffer.liftedSlots_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.liftedSlots_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.state_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.state_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.state_exactly_one_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.state_tagged_injective' does not depend on any axioms
+'LRX.UpperAffineBuffer.state_reframe' depends on axioms: [propext, Classical.choice, Quot.sound]

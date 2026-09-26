@@ -1,0 +1,61 @@
+'LRX.UpperAffineBuffer.contract_glued_slots' depends on axioms: [propext, Quot.sound]
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:42:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:47:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:47:38: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:42:25: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:47:38: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [exchange, if_neg ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:64:0: warning: automatically included section variable(s) unused in theorem `LRX.UpperNativeLift.PaidEffect.append`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperServiceInterface.lean:89:0: warning: automatically included section variable(s) unused in theorem `LRX.UpperNativeLift.PaidEffect.outside`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.UpperNativeLift.handoff_logical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.PaidEffect.append' depends on axioms: [propext, Quot.sound]
+'LRX.UpperNativeLift.paid_handoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.PaidEffect.outside' depends on axioms: [propext]
+'LRX.UpperNativeLift.paid_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.paid_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.SubtreeService.parent_logical' depends on axioms: [propext, Classical.choice, Quot.sound]

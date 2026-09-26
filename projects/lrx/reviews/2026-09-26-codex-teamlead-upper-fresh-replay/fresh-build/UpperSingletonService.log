@@ -1,0 +1,2 @@
+'LRX.UpperNativeLift.paid_singleton_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.singleton_service' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,780 @@
+{
+  "started_utc": "2026-09-26T07:58:37Z",
+  "lean": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "local_objects": "all fresh in out; old local olean paths rejected",
+  "external_cache": "pinned Mathlib and dependencies reused, not rebuilt",
+  "modules": [
+    {
+      "module": "UpperAffineBuffer",
+      "source_sha256": "5599139952a039eea8925df964bd75fb03ffb121a21f8577c9e6a87cba84b782",
+      "exit_code": 0,
+      "log_sha256": "8c76f6f187049cdd23cf406c0517a0ee87fbe6dce9466feed8bcb74a0d897941",
+      "axioms": {
+        "LRX.UpperAffineBuffer.passive_backward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.buffer_forward": [
+          "propext"
+        ],
+        "LRX.UpperAffineBuffer.buffer_backward": [
+          "propext"
+        ],
+        "LRX.UpperAffineBuffer.head_positions": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.div_sub_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.passive_forward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperAffineBuffer.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperAffineBuffer.olean"
+      ],
+      "object_sha256": "27c0ad8e73b4189fa0787290641e8ad377026d4e776508163d80795d8bd43442"
+    },
+    {
+      "module": "UpperBufferContraction",
+      "source_sha256": "035739e44ba5aad6cfc2e4b8ee0e8a84bab8ce923822bf100949a33fe3e8f359",
+      "exit_code": 0,
+      "log_sha256": "bb83ade8a0c954b3e3d8439e74f54f34753b9d2a54c5108f900fd12f5ba50bfe",
+      "axioms": {
+        "LRX.UpperAffineBuffer.contract_buffer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_passive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.buffer_contract": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.passive_contract": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperBufferContraction.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperBufferContraction.olean"
+      ],
+      "object_sha256": "b2e1678525a5d6a9b86e9317c7d56a8e55ebfc42c92e7c75a566dde70beaff3d"
+    },
+    {
+      "module": "UpperBufferNative",
+      "source_sha256": "d27b0de246bd0a0cf07925be386ef61fe050e15ac5937207ba1785f19b78f212",
+      "exit_code": 0,
+      "log_sha256": "fd7257c4bbf08850b04ecfeefe10b52fe5266e18b893a0eb6b2b39ac854ad0d5",
+      "axioms": {
+        "LRX.UpperBufferNative.run_U": [
+          "propext"
+        ],
+        "LRX.UpperBufferNative.run_V": [
+          "propext"
+        ],
+        "LRX.UpperBufferNative.run_forward": [
+          "propext"
+        ],
+        "LRX.UpperBufferNative.run_backward": [
+          "propext"
+        ],
+        "LRX.UpperBufferNative.forward_length": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperBufferNative.backward_length": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperBufferNative.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperBufferNative.olean"
+      ],
+      "object_sha256": "a05fd5e7a0ac339ff99c43e1d528632cde454732bdae2ec77872cdf199a57f2c"
+    },
+    {
+      "module": "UpperBufferRepresents",
+      "source_sha256": "e2403375048ac2cf2f3d73b32155dc115778a053fa93c5aaf177f2a7af8bc5e9",
+      "exit_code": 0,
+      "log_sha256": "d4739ba9797f872cb94918f70f1c2a545e0cdfa3a42797241e79246ecf7c8145",
+      "axioms": {
+        "LRX.UpperAffineBuffer.buffer_residue": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.passive_residue_ne": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_head": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.represents_contract": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.represents_tag": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.represents_decode": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.represents_unique": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.represents_reframe": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperBufferRepresents.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperBufferRepresents.olean"
+      ],
+      "object_sha256": "67e34646004238b156d591b92b60e450e13315dbf065614cfa39311d3b2518c7"
+    },
+    {
+      "module": "UpperBufferState",
+      "source_sha256": "887292dab190aae3f41da8231fdae358209d7a83f19f3f67e7198cc7adbd1a93",
+      "exit_code": 0,
+      "log_sha256": "4c1b3b361355f0c845392e1d6b8a9265cd9a3fe5a9273a6a2e151654d9730b14",
+      "axioms": {
+        "LRX.UpperAffineBuffer.liftedSlots_residue": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.liftedSlots_complete": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.state_decode": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.state_unique": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.state_exactly_one_buffer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.state_reframe": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperBufferState.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperBufferState.olean"
+      ],
+      "object_sha256": "115b29060991e1bc156771d379ad57d4ed61bc4ebb8fda246edfb162954d9381"
+    },
+    {
+      "module": "UpperNativeLift",
+      "source_sha256": "b9b9b89821dc0c67974b9033734822a077a970964b7eff18f1c39a47614b3b0c",
+      "exit_code": 0,
+      "log_sha256": "74d5dbc2f4a7bebcf2e33a9eca501e94e454bd786bacf7716dd8ffaee1ba2195",
+      "axioms": {
+        "LRX.UpperNativeLift.canonical": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.native_residue": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.step_L": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.step_R": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.step_X": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperNativeLift.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperNativeLift.olean"
+      ],
+      "object_sha256": "c264ca4a9a3fb0e68c977c42979a7bd0febe1f9a3dcecb77da666581235d53f7"
+    },
+    {
+      "module": "UpperNativeState",
+      "source_sha256": "a3fd92d6467cf8756f71bd313dc38d25242653c1c3f7ef050a59a2f5a478962d",
+      "exit_code": 0,
+      "log_sha256": "0d209172fb4b2450daf18b2519fd85ad3fe7dfc0a983a1adf21ca2e95ac92c28",
+      "axioms": {
+        "LRX.UpperNativeLift.residue_complete": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.native_unique_buffer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.macro_XL": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.macro_RX": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.decoded_head": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperNativeState.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperNativeState.olean"
+      ],
+      "object_sha256": "121a9c88477402b5a0618f80ac28ecad9526d9d2ba73b2f1d98f78353d610e84"
+    },
+    {
+      "module": "UpperLogicalStep",
+      "source_sha256": "c648a51c05c9c1c4bf2998e340445904d314eada3682c9aeb13b0bc7b81100f5",
+      "exit_code": 0,
+      "log_sha256": "5a5e93aba6689d628bf7eba037391fbe94356bfe1b239c3d7b7bc56115a502aa",
+      "axioms": {
+        "LRX.UpperAffineBuffer.contract_shift": [
+          "propext"
+        ],
+        "LRX.UpperAffineBuffer.contract_forward_neighbor": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_forward_other": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_backward_neighbor": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_backward_other": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.logical_forward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.logical_backward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.macro_XL_logical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.macro_RX_logical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperLogicalStep.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperLogicalStep.olean"
+      ],
+      "object_sha256": "5b2c311810d5581516c2c535f5f098efe34e7401d2902e81f15002375ba85d28"
+    },
+    {
+      "module": "UpperTransport",
+      "source_sha256": "90f04d8a90ab878be42c3a7487aafe0f137e83064c005576c47c3912e1cd0da1",
+      "exit_code": 0,
+      "log_sha256": "da0371d7edc58b727161145e50767c1862eeeecf1e652790f4db21377ab00779",
+      "axioms": {
+        "LRX.UpperNativeLift.forward_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.forward_transport_cost": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.forward_transport_endpoint": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.backward_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.backward_transport_cost": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.backward_transport_endpoint": [
+          "propext"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperTransport.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperTransport.olean"
+      ],
+      "object_sha256": "72fcb4be5c33b2d124ba1837872eb3686db490afbe073dccf74b37948d449c2b"
+    },
+    {
+      "module": "UpperServiceInterface",
+      "source_sha256": "d1adb52299ef034cab45d0b2ca88e8d44352cd2911ed086ad7b1c9ec2625599b",
+      "exit_code": 0,
+      "log_sha256": "9e16b066bbc0408bbf4c80574183fd432b6362a93f9aabb410b1d5956558e254",
+      "axioms": {
+        "LRX.UpperAffineBuffer.contract_glued_slots": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.handoff_logical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.append": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.paid_handoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.outside": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.paid_forward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.paid_backward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.SubtreeService.parent_logical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperServiceInterface.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperServiceInterface.olean"
+      ],
+      "object_sha256": "1795b2c884dd0559ea76fba21e89c46aa653032e10ea04e5f981342c8f1fd53c"
+    },
+    {
+      "module": "UpperHeadPort",
+      "source_sha256": "6d128a0274b945012bef14fc3f5fd916df1cddc1a90ad68236ec52cd8fae618e",
+      "exit_code": 0,
+      "log_sha256": "0524e011d0fc66ad76329cffcc6ed0873719c5d1b1366044931c667544a3c040",
+      "axioms": {
+        "LRX.UpperAffineBuffer.contract_native_positive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperAffineBuffer.contract_native_zero": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.passive_head_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.paid_ready_handoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperHeadPort.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperHeadPort.olean"
+      ],
+      "object_sha256": "095172c4eecc6b19b64516f33357d3b08d2dacc83ff8a8008b03bc63c0e9bf9e"
+    },
+    {
+      "module": "UpperTargetEdge",
+      "source_sha256": "a07860697e5c04d720a29e8beb5f86aa97b66b948427e96b28fda13b4059b2e2",
+      "exit_code": 0,
+      "log_sha256": "7f3868a842d93c8bb3368953eb7a1a5601255cfdd2945fd1cca84d1f2f0e8bdc",
+      "axioms": {
+        "LRX.UpperNativeLift.paid_signed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.signed_target_ready": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.buffer_logical_winding": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.target_edge_ready": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.paid_target_handoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperTargetEdge.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperTargetEdge.olean"
+      ],
+      "object_sha256": "d8a9a47a94f0c61f41e59e1aa1413a00b3725779ecd3723159763568483a78a1"
+    },
+    {
+      "module": "UpperTargetStep",
+      "source_sha256": "1774f333ed6d94f5efea3220bf999bcda4a2134b48e49fd9d7eeefbb39963eae",
+      "exit_code": 0,
+      "log_sha256": "d76d16a7fe772a4750fae84e3c7377f945aad41e71418d5d07fb01cdf90ac80c",
+      "axioms": {
+        "LRX.UpperNativeLift.signed_native_shape": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.signed_target_step": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperTargetStep.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperTargetStep.olean"
+      ],
+      "object_sha256": "b985096014c97998d7755af050fe5c0dfcf3b4d37052cc45318c7331d3dcf968"
+    },
+    {
+      "module": "UpperSingletonService",
+      "source_sha256": "5d9a5e5dfb4377d3229981fe23c74362b4a2fe9aa956a1930602aa5c31711bb8",
+      "exit_code": 0,
+      "log_sha256": "a60bb582c8e2b403678f6645425bef826d6eb011f19c6455c1e4fab5d921a732",
+      "axioms": {
+        "LRX.UpperNativeLift.paid_singleton_return": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.singleton_service": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperSingletonService.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperSingletonService.olean"
+      ],
+      "object_sha256": "72436c1dc18703c40565a4b1e7ad2391d7b6707702c2abe5fcf168f8cfdd82f2"
+    },
+    {
+      "module": "UpperCyclePrefix",
+      "source_sha256": "ffd8193e05af69f38551e24adcbda27d5269171abdb5411a16fd310069e6e5a8",
+      "exit_code": 0,
+      "log_sha256": "cb84d9e795caabf225017180175272a91e3fd3ad1442249614dd82524809adf1",
+      "axioms": {
+        "LRX.UpperNativeLift.PaidEffect.close_parent": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.native_step_perm": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.native_run_perm": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.perm": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.extend_target": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.extend_fresh_target": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperCyclePrefix.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperCyclePrefix.olean"
+      ],
+      "object_sha256": "a2b17fd4a7e33a6d762c821cb48ee338e3bf736c06c6d3a1d0118c60434b02d6"
+    },
+    {
+      "module": "UpperCycleService",
+      "source_sha256": "0453e97b5232a3275735d841e453755072d3fda6c947cc2a1b8f2763aa9f95d4",
+      "exit_code": 0,
+      "log_sha256": "b1b14c9a3f2964e64b5dcf421087673ec353c15caa9f52e08db745ee29977722",
+      "axioms": {
+        "LRX.UpperNativeLift.paid_cycle_return": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.cycleDelta_eq": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.cycleCost_eq": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.cycle_service": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.extend_fixed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.close_fixed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.PaidEffect.finish_cycle": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperCycleService.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperCycleService.olean"
+      ],
+      "object_sha256": "8652690fa884b59fcd5a3f1354e472c0a0024671331f282b90ae87e3d521eefe"
+    },
+    {
+      "module": "UpperExceptionalTours",
+      "source_sha256": "327251e2e773440051a6284b9c11f5585f119b9fcbf7c5558f501650ad7a0757",
+      "exit_code": 0,
+      "log_sha256": "fe7cd36eb11cba79b3d6e1edf2c1632545bcb8c3d3abbd4df3ffe83252377b95",
+      "axioms": {},
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperExceptionalTours.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperExceptionalTours.olean"
+      ],
+      "object_sha256": "ba69ef01912642c39b58813e917e4d7003ff7411bbc030ebb2d6222a66c0770d"
+    },
+    {
+      "module": "UpperFiniteCutoff",
+      "source_sha256": "35a3d80c64785d3d1d2fc8dc1b75f8592015e4b00b88c87a9961fd82f75905b5",
+      "exit_code": 0,
+      "log_sha256": "04821cb226d83294e1e3338d7cdca98a36eb4f07e8622a1fb2c62c2265ca87b5",
+      "axioms": {
+        "LRX.UpperFiniteCutoff.component_cutoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperFiniteCutoff.half_size_cutoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperFiniteCutoff.size_cutoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperFiniteCutoff.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperFiniteCutoff.olean"
+      ],
+      "object_sha256": "980cb020547177ad7767b288c95de2e4dd2ded901dc09d5e1f1809d841d4cd3f"
+    },
+    {
+      "module": "UpperPairService",
+      "source_sha256": "b88548171e5fa7268947726f66d5b29c2f339fc43428ee6f8ef830f5edebb4d7",
+      "exit_code": 0,
+      "log_sha256": "99ea4fd7a06a5a381acc7ff7f848017eb8221c32e408c891b5b479593d93ab5c",
+      "axioms": {
+        "LRX.UpperNativeLift.paid_pair_return": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperPairService.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperPairService.olean"
+      ],
+      "object_sha256": "0598b8dee0c2ecd1c6b2305441b017307138820fcc9619c7f727bdef9297b29c"
+    },
+    {
+      "module": "UpperRecursiveService",
+      "source_sha256": "70be39db693e6319c390c22aa5564b509dc0a1b8cc1ce95bdb86e9bfd6451339",
+      "exit_code": 0,
+      "log_sha256": "c6e9977a62531bf1fc11b8100a683246bd466f65b8485d020c67ac7142315b75",
+      "axioms": {
+        "LRX.UpperNativeLift.paid_empty": [
+          "propext"
+        ],
+        "LRX.UpperNativeLift.ServiceTree.realize": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.ServiceTree.returning_service": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperRecursiveService.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperRecursiveService.olean"
+      ],
+      "object_sha256": "3dd071e5c03cd21c4a29a56a7a22e4a77b42375d52d25052014dfac0ac70f6e3"
+    },
+    {
+      "module": "UpperRecursiveInsertion",
+      "source_sha256": "d5c1300c0ec6c7931fa55be59f84d5e57d525fa1d4524006670e3bed26be9d7b",
+      "exit_code": 0,
+      "log_sha256": "d2c3ef2f77b4d7292da9091e94666d9ebf383f37800d2fb430d29857085179bb",
+      "axioms": {
+        "LRX.UpperNativeLift.ServiceTree.valid_congr": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.ServiceTree.insert_valid": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.ServiceTree.insert_realize": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.UpperNativeLift.ServiceTree.delta_outside": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "command": [
+        "/data/workspace/code/lean-tools/elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "UpperRecursiveInsertion.lean",
+        "-o",
+        "/data/workspace/research/coordinator-pr13-review-20260926/fresh-build/UpperRecursiveInsertion.olean"
+      ],
+      "object_sha256": "16d1366fd013b636aca47065e18f5c81cc9652542ae243a1c31994de1ed07bd1"
+    }
+  ],
+  "exit_code": 0,
+  "completed_utc": "2026-09-26T07:59:12Z"
+}

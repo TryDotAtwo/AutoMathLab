@@ -1,0 +1,6 @@
+'LRX.UpperBufferNative.run_U' depends on axioms: [propext]
+'LRX.UpperBufferNative.run_V' depends on axioms: [propext]
+'LRX.UpperBufferNative.run_forward' depends on axioms: [propext]
+'LRX.UpperBufferNative.run_backward' depends on axioms: [propext]
+'LRX.UpperBufferNative.forward_length' depends on axioms: [propext, Quot.sound]
+'LRX.UpperBufferNative.backward_length' depends on axioms: [propext, Quot.sound]

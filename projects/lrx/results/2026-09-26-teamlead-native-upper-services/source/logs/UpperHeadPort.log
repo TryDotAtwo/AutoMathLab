@@ -1,0 +1,16 @@
+'LRX.UpperAffineBuffer.contract_native_positive' depends on axioms: [propext, Quot.sound]
+'LRX.UpperAffineBuffer.contract_native_zero' depends on axioms: [propext, Quot.sound]
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/data/workspace/artifacts/lrx-full-2810/formal/UpperHeadPort.lean:51:103: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperHeadPort.lean:51:117: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'LRX.UpperNativeLift.passive_head_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.paid_ready_handoff' depends on axioms: [propext, Classical.choice, Quot.sound]

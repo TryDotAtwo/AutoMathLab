@@ -1,0 +1,6 @@
+'LRX.UpperAffineBuffer.passive_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.buffer_forward' depends on axioms: [propext]
+'LRX.UpperAffineBuffer.buffer_backward' depends on axioms: [propext]
+'LRX.UpperAffineBuffer.head_positions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.div_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.passive_forward' depends on axioms: [propext, Classical.choice, Quot.sound]

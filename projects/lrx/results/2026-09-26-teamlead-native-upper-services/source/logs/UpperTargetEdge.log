@@ -1,0 +1,24 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/data/workspace/artifacts/lrx-full-2810/formal/UpperTargetEdge.lean:13:0: warning: automatically included section variable(s) unused in theorem `LRX.UpperNativeLift.buffer_logical_winding`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperTargetEdge.lean:21:66: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperTargetEdge.lean:87:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+/data/workspace/artifacts/lrx-full-2810/formal/UpperTargetEdge.lean:91:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'LRX.UpperNativeLift.paid_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.signed_target_ready' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.buffer_logical_winding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.target_edge_ready' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperNativeLift.paid_target_handoff' depends on axioms: [propext, Classical.choice, Quot.sound]

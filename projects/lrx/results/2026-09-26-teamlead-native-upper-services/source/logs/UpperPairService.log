@@ -1,0 +1,7 @@
+/data/workspace/artifacts/lrx-full-2810/formal/UpperPairService.lean:46:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/data/workspace/artifacts/lrx-full-2810/formal/UpperPairService.lean:61:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'LRX.UpperNativeLift.paid_pair_return' depends on axioms: [propext, Classical.choice, Quot.sound]

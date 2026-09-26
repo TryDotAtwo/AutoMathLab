@@ -1,0 +1,11 @@
+{
+  "required_external_native_module": "LRX.BlockExchange",
+  "sha256": "ea3ddc39c3ee43b4ebfc3942065ea73851cf63bd304329fa6d4e4108876b5cd0",
+  "url": "https://raw.githubusercontent.com/alexvmakin/AutoMathLab/29264dd2a6fe412a5ee7373a02b197782745d3e4/projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/BlockExchange.lean",
+  "source_pr": "https://github.com/TryDotAtwo/AutoMathLab/pull/5",
+  "included": false,
+  "native_imports": [
+    "Mathlib.Tactic.Linarith"
+  ],
+  "note": "This package directly imports only LRX.BlockExchange outside its own modules and Mathlib. The retained original EXTERNAL_NATIVE_GRAPH_MANIFEST records a larger historical workspace; GraphBridge/Reachability/GraphLower are not imports of these 21 upper modules and are not redistributed."
+}

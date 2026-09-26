@@ -1,0 +1,4 @@
+'LRX.UpperAffineBuffer.contract_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.contract_passive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.buffer_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperAffineBuffer.passive_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
