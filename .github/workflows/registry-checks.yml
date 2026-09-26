@@ -1,0 +1,44 @@
+name: Registry checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: registry-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  registry:
+    name: Registry (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+      # Only maintained registry tooling is executed. Research submissions,
+      # Lean builds, artifact downloads and messaging are outside this workflow.
+      - name: Registry unit tests
+        run: python -m unittest discover -s tests -p test_lrx_map.py
+      - name: Registry tests with Python optimization
+        run: python -O -m unittest discover -s tests -p test_lrx_map.py
+      - name: Generated views match the registry
+        run: python scripts/render_lrx_map.py --check
+      - name: Generated views with Python optimization
+        run: python -O scripts/render_lrx_map.py --check
+      - name: Tracked material structure
+        run: python scripts/check_materials.py
+      - name: Checks do not modify tracked files
+        run: git diff --exit-code
