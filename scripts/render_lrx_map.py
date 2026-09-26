@@ -43,7 +43,7 @@ def render(d):
  payload=json.dumps(d,ensure_ascii=False).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
  template=(P/'dashboard-template.html').read_text()
  page=template.replace('__DATA__',payload).replace('__HASH__',digest)
- return {'ROADMAP.md':roadmap,'KANBAN.md':kanban,'dashboard.html':page}
+ return {'ROADMAP.md':roadmap.rstrip()+'\n','KANBAN.md':kanban.rstrip()+'\n','dashboard.html':page}
 if __name__=='__main__':
  a=argparse.ArgumentParser();a.add_argument('--check',action='store_true');args=a.parse_args()
  output=render(validate(json.loads((P/'proof-map.json').read_text())))
