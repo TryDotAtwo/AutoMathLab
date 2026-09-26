@@ -1,0 +1,1132 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-25T12:46:00.253402+00:00",
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "local_sources": 24,
+  "new_exports": 4,
+  "axioms": {
+    "LRX.LowerBoundNativeComplete.indexed_false_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.indexed_true_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.reflect_eq_reverse_rotate": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.native_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "receipts": [
+    {
+      "module": "LRX.BlockExchange",
+      "source": "formal/LRX/BlockExchange.lean",
+      "source_sha256": "ea3ddc39c3ee43b4ebfc3942065ea73851cf63bd304329fa6d4e4108876b5cd0",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/BlockExchange.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/BlockExchange.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.BlockExchange.log",
+      "log_sha256": "4fb3deb4012f0819d5eb2f7b6fa9aa610973159f5d617f18282e72a51ee2eb81",
+      "axioms": {
+        "LRX.BlockExchange.macro_length_eq_price": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.BlockExchange.lifted_word_length": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.BlockExchange.run_macro": [
+          "propext"
+        ],
+        "LRX.BlockExchange.run_liftWord": [
+          "propext"
+        ],
+        "LRX.BlockExchange.exchange_left_block": [
+          "propext"
+        ],
+        "LRX.BlockExchange.exchange_right_block": [
+          "propext"
+        ],
+        "LRX.BlockExchange.left_macro_length": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.BlockExchange.right_macro_length": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.BlockExchange.rotate_left_block": [
+          "propext"
+        ],
+        "LRX.BlockExchange.rotate_right_block": [
+          "propext"
+        ]
+      },
+      "object_sha256": "e724200c8e5a5baceedc200d507b1b5a322375a487f2075c7bddffb786e4e19b"
+    },
+    {
+      "module": "LRX.Cycle11TwoLabelRepair",
+      "source": "formal/LRX/Cycle11TwoLabelRepair.lean",
+      "source_sha256": "8c18e014efe8956cf68893ddde3c7c33d2d4e7d3dca80e42c7858561159db9d7",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/Cycle11TwoLabelRepair.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11TwoLabelRepair.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.Cycle11TwoLabelRepair.log",
+      "log_sha256": "95eee3c088f12a91ac3fbab58b4a9f035218fdf2a6402312bc92383338590512",
+      "axioms": {
+        "LRX.Cycle11TwoLabelRepair.run_map": [
+          "propext"
+        ],
+        "LRX.Cycle11TwoLabelRepair.repair_head": [
+          "propext"
+        ],
+        "LRX.Cycle11TwoLabelRepair.repair_next": [
+          "propext"
+        ],
+        "LRX.Cycle11TwoLabelRepair.repair_wrap": [
+          "propext"
+        ],
+        "LRX.Cycle11TwoLabelRepair.repair_tail": [
+          "propext"
+        ],
+        "LRX.Cycle11TwoLabelRepair.encounter_bridge": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "0a66129e34b9d12369a614eb05d9bcbd478bf0cd9c42d4674a3a2cd64c8c1e2e"
+    },
+    {
+      "module": "LRX.ReducedPrice",
+      "source": "formal/LRX/ReducedPrice.lean",
+      "source_sha256": "83bbd4342abdb2206fef724f638e5d4eb64e99551222dac70516e20a79822921",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/ReducedPrice.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/ReducedPrice.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.ReducedPrice.log",
+      "log_sha256": "9f30396b1ecde459c94bf5c470c442ba49e688db755de950f33924cc2f368539",
+      "axioms": {
+        "LRX.ReducedPrice.reducedLift_correct": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.ReducedPrice.reducedLift_length_le_raw": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "7838a9f009611d82237ef10a7f9e3093325c878a76fb2bdf51b71abe10d18f64"
+    },
+    {
+      "module": "LRX.Cycle11PairEncounter",
+      "source": "formal/LRX/Cycle11PairEncounter.lean",
+      "source_sha256": "918ae70048d407965e509db84a964bb453ded28421dd5c421861eeabeffadff2",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/Cycle11PairEncounter.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11PairEncounter.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.Cycle11PairEncounter.log",
+      "log_sha256": "9e1ebc1001b962906e8a0cb641af0b18c497e632ec16ac3406db547f05304424",
+      "axioms": {
+        "LRX.Cycle11PairEncounter.pair_left": [
+          "propext"
+        ],
+        "LRX.Cycle11PairEncounter.pair_right": [
+          "propext"
+        ],
+        "LRX.Cycle11PairEncounter.swap_birth": [
+          "propext"
+        ],
+        "LRX.Cycle11PairEncounter.first_encounter": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "c04d4154a9212281114208e63a6ba5ede70549f4c93ca088b5fcccbd8e1c38fc"
+    },
+    {
+      "module": "LRX.Cycle11StructuralBridge",
+      "source": "formal/LRX/Cycle11StructuralBridge.lean",
+      "source_sha256": "86f9b85ed8d843d171a36ec1f8a6cc829aa4a991f8131449865075d2e9a14e28",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/Cycle11StructuralBridge.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11StructuralBridge.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.Cycle11StructuralBridge.log",
+      "log_sha256": "532ca8b3a6e94a65ea999183a2d22f095d7044be31c379d50d06ce67faae5a26",
+      "axioms": {
+        "LRX.Cycle11StructuralBridge.run_perm": [
+          "propext"
+        ],
+        "LRX.Cycle11StructuralBridge.near_repair": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.Cycle11StructuralBridge.structural_bridge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "3f8bf9d282cf5255a4db6e5c9cd0389f7e52e368e318b2fc9d68f0ec0f05eb53"
+    },
+    {
+      "module": "LRX.Cycle11RigidPairMoves",
+      "source": "formal/LRX/Cycle11RigidPairMoves.lean",
+      "source_sha256": "1f83c4c6a442e5f99e62d6f072dbb3469cc95d85849330d96960b6c3c853dd47",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/Cycle11RigidPairMoves.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11RigidPairMoves.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.Cycle11RigidPairMoves.log",
+      "log_sha256": "6e2f52edb1018536452bc45e0e92a986a0c092089b67718fdac869f48879347d",
+      "axioms": {
+        "LRX.Cycle11RigidPairMoves.next_to_wrap": [
+          "propext"
+        ],
+        "LRX.Cycle11RigidPairMoves.wrap_to_next": [
+          "propext"
+        ],
+        "LRX.Cycle11RigidPairMoves.remove_two_pair_swaps": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "f8fc04d1b8b3dd1cde09f7be78e5e6adf1778d9b9baa99ca4fce5aa37954c25f"
+    },
+    {
+      "module": "LRX.LowerBoundNoRepeat",
+      "source": "formal/LRX/LowerBoundNoRepeat.lean",
+      "source_sha256": "5a2ae00a722cb1caee04a60713b57260ef799b7859a2f7e4ae59994ca1ed34aa",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundNoRepeat.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundNoRepeat.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundNoRepeat.log",
+      "log_sha256": "17cfaba001ded3dd7ced1f65f9c7f7f052d5e7ad63d86d28ece5623f1725e513",
+      "axioms": {
+        "LRX.LowerBoundNoRepeat.actual_head_swap": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNoRepeat.remove_repeated_actual_pair": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNoRepeat.shortest_no_repeated_pair": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "91258f85805af4449339f1b3c0f977b0ebb5f05c8037464f5b24c5a130a47fd0"
+    },
+    {
+      "module": "LRX.LowerBoundSwapGraph",
+      "source": "formal/LRX/LowerBoundSwapGraph.lean",
+      "source_sha256": "3bc343718fb55359e035312bb04f991277bb421f08bd182ba68dc3359f994cf5",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundSwapGraph.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundSwapGraph.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundSwapGraph.log",
+      "log_sha256": "8c9195ef1ea90cf58d14716caa42b8f52652a450858ad8a20e45e4a5e607b235",
+      "axioms": {
+        "LRX.LowerBoundSwapGraph.two_cliques": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapGraph.joint_budget_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapGraph.remaining_budget_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapGraph.far_from_balanced": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "b3f4abe6da1545b6dd70482e1d30fe4b629344bfa52cadffba664a63edfa7a8f"
+    },
+    {
+      "module": "LRX.LowerBoundPairParity",
+      "source": "formal/LRX/LowerBoundPairParity.lean",
+      "source_sha256": "613131fb8092ee522dac28e482292fa9ee7b81ffeca6f580cf813dbb18cd621a",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundPairParity.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundPairParity.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundPairParity.log",
+      "log_sha256": "ab0b2504865311ac35d9b1f007ee0af9bf36248e9b6fcf2afe2d5b27073121d7",
+      "axioms": {
+        "LRX.LowerBoundPairParity.bit_step": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.bit_run": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.bit_reverse": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.swapParity_rotations": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.swapParity_symm": [
+          "propext"
+        ],
+        "LRX.LowerBoundPairParity.triple_run": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.triple_reverse": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.reflection_swap_triangle": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPairParity.reflection_two_cliques": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "31ac5d7017e99dfd56f755967109403941c2962460c748f23773bdf08f02c933"
+    },
+    {
+      "module": "LRX.LowerBoundSwapCount",
+      "source": "formal/LRX/LowerBoundSwapCount.lean",
+      "source_sha256": "d163c585a761a53ef40991de79b2dc8d2967c38a56fd2f177972323a3a720393",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundSwapCount.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundSwapCount.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundSwapCount.log",
+      "log_sha256": "a06b5d3d2f775a348b25b0a4707f27c99f3867acb5e36e97d5c5dbf88c9bd458",
+      "axioms": {
+        "LRX.LowerBoundSwapCount.positive_has_event": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapCount.shortest_count_le_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapCount.parity_of_small_count": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapCount.shortest_reflection_counts": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "c0155ad330c1e3ecdecaf58139b7e487bccfc0970f658d67b7970b122909bcde"
+    },
+    {
+      "module": "LRX.LowerBoundCyclicContiguity",
+      "source": "formal/LRX/LowerBoundCyclicContiguity.lean",
+      "source_sha256": "de69d10f1cce9c32db997689e85f007a00b4207dc73b17273e37396b045ce94d",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundCyclicContiguity.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundCyclicContiguity.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundCyclicContiguity.log",
+      "log_sha256": "6238642268b84613860b703c3de5ffac0cb53724c5cffc3372a66efcd236e6aa",
+      "axioms": {
+        "LRX.LowerBoundCyclicContiguity.filtered_separated_swap": [
+          "propext"
+        ],
+        "LRX.LowerBoundCyclicContiguity.separated_mono_count_zero": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundCyclicContiguity.counts_mono": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundCyclicContiguity.shortest_reflection_contiguity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "0f9e45dfed2cc163d0e84a42c97b3c2291e82ef43745d626e7ba722bf3af114a"
+    },
+    {
+      "module": "LRX.LowerBoundFoldedTransport",
+      "source": "formal/LRX/LowerBoundFoldedTransport.lean",
+      "source_sha256": "b833cdd2f0b24416cfbc2b1c801851373688bb5349ba5afff96041c1c1753c4e",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundFoldedTransport.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundFoldedTransport.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundFoldedTransport.log",
+      "log_sha256": "ffc4c310722cae067e400714625d46942119d26de51306367d779953882993fe",
+      "axioms": {
+        "LRX.LowerBoundFoldedTransport.folded_exchange": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.folded_left_internal": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.folded_left_wrap": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.reflected_endpoints": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.external_coordinates": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.left_distance": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.exchange_coords": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.trace_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.spread_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.permutation_spread": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.waypoint_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.internal_reversal_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.external_reversal_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFoldedTransport.pointed_reversal_transport": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "acb097c9abece55624fe0f1918cad30eb56e492a96c071309f9d8a7272a2bb18"
+    },
+    {
+      "module": "LRX.LowerBoundPaidProjection",
+      "source": "formal/LRX/LowerBoundPaidProjection.lean",
+      "source_sha256": "238f4042c0f5a52496d7f02fe79006a7ce70302b4ace67b8c7690f953a1585f5",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundPaidProjection.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundPaidProjection.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundPaidProjection.log",
+      "log_sha256": "55e235c4592c8adb4b24520d1fb7adba4eb5dde50ab5144309ee3146413d3dab",
+      "axioms": {
+        "LRX.LowerBoundPaidProjection.left_partition": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.step_projection": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.trace_projection": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.trace_projection_with_visits": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.projected_phases": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.mirrorPhase_iff_mod": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.two_block_unrounded": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.trace_cursor_parity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.odd_blocks_odd_rotations": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.round_two_block_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.two_block_rotation_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.two_block_rotation_lower_mod": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.step_X_iff_physical": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.physical_trace_iff": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.physical_two_block_rotation_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.every_letter_charged": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundPaidProjection.physical_two_block_price_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "0c68c256b260db5603bd1bba68b42a219d66e65c58dd5e80453515bbeab73895"
+    },
+    {
+      "module": "LRX.LowerBoundExceptional",
+      "source": "formal/LRX/LowerBoundExceptional.lean",
+      "source_sha256": "d0c0984d173b936286b7f6ff879daaf727aefe52b0e37c4451856c971beddfe5",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptional.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptional.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptional.log",
+      "log_sha256": "4481c9c8f7e0e4508e5b1e1c01d96aae96d64aa7c84d6f219a4a92c183753ba2",
+      "axioms": {},
+      "object_sha256": "558ce56b767c8e3c6f3614e969bb375a83bc55e3ba5f4299deb5d32afe1058f3"
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalCount",
+      "source": "formal/LRX/LowerBoundExceptionalCount.lean",
+      "source_sha256": "66c9419a76d20705aed80e59837a7485cc3245f0cdd152e4c8ec69f33b1b685d",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptionalCount.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalCount.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptionalCount.log",
+      "log_sha256": "00bae111afcb3e99c73b3f0d849e5a7732bdf9bef2066d7c3fe0aaba6da8854f",
+      "axioms": {
+        "LRX.LowerBoundExceptionalCount.actual_pair_count_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "5d70ab917b63af5a6510224ff8d3a395e0365a4c8a591c1608d0ae0d3126c724"
+    },
+    {
+      "module": "LRX.LowerBoundFourParity",
+      "source": "formal/LRX/LowerBoundFourParity.lean",
+      "source_sha256": "dae0590ee263fcf1523222f931dbd3d33bac94811345898c6e0ace866b40f36d",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundFourParity.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundFourParity.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundFourParity.log",
+      "log_sha256": "b936a12010bfff209637ceeadd79b11919bedbbab2b41703df01ab01c7ba6098",
+      "axioms": {
+        "LRX.LowerBoundFourParity.step_four_odd": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.run_four_parity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.four_fin_native_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "9ecbd844987db66dcb3b44692b56ebc8d92884f224f4651716feea574e960e98"
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalNative",
+      "source": "formal/LRX/LowerBoundExceptionalNative.lean",
+      "source_sha256": "eab76d67db92d3513257d018fc6a854d285d139a260f85c83c34d85c41a85c97",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptionalNative.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalNative.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptionalNative.log",
+      "log_sha256": "9078ba050ff95c68e135004102c25bc1648c77e29361e49a3f202466f9f6599f",
+      "axioms": {
+        "LRX.LowerBoundExceptionalNative.empty_class_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.singleton_class_lower_four": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "f458eda3af2d2a12416addaee03f17bcfc4ee1bc0903bb1792e7da4976db0a99"
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalReduction",
+      "source": "formal/LRX/LowerBoundExceptionalReduction.lean",
+      "source_sha256": "4647f9b6f9a30de3e7bf53f9ae29768c9d0bdebc2efefb98b96e56bbe20db6f7",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptionalReduction.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalReduction.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptionalReduction.log",
+      "log_sha256": "f3c4c0f852eb56b2f8a4f954ea8f466d9bd96fc54aca2eb752b526ba6b66948c",
+      "axioms": {
+        "LRX.LowerBoundExceptionalReduction.exists_shortest_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.flip_class": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.flip_counts": [
+          "propext"
+        ],
+        "LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "e331101ce8c93cc9cbaee91f9f99499be85f7aa7668a629862e4c4aef5a5d7cf"
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalEndpoint",
+      "source": "formal/LRX/LowerBoundExceptionalEndpoint.lean",
+      "source_sha256": "4a52e36bd2f5a9825c029a4911a5e081f66049b59ddb7ac7a6e8deeca3b03463",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptionalEndpoint.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalEndpoint.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptionalEndpoint.log",
+      "log_sha256": "67e714e2397b15b8a522aa179531510b1d2704267cc7eafa59aeb65954ba768e",
+      "axioms": {
+        "LRX.LowerBoundExceptionalEndpoint.root_values": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalEndpoint.target_values": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "7019de8025b68432635f522aae2d716c47193e2c7bc3452be590288b5187753f"
+    },
+    {
+      "module": "LRX.LowerBoundSwapBudget",
+      "source": "formal/LRX/LowerBoundSwapBudget.lean",
+      "source_sha256": "820562915833f003a02bb56239a3474bc3f8e852b7888ce58cc1eca8375052dd",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundSwapBudget.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundSwapBudget.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundSwapBudget.log",
+      "log_sha256": "20ffabe42b02c8f9160794efcd20042d415ea9e8c06666ecfff0ebbeef842432",
+      "axioms": {
+        "LRX.LowerBoundSwapBudget.scalar_swap_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapBudget.exchange_inversions": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapBudget.pairs_double": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapBudget.trace_inversion_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapBudget.physical_swap_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundSwapBudget.physical_two_block_total_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "d9a80b492f2b93b8056a0c6c7f0b3162b0613beafc5afd430e35517bbc691f27"
+    },
+    {
+      "module": "LRX.Cycle11WordSymmetry",
+      "source": "formal/LRX/Cycle11WordSymmetry.lean",
+      "source_sha256": "4f02255f708eceb01d4792e4d66babb5bc10599e87c51f5b8e18797ca079e15b",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/Cycle11WordSymmetry.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11WordSymmetry.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.Cycle11WordSymmetry.log",
+      "log_sha256": "6de232514a863b13d09b48a898d2d7bfdae8debc8aa56b9c63c09e9f8272601c",
+      "axioms": {
+        "LRX.Cycle11WordSymmetry.reflect_run": [
+          "propext"
+        ],
+        "LRX.Cycle11WordSymmetry.run_inverse": [
+          "propext"
+        ],
+        "LRX.Cycle11WordSymmetry.reverse_spin": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.Cycle11WordSymmetry.spin_prefix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "282fa9b07bc22533fef55ec26c912b5c1a3803188a96499a70f708e169806fd1"
+    },
+    {
+      "module": "LRX.LowerBoundNativeTrace",
+      "source": "formal/LRX/LowerBoundNativeTrace.lean",
+      "source_sha256": "502ec3a4d43aaab04dbe8ceab10f38f24653cf700fb6ceec62203a81f07688fc",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundNativeTrace.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundNativeTrace.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundNativeTrace.log",
+      "log_sha256": "67baf65d9ecea31af9ba8cc23b9bbb547d48101108517d8111ec9239dd7d6f3a",
+      "axioms": {
+        "LRX.LowerBoundNativeTrace.shortest_representative": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.native_physical_reduction": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.shortest_indexed_presentation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.represents_arc_rotation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.contiguous_two_arcs": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.reflected_position_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.arc_reflection_endpoints": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.native_indexed_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.represents_next": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.represents_prev": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.exchange_physical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.native_trace_lift": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "b1d4cd4b8fc83c6fce909952df6bf9375511d1a01793e267f7a4feb6071e4bf0"
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalAudit",
+      "source": "formal/LRX/LowerBoundExceptionalAudit.lean",
+      "source_sha256": "b051e4f114fc95f51a806c921147e0bf235749d38c7c7404c0d262bba558bea9",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundExceptionalAudit.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalAudit.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundExceptionalAudit.log",
+      "log_sha256": "7f4cb65901f88cb68c38c4aa98d8a72936bcbe121aa76ed1935faa1e6e0e32b6",
+      "axioms": {
+        "LRX.LowerBoundExceptional.swap_involutive": [
+          "propext"
+        ],
+        "LRX.LowerBoundExceptional.shortest_not_xx": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptional.shortest_exchange_budget_aux": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptional.shortest_exchange_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalCount.head_event_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalCount.actual_pair_count_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalEndpoint.root_values": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalEndpoint.target_values": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.other_class_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.class_exchange_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.empty_class_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.singleton_arithmetic": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.singleton_class_lower_four": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.exists_shortest_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.run_left_replicate": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.left_replicate_rotations": [
+          "propext"
+        ],
+        "LRX.LowerBoundExceptionalReduction.flip_class": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.flip_counts": [
+          "propext"
+        ],
+        "LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.inversionBit_complement": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.step_four_odd": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.run_four_parity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.four_native_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundFourParity.four_fin_native_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.represents_next": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.represents_prev": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.exchange_physical": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeTrace.native_trace_lift": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "54fc929846efc1324d7500653e10f1731caf08927307ea3006c1a7e253c14e8d"
+    },
+    {
+      "module": "LRX.LowerBoundNativeComplete",
+      "source": "formal/LRX/LowerBoundNativeComplete.lean",
+      "source_sha256": "4ea21e24136b1c36ef806f522f2de1d9977b484adcd9900c029904c5e959309f",
+      "command": [
+        "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+        "LRX/LowerBoundNativeComplete.lean",
+        "-o",
+        "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundNativeComplete.olean"
+      ],
+      "returncode": 0,
+      "log": "receipts/LRX.LowerBoundNativeComplete.log",
+      "log_sha256": "723eb98c2da0d8aecf6e7f24ddcb8f3ccb22f8325d991ac5945898b918dc740e",
+      "axioms": {
+        "LRX.LowerBoundNativeComplete.indexed_false_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeComplete.indexed_true_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeComplete.reflect_eq_reverse_rotate": [
+          "propext",
+          "Quot.sound"
+        ],
+        "LRX.LowerBoundNativeComplete.native_lower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "object_sha256": "39173be490e5210378053ec2830537c9c17ea05150f07f9707020643a21fb9bc"
+    }
+  ],
+  "LEAN_PATH": "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build:/persist/workspace/lrx/formal/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/Qq/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/aesop/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/batteries/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/importGraph/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/mathlib/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/plausible/.lake/build/lib/lean:/persist/workspace/lrx/formal/.lake/packages/proofwidgets/.lake/build/lib/lean",
+  "scope": "Complete all-n native word lower theorem for n>=4, combined A-v2/B-v1; distance/diameter API corollaries not included."
+}

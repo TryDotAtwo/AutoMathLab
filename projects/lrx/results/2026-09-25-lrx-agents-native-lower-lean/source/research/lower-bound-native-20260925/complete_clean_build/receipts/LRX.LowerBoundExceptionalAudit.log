@@ -1,0 +1,188 @@
+LRX.LowerBoundExceptional.swap_involutive.{u_1} {α : Type u_1} [DecidableEq α] (s : List α) :
+  LRX.BlockExchange.swap (LRX.BlockExchange.swap s) = s
+'LRX.LowerBoundExceptional.swap_involutive' depends on axioms: [propext]
+LRX.LowerBoundExceptional.shortest_not_xx.{u_1} {α : Type u_1} [DecidableEq α] (w : List LRX.BlockExchange.Op)
+  (s : List α) : ¬LRX.LowerBoundNoRepeat.Shortest (LRX.BlockExchange.Op.X :: LRX.BlockExchange.Op.X :: w) s
+'LRX.LowerBoundExceptional.shortest_not_xx' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundExceptional.shortest_exchange_budget_aux.{u_1} {α : Type u_1} [DecidableEq α]
+  (w : List LRX.BlockExchange.Op) (s : List α) (h : LRX.LowerBoundNoRepeat.Shortest w s) :
+  LRX.LowerBoundPaidProjection.exchanges w ≤
+    LRX.LowerBoundFoldedTransport.rotations w + LRX.LowerBoundExceptional.initialX w
+'LRX.LowerBoundExceptional.shortest_exchange_budget_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptional.shortest_exchange_budget.{u_1} {α : Type u_1} [DecidableEq α] (w : List LRX.BlockExchange.Op)
+  (s : List α) (h : LRX.LowerBoundNoRepeat.Shortest w s) :
+  LRX.LowerBoundPaidProjection.exchanges w ≤ LRX.LowerBoundFoldedTransport.rotations w + 1
+'LRX.LowerBoundExceptional.shortest_exchange_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalCount.head_event_sum.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α] (x y : α) (tail : List α)
+  (hxy : x ≠ y) :
+  (∑ a, ∑ b, if LRX.LowerBoundPairParity.swapEvent a b LRX.BlockExchange.Op.X (x :: y :: tail) = true then 1 else 0) = 2
+'LRX.LowerBoundExceptionalCount.head_event_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalCount.actual_pair_count_sum.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α]
+  (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length) :
+  ∑ a, ∑ b, LRX.LowerBoundSwapCount.swapCount a b w s = 2 * LRX.LowerBoundPaidProjection.exchanges w
+'LRX.LowerBoundExceptionalCount.actual_pair_count_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α]
+  (S : Finset α) (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length)
+  (hc : ∀ a ∈ S, ∀ b ∈ S, a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = 1) :
+  S.card * (S.card - 1) ≤ 2 * LRX.LowerBoundPaidProjection.exchanges w
+'LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LRX.LowerBoundExceptionalEndpoint.root_values (n : ℕ) :
+  List.map Fin.val (LRX.LowerBoundExceptionalNative.root n) = List.range n
+'LRX.LowerBoundExceptionalEndpoint.root_values' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundExceptionalEndpoint.target_values {n : ℕ} (hn : 2 ≤ n) :
+  List.map Fin.val (LRX.LowerBoundExceptionalNative.target n) = [1, 0] ++ (List.range' 2 (n - 2)).reverse
+'LRX.LowerBoundExceptionalEndpoint.target_values' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundExceptionalNative.other_class_card.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α] (color : α → Bool)
+  (c : Bool) :
+  (LRX.LowerBoundExceptionalNative.colorClass color c).card +
+      (LRX.LowerBoundExceptionalNative.colorClass color !c).card =
+    Fintype.card α
+'LRX.LowerBoundExceptionalNative.other_class_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalNative.class_exchange_bound.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α] (color : α → Bool)
+  (c : Bool) (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length)
+  (hc : ∀ (a b : α), a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if color a = color b then 1 else 0) :
+  (LRX.LowerBoundExceptionalNative.colorClass color c).card *
+      ((LRX.LowerBoundExceptionalNative.colorClass color c).card - 1) ≤
+    2 * LRX.LowerBoundPaidProjection.exchanges w
+'LRX.LowerBoundExceptionalNative.class_exchange_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalNative.empty_class_lower.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α] (color : α → Bool)
+  (c : Bool) (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length)
+  (hc : ∀ (a b : α), a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if color a = color b then 1 else 0)
+  (hempty : (LRX.LowerBoundExceptionalNative.colorClass color c).card = 0) :
+  Fintype.card α * (Fintype.card α - 1) / 2 ≤ w.length
+'LRX.LowerBoundExceptionalNative.empty_class_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalNative.singleton_arithmetic (n m r len : ℕ) (hn : 5 ≤ n) (hx : (n - 1) * (n - 2) ≤ 2 * m)
+  (hr : m ≤ r + 1) (hl : r + m = len) : n * (n - 1) / 2 ≤ len
+'LRX.LowerBoundExceptionalNative.singleton_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α]
+  (color : α → Bool) (c : Bool) (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length)
+  (hn : 5 ≤ Fintype.card α) (hmin : LRX.LowerBoundNoRepeat.Shortest w s)
+  (hc : ∀ (a b : α), a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if color a = color b then 1 else 0)
+  (hsingle : (LRX.LowerBoundExceptionalNative.colorClass color c).card = 1) :
+  Fintype.card α * (Fintype.card α - 1) / 2 ≤ w.length
+'LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LRX.LowerBoundExceptionalNative.singleton_class_lower_four.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α]
+  (color : α → Bool) (c : Bool) (w : List LRX.BlockExchange.Op) (s : List α) (hs : s.Nodup) (hlen : 2 ≤ s.length)
+  (hn : Fintype.card α = 4) (hmin : LRX.LowerBoundNoRepeat.Shortest w s)
+  (hc : ∀ (a b : α), a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if color a = color b then 1 else 0)
+  (hsingle : (LRX.LowerBoundExceptionalNative.colorClass color c).card = 1) (heven : w.length % 2 = 0) : 6 ≤ w.length
+'LRX.LowerBoundExceptionalNative.singleton_class_lower_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower {n : ℕ} (hn : 4 ≤ n) (w : List LRX.BlockExchange.Op)
+  (hmin : LRX.LowerBoundNoRepeat.Shortest w (LRX.LowerBoundExceptionalNative.root n))
+  (hend : LRX.BlockExchange.run w (LRX.LowerBoundExceptionalNative.root n) = LRX.LowerBoundExceptionalNative.target n)
+  (color : Fin n → Bool) (c : Bool)
+  (hc :
+    ∀ (a b : Fin n),
+      a ≠ b →
+        LRX.LowerBoundSwapCount.swapCount a b w (LRX.LowerBoundExceptionalNative.root n) =
+          if color a = color b then 1 else 0)
+  (hsmall : (LRX.LowerBoundExceptionalNative.colorClass color c).card ≤ 1) : n * (n - 1) / 2 ≤ w.length
+'LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LRX.LowerBoundExceptionalReduction.exists_shortest_le.{u_1} {α : Type u_1} [DecidableEq α]
+  (w : List LRX.BlockExchange.Op) (s : List α) :
+  ∃ v, LRX.BlockExchange.run v s = LRX.BlockExchange.run w s ∧ LRX.LowerBoundNoRepeat.Shortest v s ∧ v.length ≤ w.length
+'LRX.LowerBoundExceptionalReduction.exists_shortest_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalReduction.run_left_replicate.{u_1} {α : Type u_1} [DecidableEq α] (k : ℕ) (s : List α) :
+  LRX.BlockExchange.run (List.replicate k LRX.BlockExchange.Op.L) s = s.rotate k
+'LRX.LowerBoundExceptionalReduction.run_left_replicate' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundExceptionalReduction.left_replicate_rotations (k : ℕ) :
+  LRX.LowerBoundPairParity.Rotations (List.replicate k LRX.BlockExchange.Op.L)
+'LRX.LowerBoundExceptionalReduction.left_replicate_rotations' depends on axioms: [propext]
+LRX.LowerBoundExceptionalReduction.flip_class.{u_1} {α : Type u_1} [DecidableEq α] [Fintype α] (color : α → Bool)
+  (c : Bool) :
+  LRX.LowerBoundExceptionalNative.colorClass (fun x => !color x) c = LRX.LowerBoundExceptionalNative.colorClass color !c
+'LRX.LowerBoundExceptionalReduction.flip_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalReduction.flip_counts.{u_1} {α : Type u_1} [DecidableEq α] (color : α → Bool)
+  (w : List LRX.BlockExchange.Op) (s : List α)
+  (hc : ∀ (a b : α), a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if color a = color b then 1 else 0) (a b : α) :
+  a ≠ b → LRX.LowerBoundSwapCount.swapCount a b w s = if (!decide (color a = !color b)) = true then 1 else 0
+'LRX.LowerBoundExceptionalReduction.flip_counts' depends on axioms: [propext]
+LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order {n : ℕ} (hn : 4 ≤ n)
+  (w : List LRX.BlockExchange.Op) (hmin : LRX.LowerBoundNoRepeat.Shortest w (LRX.LowerBoundExceptionalNative.root n))
+  (hend : LRX.BlockExchange.run w (LRX.LowerBoundExceptionalNative.root n) = LRX.LowerBoundExceptionalNative.target n)
+  (color : Fin n → Bool)
+  (hc :
+    ∀ (a b : Fin n),
+      a ≠ b →
+        LRX.LowerBoundSwapCount.swapCount a b w (LRX.LowerBoundExceptionalNative.root n) =
+          if color a = color b then 1 else 0)
+  (hsmall :
+    (LRX.LowerBoundExceptionalNative.colorClass color false).card ≤ 1 ∨
+      (LRX.LowerBoundExceptionalNative.colorClass color true).card ≤ 1) :
+  n * (n - 1) / 2 ≤ w.length
+'LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes {n : ℕ} (hn : 4 ≤ n)
+  (w : List LRX.BlockExchange.Op)
+  (hend : LRX.BlockExchange.run w (LRX.LowerBoundExceptionalNative.root n) = LRX.LowerBoundExceptionalNative.target n)
+  (hshort : w.length < n * (n - 1) / 2) :
+  ∃ v color,
+    LRX.BlockExchange.run v (LRX.LowerBoundExceptionalNative.root n) = LRX.LowerBoundExceptionalNative.target n ∧
+      LRX.LowerBoundNoRepeat.Shortest v (LRX.LowerBoundExceptionalNative.root n) ∧
+        v.length ≤ w.length ∧
+          (∀ (a b : Fin n),
+              a ≠ b →
+                LRX.LowerBoundSwapCount.swapCount a b v (LRX.LowerBoundExceptionalNative.root n) =
+                  if color a = color b then 1 else 0) ∧
+            LRX.LowerBoundCyclicContiguity.MonoTrace color v (LRX.LowerBoundExceptionalNative.root n) ∧
+              2 ≤ (LRX.LowerBoundExceptionalNative.colorClass color false).card ∧
+                2 ≤ (LRX.LowerBoundExceptionalNative.colorClass color true).card ∧
+                  ∀ (a b : Fin n),
+                    a ≠ b →
+                      color a = color b →
+                        LRX.Cycle11PairEncounter.Pair a b
+                            (List.filter (LRX.LowerBoundCyclicContiguity.keepPair color a b)
+                              (LRX.LowerBoundExceptionalNative.root n)) ∨
+                          LRX.Cycle11PairEncounter.Pair b a
+                            (List.filter (LRX.LowerBoundCyclicContiguity.keepPair color a b)
+                              (LRX.LowerBoundExceptionalNative.root n))
+'LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LRX.LowerBoundFourParity.inversionBit_complement (a b : ℕ) (h : a ≠ b) :
+  LRX.LowerBoundFourParity.inversionBit a b + LRX.LowerBoundFourParity.inversionBit b a = 1
+'LRX.LowerBoundFourParity.inversionBit_complement' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundFourParity.step_four_odd (op : LRX.BlockExchange.Op) (s : List ℕ) (hs : s.Nodup) (hlen : s.length = 4) :
+  (LRX.LowerBoundFourParity.inversions4 (LRX.BlockExchange.step op s) + 1) % 2 =
+    LRX.LowerBoundFourParity.inversions4 s % 2
+'LRX.LowerBoundFourParity.step_four_odd' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundFourParity.run_four_parity (w : List LRX.BlockExchange.Op) (s : List ℕ) (hs : s.Nodup)
+  (hlen : s.length = 4) :
+  (LRX.LowerBoundFourParity.inversions4 (LRX.BlockExchange.run w s) + w.length) % 2 =
+    LRX.LowerBoundFourParity.inversions4 s % 2
+'LRX.LowerBoundFourParity.run_four_parity' depends on axioms: [propext, Quot.sound]
+LRX.LowerBoundFourParity.four_native_even (w : List LRX.BlockExchange.Op)
+  (hend : LRX.BlockExchange.run w [0, 1, 2, 3] = [1, 0, 3, 2]) : w.length % 2 = 0
+'LRX.LowerBoundFourParity.four_native_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundFourParity.four_fin_native_even (w : List LRX.BlockExchange.Op)
+  (hend : LRX.BlockExchange.run w (List.finRange 4) = (List.finRange 4).reverse.rotate 2) : w.length % 2 = 0
+'LRX.LowerBoundFourParity.four_fin_native_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundNativeTrace.represents_next {a b : ℕ} {s : LRX.LowerBoundPaidProjection.TwoState a b}
+  {xs : List (LRX.LowerBoundNativeTrace.Label a b)} (h : LRX.LowerBoundNativeTrace.Represents s xs) :
+  LRX.LowerBoundNativeTrace.Represents (LRX.LowerBoundNativeTrace.next s) (LRX.BlockExchange.left xs)
+'LRX.LowerBoundNativeTrace.represents_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundNativeTrace.represents_prev {a b : ℕ} {s : LRX.LowerBoundPaidProjection.TwoState a b}
+  {xs : List (LRX.LowerBoundNativeTrace.Label a b)} (h : LRX.LowerBoundNativeTrace.Represents s xs) :
+  LRX.LowerBoundNativeTrace.Represents (LRX.LowerBoundNativeTrace.prev s) (LRX.BlockExchange.right xs)
+'LRX.LowerBoundNativeTrace.represents_prev' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundNativeTrace.exchange_physical {a b : ℕ} (ha : 0 < a) (hb : 0 < b)
+  {s : LRX.LowerBoundPaidProjection.TwoState a b} {x y : LRX.LowerBoundNativeTrace.Label a b}
+  {tail : List (LRX.LowerBoundNativeTrace.Label a b)} (h : LRX.LowerBoundNativeTrace.Represents s (x :: y :: tail))
+  (hc : LRX.LowerBoundNativeTrace.color x = LRX.LowerBoundNativeTrace.color y) :
+  LRX.LowerBoundPaidProjection.PhysicalX s (LRX.LowerBoundNativeTrace.exchangeState s x y)
+'LRX.LowerBoundNativeTrace.exchange_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundNativeTrace.native_trace_lift {a b : ℕ} (ha : 0 < a) (hb : 0 < b)
+  {s : LRX.LowerBoundPaidProjection.TwoState a b} {xs : List (LRX.LowerBoundNativeTrace.Label a b)}
+  (h : LRX.LowerBoundNativeTrace.Represents s xs) (w : List LRX.BlockExchange.Op)
+  (hm : LRX.LowerBoundCyclicContiguity.MonoTrace LRX.LowerBoundNativeTrace.color w xs) :
+  ∃ t,
+    LRX.LowerBoundPaidProjection.PhysicalTrace s w t ∧
+      LRX.LowerBoundNativeTrace.Represents t (LRX.BlockExchange.run w xs)
+'LRX.LowerBoundNativeTrace.native_trace_lift' depends on axioms: [propext, Classical.choice, Quot.sound]

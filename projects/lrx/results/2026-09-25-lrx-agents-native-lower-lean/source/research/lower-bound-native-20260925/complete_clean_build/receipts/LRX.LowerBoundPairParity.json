@@ -1,0 +1,53 @@
+{
+  "module": "LRX.LowerBoundPairParity",
+  "source": "formal/LRX/LowerBoundPairParity.lean",
+  "source_sha256": "613131fb8092ee522dac28e482292fa9ee7b81ffeca6f580cf813dbb18cd621a",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundPairParity.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundPairParity.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundPairParity.log",
+  "log_sha256": "ab0b2504865311ac35d9b1f007ee0af9bf36248e9b6fcf2afe2d5b27073121d7",
+  "axioms": {
+    "LRX.LowerBoundPairParity.bit_step": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.bit_run": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.bit_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.swapParity_rotations": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.swapParity_symm": [
+      "propext"
+    ],
+    "LRX.LowerBoundPairParity.triple_run": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.triple_reverse": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.reflection_swap_triangle": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPairParity.reflection_two_cliques": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "31ac5d7017e99dfd56f755967109403941c2962460c748f23773bdf08f02c933"
+}

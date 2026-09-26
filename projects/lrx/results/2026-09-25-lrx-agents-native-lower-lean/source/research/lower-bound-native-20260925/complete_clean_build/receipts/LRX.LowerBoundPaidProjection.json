@@ -1,0 +1,96 @@
+{
+  "module": "LRX.LowerBoundPaidProjection",
+  "source": "formal/LRX/LowerBoundPaidProjection.lean",
+  "source_sha256": "238f4042c0f5a52496d7f02fe79006a7ce70302b4ace67b8c7690f953a1585f5",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundPaidProjection.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundPaidProjection.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundPaidProjection.log",
+  "log_sha256": "55e235c4592c8adb4b24520d1fb7adba4eb5dde50ab5144309ee3146413d3dab",
+  "axioms": {
+    "LRX.LowerBoundPaidProjection.left_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.step_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.trace_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.trace_projection_with_visits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.projected_phases": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.mirrorPhase_iff_mod": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.two_block_unrounded": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.trace_cursor_parity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.odd_blocks_odd_rotations": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.round_two_block_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.two_block_rotation_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.two_block_rotation_lower_mod": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.step_X_iff_physical": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.physical_trace_iff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.physical_two_block_rotation_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.every_letter_charged": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundPaidProjection.physical_two_block_price_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "0c68c256b260db5603bd1bba68b42a219d66e65c58dd5e80453515bbeab73895"
+}

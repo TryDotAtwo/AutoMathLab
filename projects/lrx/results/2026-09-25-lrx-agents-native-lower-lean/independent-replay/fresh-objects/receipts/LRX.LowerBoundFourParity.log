@@ -1,0 +1,11 @@
+LRX/LowerBoundFourParity.lean:46:65: warning: This simp argument is unused:
+  List.append_nil
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, left, right, swap, List.reverse_cons, List.reverse_nil, List.nil_append, List.cons_append,
+    inversions4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.LowerBoundFourParity.step_four_odd' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFourParity.run_four_parity' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFourParity.four_fin_native_even' depends on axioms: [propext, Classical.choice, Quot.sound]

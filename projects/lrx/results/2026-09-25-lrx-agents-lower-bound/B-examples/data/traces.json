@@ -1,0 +1,87 @@
+{
+  "conventions": "L/R shift visible list left/right; X swaps first two; physical cursor marks edge(c,c+1); all rotations cost1",
+  "global_traces": [
+    {
+      "a": 2,
+      "b": 2,
+      "u": 0,
+      "word": "LLXLLX",
+      "source": "B frozen route witness",
+      "source_metadata_sha256": "df97834dfaa3b58ef6a00ec26e203072d8bc10bc247dbd109017abf23bcd4524"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "u": 0,
+      "word": "RRXRXLXLLX",
+      "source": "B frozen route witness",
+      "source_metadata_sha256": "94cbf1308ce43129988720a79c272c358b703abbd9e4a278f726c7a4bfda95b2"
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "u": 0,
+      "word": "LXLLLXRXLXLLXLX",
+      "source": "B frozen route witness",
+      "source_metadata_sha256": "47a4c9c4f3eaeee38a38b3e3268964d5a282785de600a67621bf30cf4d657b0f"
+    },
+    {
+      "a": 4,
+      "b": 4,
+      "u": 1,
+      "word": "LXRRXLXLXLLLXLXRXRXLXLXLLXLX",
+      "source": "B frozen route witness",
+      "source_metadata_sha256": "cdd5c6c3470f151260b81d7238716c5cf40e9a2a1569878ecd0de15895ec8109"
+    },
+    {
+      "a": 6,
+      "b": 6,
+      "u": 0,
+      "word": "LLXLXLXRRXLXRXRXLXLXLXLLLXLXLXLXRRXRXLXLXRXRXRXLXLXLXLXLLXLXLXLXLX",
+      "source": "B frozen route witness",
+      "source_metadata_sha256": "de18ada1aa7bd7929ce682563f1e63d6a8ecb6c5395b44beb34af282d6f61da5"
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "u": 1,
+      "word": "LXRXLX",
+      "source": "explicit n4 singleton trace"
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "u": 2,
+      "word": "XRXLXLXRXRXL",
+      "source": "explicit n5 singleton trace"
+    }
+  ],
+  "local_traces": [
+    {
+      "j": 2,
+      "u": 0,
+      "word": "LLX"
+    },
+    {
+      "j": 2,
+      "u": 1,
+      "word": "LXL"
+    },
+    {
+      "j": 3,
+      "u": 0,
+      "word": "XLXLLXL"
+    },
+    {
+      "j": 4,
+      "u": 1,
+      "word": "LXRRXLXLXLLXLX"
+    },
+    {
+      "j": 3,
+      "u": 0,
+      "word": "LLLRRRRRRXXXLXLLXL"
+    }
+  ],
+  "scope": "Explicit finite checks only. Universal proof is the separate v3 text."
+}

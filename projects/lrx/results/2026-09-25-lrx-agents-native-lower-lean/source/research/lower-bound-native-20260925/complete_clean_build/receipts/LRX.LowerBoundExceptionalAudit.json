@@ -1,0 +1,164 @@
+{
+  "module": "LRX.LowerBoundExceptionalAudit",
+  "source": "formal/LRX/LowerBoundExceptionalAudit.lean",
+  "source_sha256": "b051e4f114fc95f51a806c921147e0bf235749d38c7c7404c0d262bba558bea9",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundExceptionalAudit.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalAudit.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptionalAudit.log",
+  "log_sha256": "7f4cb65901f88cb68c38c4aa98d8a72936bcbe121aa76ed1935faa1e6e0e32b6",
+  "axioms": {
+    "LRX.LowerBoundExceptional.swap_involutive": [
+      "propext"
+    ],
+    "LRX.LowerBoundExceptional.shortest_not_xx": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptional.shortest_exchange_budget_aux": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptional.shortest_exchange_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalCount.head_event_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalCount.actual_pair_count_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalEndpoint.root_values": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalEndpoint.target_values": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.other_class_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.class_exchange_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.empty_class_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.singleton_arithmetic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.singleton_class_lower_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.exists_shortest_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.run_left_replicate": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.left_replicate_rotations": [
+      "propext"
+    ],
+    "LRX.LowerBoundExceptionalReduction.flip_class": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.flip_counts": [
+      "propext"
+    ],
+    "LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.inversionBit_complement": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.step_four_odd": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.run_four_parity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.four_native_even": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.four_fin_native_even": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.represents_next": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.represents_prev": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.exchange_physical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.native_trace_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "54fc929846efc1324d7500653e10f1731caf08927307ea3006c1a7e253c14e8d"
+}

@@ -1,0 +1,25 @@
+LRX/LowerBoundPaidProjection.lean:499:28: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'LRX.LowerBoundPaidProjection.left_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.step_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.trace_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.trace_projection_with_visits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.projected_phases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.mirrorPhase_iff_mod' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.two_block_unrounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.trace_cursor_parity' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.odd_blocks_odd_rotations' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.round_two_block_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.two_block_rotation_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.two_block_rotation_lower_mod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPaidProjection.step_X_iff_physical' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.physical_trace_iff' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.physical_two_block_rotation_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LRX.LowerBoundPaidProjection.every_letter_charged' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPaidProjection.physical_two_block_price_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

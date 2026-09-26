@@ -1,0 +1,20 @@
+LRX/BlockExchange.lean:112:13: warning: This simp argument is unused:
+  run_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, step, swap, List.cons_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LRX/BlockExchange.lean:168:17: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'LRX.BlockExchange.macro_length_eq_price' depends on axioms: [propext, Quot.sound]
+'LRX.BlockExchange.lifted_word_length' depends on axioms: [propext, Quot.sound]
+'LRX.BlockExchange.run_macro' depends on axioms: [propext]
+'LRX.BlockExchange.run_liftWord' depends on axioms: [propext]
+'LRX.BlockExchange.exchange_left_block' depends on axioms: [propext]
+'LRX.BlockExchange.exchange_right_block' depends on axioms: [propext]
+'LRX.BlockExchange.left_macro_length' depends on axioms: [propext, Quot.sound]
+'LRX.BlockExchange.right_macro_length' depends on axioms: [propext, Quot.sound]
+'LRX.BlockExchange.rotate_left_block' depends on axioms: [propext]
+'LRX.BlockExchange.rotate_right_block' depends on axioms: [propext]

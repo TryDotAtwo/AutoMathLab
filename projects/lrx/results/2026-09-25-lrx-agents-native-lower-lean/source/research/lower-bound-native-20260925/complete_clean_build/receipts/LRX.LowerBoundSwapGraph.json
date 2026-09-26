@@ -1,0 +1,37 @@
+{
+  "module": "LRX.LowerBoundSwapGraph",
+  "source": "formal/LRX/LowerBoundSwapGraph.lean",
+  "source_sha256": "3bc343718fb55359e035312bb04f991277bb421f08bd182ba68dc3359f994cf5",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundSwapGraph.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundSwapGraph.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundSwapGraph.log",
+  "log_sha256": "8c9195ef1ea90cf58d14716caa42b8f52652a450858ad8a20e45e4a5e607b235",
+  "axioms": {
+    "LRX.LowerBoundSwapGraph.two_cliques": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapGraph.joint_budget_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapGraph.remaining_budget_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapGraph.far_from_balanced": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "b3f4abe6da1545b6dd70482e1d30fe4b629344bfa52cadffba664a63edfa7a8f"
+}

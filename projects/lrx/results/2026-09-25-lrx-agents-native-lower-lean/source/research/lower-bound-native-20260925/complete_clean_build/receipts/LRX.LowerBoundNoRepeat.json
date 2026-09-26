@@ -1,0 +1,32 @@
+{
+  "module": "LRX.LowerBoundNoRepeat",
+  "source": "formal/LRX/LowerBoundNoRepeat.lean",
+  "source_sha256": "5a2ae00a722cb1caee04a60713b57260ef799b7859a2f7e4ae59994ca1ed34aa",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundNoRepeat.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundNoRepeat.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundNoRepeat.log",
+  "log_sha256": "17cfaba001ded3dd7ced1f65f9c7f7f052d5e7ad63d86d28ece5623f1725e513",
+  "axioms": {
+    "LRX.LowerBoundNoRepeat.actual_head_swap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNoRepeat.remove_repeated_actual_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNoRepeat.shortest_no_repeated_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "91258f85805af4449339f1b3c0f977b0ebb5f05c8037464f5b24c5a130a47fd0"
+}

@@ -1,0 +1,16 @@
+{
+  "module": "LRX.LowerBoundExceptional",
+  "source": "formal/LRX/LowerBoundExceptional.lean",
+  "source_sha256": "d0c0984d173b936286b7f6ff879daaf727aefe52b0e37c4451856c971beddfe5",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundExceptional.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptional.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptional.log",
+  "log_sha256": "4481c9c8f7e0e4508e5b1e1c01d96aae96d64aa7c84d6f219a4a92c183753ba2",
+  "axioms": {},
+  "object_sha256": "558ce56b767c8e3c6f3614e969bb375a83bc55e3ba5f4299deb5d32afe1058f3"
+}

@@ -1,0 +1,37 @@
+{
+  "module": "LRX.LowerBoundExceptionalNative",
+  "source": "formal/LRX/LowerBoundExceptionalNative.lean",
+  "source_sha256": "eab76d67db92d3513257d018fc6a854d285d139a260f85c83c34d85c41a85c97",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundExceptionalNative.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalNative.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptionalNative.log",
+  "log_sha256": "9078ba050ff95c68e135004102c25bc1648c77e29361e49a3f202466f9f6599f",
+  "axioms": {
+    "LRX.LowerBoundExceptionalNative.empty_class_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.singleton_class_lower_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "f458eda3af2d2a12416addaee03f17bcfc4ee1bc0903bb1792e7da4976db0a99"
+}

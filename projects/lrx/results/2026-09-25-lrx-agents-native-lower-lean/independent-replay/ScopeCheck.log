@@ -1,0 +1,85 @@
+theorem LRX.LowerBoundNativeComplete.native_lower : ∀ {n : ℕ},
+  4 ≤ n → ∀ (w : List Op), run w (root n) = target n → n * (n - 1) / 2 ≤ w.length :=
+fun {n} hn w hend =>
+  have ht :=
+    id
+      (Eq.mp
+        (congrFun'
+          (congrArg Eq
+            (congrArg (List.finRange n).reverse.rotate (congrFun' (congrArg HSub.hSub List.length_finRange) 2)))
+          (LRX.Cycle11WordSymmetry.reflect (List.finRange n)))
+        (Eq.symm
+          (LRX.LowerBoundNativeComplete.reflect_eq_reverse_rotate (root n)
+            (Eq.mpr (id (congrArg (LE.le 2) List.length_finRange))
+              (Decidable.byContradiction fun a => LRX.LowerBoundNativeComplete.native_lower._proof_1_2 hn a)))));
+  Exists.casesOn
+    (LRX.LowerBoundNativeTrace.native_physical_reduction w (root n)
+      ⟨0, Decidable.byContradiction fun a => LRX.LowerBoundNativeComplete.native_lower._proof_1_3 hn a⟩
+      (List.nodup_finRange n) (fun x => List.mem_finRange x) (Eq.trans hend ht))
+    fun v h =>
+    Exists.casesOn h fun a h =>
+      Exists.casesOn h fun b h =>
+        Exists.casesOn h fun e h =>
+          Exists.casesOn h fun s h =>
+            And.casesOn h fun hlen right =>
+              And.casesOn right fun hmin right =>
+                And.casesOn right fun he right =>
+                  And.casesOn right fun hnlen right =>
+                    And.casesOn right fun hrep right =>
+                      And.casesOn right fun hsA right =>
+                        And.casesOn right fun hsB right =>
+                          And.casesOn right fun hcounts right =>
+                            And.casesOn right fun hm right =>
+                              And.casesOn right fun hend' right =>
+                                And.casesOn right fun htrace hlow =>
+                                  let c := fun x => LRX.LowerBoundNativeTrace.color (e.symm x);
+                                  have hc := fun x y hxy =>
+                                    have hh := hcounts (e.symm x) (e.symm y) fun hh => hxy (Equiv.injective e.symm hh);
+                                    id
+                                      (Eq.mp
+                                        (congrFun'
+                                          (congrArg Eq
+                                            (LRX.LowerBoundSwapCount.swapCount.congr_simp (e (e.symm x)) x
+                                              (Equiv.apply_symm_apply e x) (e (e.symm y)) y (Equiv.apply_symm_apply e y)
+                                              v v (Eq.refl v) (root n) (root n) (Eq.refl (root n))))
+                                          (if
+                                              LRX.LowerBoundNativeTrace.color (e.symm x) =
+                                                LRX.LowerBoundNativeTrace.color (e.symm y) then
+                                            1
+                                          else 0))
+                                        hh);
+                                  have hv := Eq.trans he hend;
+                                  if ha : 2 ≤ a then
+                                    if hb : 2 ≤ b then
+                                      Eq.mpr (id ge_iff_le._simp_1)
+                                        (Eq.mp
+                                          (congrFun'
+                                            (congrArg LE.le
+                                              (congrFun'
+                                                (congrArg HDiv.hDiv
+                                                  (congr (congrArg HMul.hMul List.length_finRange)
+                                                    (congrFun' (congrArg HSub.hSub List.length_finRange) 1)))
+                                                2))
+                                            w.length)
+                                          (hlow ha hb))
+                                    else
+                                      have hs :=
+                                        Eq.mpr
+                                          (id
+                                            (congrArg (fun _a => _a ≤ 1)
+                                              (LRX.LowerBoundNativeComplete.indexed_true_card e)))
+                                          (Decidable.byContradiction fun a_1 =>
+                                            LRX.LowerBoundNativeComplete.native_lower._proof_1_4 w v a b hb a_1);
+                                      LE.le.trans (shortest_exceptional_native_lower hn v hmin hv c true hc hs) hlen
+                                  else
+                                    have hs :=
+                                      Eq.mpr
+                                        (id
+                                          (congrArg (fun _a => _a ≤ 1)
+                                            (LRX.LowerBoundNativeComplete.indexed_false_card e)))
+                                        (Decidable.byContradiction fun a_1 =>
+                                          LRX.LowerBoundNativeComplete.native_lower._proof_1_5 w v a b hnlen ha a_1);
+                                    LE.le.trans (shortest_exceptional_native_lower hn v hmin hv c false hc hs) hlen
+'LRX.LowerBoundNativeComplete.native_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.LowerBoundExceptionalEndpoint.target_values {n : ℕ} (hn : 2 ≤ n) :
+  List.map Fin.val (target n) = [1, 0] ++ (List.range' 2 (n - 2)).reverse

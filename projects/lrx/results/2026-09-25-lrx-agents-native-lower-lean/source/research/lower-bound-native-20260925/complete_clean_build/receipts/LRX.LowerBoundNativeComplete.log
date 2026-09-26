@@ -1,0 +1,4 @@
+'LRX.LowerBoundNativeComplete.indexed_false_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundNativeComplete.indexed_true_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundNativeComplete.reflect_eq_reverse_rotate' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundNativeComplete.native_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

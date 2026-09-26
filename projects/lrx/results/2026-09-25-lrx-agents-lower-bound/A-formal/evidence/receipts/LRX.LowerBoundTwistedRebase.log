@@ -1,0 +1,16 @@
+LRX/LowerBoundTwistedRebase.lean:13:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundTwistedRebase.reflect_map`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundTwistedRebase.lean:43:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundTwistedRebase.rebase_at_prefix`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.LowerBoundTwistedRebase.rename_exists' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundTwistedRebase.rebase_same_root' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundTwistedRebase.rebase_prices' depends on axioms: [propext]
+'LRX.LowerBoundTwistedRebase.actual_paid_rebase' depends on axioms: [propext, Quot.sound]

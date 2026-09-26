@@ -1,0 +1,17 @@
+LRX/LowerBoundPairParity.lean:238:19: warning: This simp argument is unused:
+  Bool.false_xor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [swapParity_rotations a b v s.reverse hv, swapParity_rotations a c v s.reverse hv,
+    swapParity_rotations b c v s.reverse hv, Bool.xor_false] at hrot
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.LowerBoundPairParity.bit_step' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.bit_run' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.bit_reverse' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.swapParity_rotations' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.swapParity_symm' depends on axioms: [propext]
+'LRX.LowerBoundPairParity.triple_run' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.triple_reverse' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.reflection_swap_triangle' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundPairParity.reflection_two_cliques' depends on axioms: [propext, Classical.choice, Quot.sound]

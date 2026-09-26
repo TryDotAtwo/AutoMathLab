@@ -1,0 +1,29 @@
+{
+  "module": "LRX.Cycle11StructuralBridge",
+  "source": "formal/LRX/Cycle11StructuralBridge.lean",
+  "source_sha256": "86f9b85ed8d843d171a36ec1f8a6cc829aa4a991f8131449865075d2e9a14e28",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/Cycle11StructuralBridge.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11StructuralBridge.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.Cycle11StructuralBridge.log",
+  "log_sha256": "532ca8b3a6e94a65ea999183a2d22f095d7044be31c379d50d06ce67faae5a26",
+  "axioms": {
+    "LRX.Cycle11StructuralBridge.run_perm": [
+      "propext"
+    ],
+    "LRX.Cycle11StructuralBridge.near_repair": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.Cycle11StructuralBridge.structural_bridge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "3f8bf9d282cf5255a4db6e5c9cd0389f7e52e368e318b2fc9d68f0ec0f05eb53"
+}

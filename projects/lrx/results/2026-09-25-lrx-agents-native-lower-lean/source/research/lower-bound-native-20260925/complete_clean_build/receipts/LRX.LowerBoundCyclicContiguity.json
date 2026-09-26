@@ -1,0 +1,34 @@
+{
+  "module": "LRX.LowerBoundCyclicContiguity",
+  "source": "formal/LRX/LowerBoundCyclicContiguity.lean",
+  "source_sha256": "de69d10f1cce9c32db997689e85f007a00b4207dc73b17273e37396b045ce94d",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundCyclicContiguity.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundCyclicContiguity.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundCyclicContiguity.log",
+  "log_sha256": "6238642268b84613860b703c3de5ffac0cb53724c5cffc3372a66efcd236e6aa",
+  "axioms": {
+    "LRX.LowerBoundCyclicContiguity.filtered_separated_swap": [
+      "propext"
+    ],
+    "LRX.LowerBoundCyclicContiguity.separated_mono_count_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundCyclicContiguity.counts_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundCyclicContiguity.shortest_reflection_contiguity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "0f9e45dfed2cc163d0e84a42c97b3c2291e82ef43745d626e7ba722bf3af114a"
+}

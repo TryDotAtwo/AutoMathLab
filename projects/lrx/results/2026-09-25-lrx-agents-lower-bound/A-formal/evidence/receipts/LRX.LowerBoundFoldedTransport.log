@@ -1,0 +1,44 @@
+LRX/LowerBoundFoldedTransport.lean:31:45: warning: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+LRX/LowerBoundFoldedTransport.lean:31:56: warning: Variable name `huj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _huj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+LRX/LowerBoundFoldedTransport.lean:32:5: warning: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+LRX/LowerBoundFoldedTransport.lean:32:16: warning: Variable name `hxj` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hxj
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+LRX/LowerBoundFoldedTransport.lean:124:87: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LRX/LowerBoundFoldedTransport.lean:125:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'LRX.LowerBoundFoldedTransport.folded_exchange' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFoldedTransport.folded_left_internal' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFoldedTransport.folded_left_wrap' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFoldedTransport.reflected_endpoints' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFoldedTransport.external_coordinates' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundFoldedTransport.left_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.exchange_coords' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.trace_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.spread_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.permutation_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.waypoint_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.internal_reversal_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.external_reversal_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundFoldedTransport.pointed_reversal_transport' depends on axioms: [propext, Classical.choice, Quot.sound]

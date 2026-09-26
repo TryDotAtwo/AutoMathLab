@@ -1,0 +1,36 @@
+{
+  "id": "lb20260925_complete_native_lower",
+  "revision": 1,
+  "statement": "For every n>=4 and every original BlockExchange.Op word w, run w (List.finRange n)=((List.finRange n).reverse.rotate (n-2)) implies n*(n-1)/2 <= w.length. No shortestness, structural, parity, PhysicalTrace or price assumptions.",
+  "domain": "n>=4; distinct Fin n labels; unit price of each L/R/X",
+  "definitions": [
+    "BlockExchange.run",
+    "LowerBoundExceptionalNative.root",
+    "LowerBoundExceptionalNative.target"
+  ],
+  "dependencies": [
+    "lb20260925_native_physical_bridge",
+    "B LowerBoundExceptionalNative.shortest_exceptional_native_lower (immutable peer archive 0ba200a620677b61c2728aada618b21ecbcc8d4afa9470877762c7273d32950c)"
+  ],
+  "status": "proved",
+  "verification": [
+    "lean_kernel_checked"
+  ],
+  "author": "A/B proofs; A composition",
+  "source": {
+    "path": "formal/LRX/LowerBoundNativeComplete.lean",
+    "sha256": "4ea21e24136b1c36ef806f522f2de1d9977b484adcd9900c029904c5e959309f",
+    "commit": null
+  },
+  "evidence": [
+    "research/lower-bound-native-20260925/complete_clean_build/BUILD_RESULT.json",
+    "research/lower-bound-native-20260925/COMPLETE_HANDOFF_RU.md",
+    "research/lower-bound-native-20260925/B_IMPORTED_SOURCES.json"
+  ],
+  "unresolved": [
+    "No distinct Lean Graph.dist/diameter API export in this packet",
+    "Upper bound and diameter equality not established here",
+    "Independent semantic review of A-v2 and new composition not claimed"
+  ],
+  "supersedes": "lb20260925_general_lower_new_proof"
+}

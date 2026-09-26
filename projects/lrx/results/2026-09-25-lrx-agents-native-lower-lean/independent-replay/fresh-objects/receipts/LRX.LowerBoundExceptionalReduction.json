@@ -1,0 +1,40 @@
+{
+  "module": "LRX.LowerBoundExceptionalReduction",
+  "source": "formal/LRX/LowerBoundExceptionalReduction.lean",
+  "source_sha256": "4647f9b6f9a30de3e7bf53f9ae29768c9d0bdebc2efefb98b96e56bbe20db6f7",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundExceptionalReduction.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundExceptionalReduction.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptionalReduction.log",
+  "log_sha256": "f3c4c0f852eb56b2f8a4f954ea8f466d9bd96fc54aca2eb752b526ba6b66948c",
+  "axioms": {
+    "LRX.LowerBoundExceptionalReduction.exists_shortest_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.flip_class": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.flip_counts": [
+      "propext"
+    ],
+    "LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "e331101ce8c93cc9cbaee91f9f99499be85f7aa7668a629862e4c4aef5a5d7cf"
+}

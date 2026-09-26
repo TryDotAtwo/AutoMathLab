@@ -1,0 +1,61 @@
+{
+  "entries": [
+    [
+      "FORMAL_AUDIT.json",
+      "formal_attempts",
+      "LowerBoundSwapGraph"
+    ],
+    [
+      "FORMAL_NO_REPEAT_AUDIT.json",
+      "formal_no_repeat",
+      "LowerBoundNoRepeat"
+    ],
+    [
+      "FORMAL_PAIR_PARITY_AUDIT.json",
+      "formal_pair_parity",
+      "LowerBoundPairParity"
+    ],
+    [
+      "FORMAL_SWAP_COUNT_AUDIT.json",
+      "formal_swap_count",
+      "LowerBoundSwapCount"
+    ],
+    [
+      "FORMAL_POTENTIAL_BARRIER_AUDIT.json",
+      "formal_potential_barrier",
+      "LowerBoundPotentialBarrier"
+    ],
+    [
+      "FORMAL_PROJECTION_BARRIER_AUDIT.json",
+      "formal_projection_barrier",
+      "LowerBoundProjectionBarrier"
+    ],
+    [
+      "FORMAL_CYCLIC_CONTIGUITY_AUDIT.json",
+      "formal_cyclic_contiguity",
+      "LowerBoundCyclicContiguity"
+    ],
+    [
+      "FORMAL_TWISTED_REBASE_AUDIT.json",
+      "formal_twisted_rebase",
+      "LowerBoundTwistedRebase"
+    ],
+    [
+      "FORMAL_FOLDED_TRANSPORT_AUDIT.json",
+      "formal_folded_transport",
+      "LowerBoundFoldedTransport"
+    ],
+    [
+      "FORMAL_PAID_PROJECTION_AUDIT.json",
+      "formal_paid_projection",
+      "LowerBoundPaidProjection"
+    ],
+    [
+      "FORMAL_SWAP_BUDGET_AUDIT.json",
+      "formal_swap_budget",
+      "LowerBoundSwapBudget"
+    ]
+  ],
+  "fresh_build": "clean_build_0900",
+  "exports": 75
+}

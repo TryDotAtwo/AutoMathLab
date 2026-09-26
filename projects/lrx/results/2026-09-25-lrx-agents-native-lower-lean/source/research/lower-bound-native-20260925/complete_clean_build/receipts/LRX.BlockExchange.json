@@ -1,0 +1,51 @@
+{
+  "module": "LRX.BlockExchange",
+  "source": "formal/LRX/BlockExchange.lean",
+  "source_sha256": "ea3ddc39c3ee43b4ebfc3942065ea73851cf63bd304329fa6d4e4108876b5cd0",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/BlockExchange.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/BlockExchange.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.BlockExchange.log",
+  "log_sha256": "4fb3deb4012f0819d5eb2f7b6fa9aa610973159f5d617f18282e72a51ee2eb81",
+  "axioms": {
+    "LRX.BlockExchange.macro_length_eq_price": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.BlockExchange.lifted_word_length": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.BlockExchange.run_macro": [
+      "propext"
+    ],
+    "LRX.BlockExchange.run_liftWord": [
+      "propext"
+    ],
+    "LRX.BlockExchange.exchange_left_block": [
+      "propext"
+    ],
+    "LRX.BlockExchange.exchange_right_block": [
+      "propext"
+    ],
+    "LRX.BlockExchange.left_macro_length": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.BlockExchange.right_macro_length": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.BlockExchange.rotate_left_block": [
+      "propext"
+    ],
+    "LRX.BlockExchange.rotate_right_block": [
+      "propext"
+    ]
+  },
+  "object_sha256": "e724200c8e5a5baceedc200d507b1b5a322375a487f2075c7bddffb786e4e19b"
+}

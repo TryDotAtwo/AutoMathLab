@@ -1,0 +1,30 @@
+{
+  "module": "LRX.LowerBoundFourParity",
+  "source": "formal/LRX/LowerBoundFourParity.lean",
+  "source_sha256": "dae0590ee263fcf1523222f931dbd3d33bac94811345898c6e0ace866b40f36d",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundFourParity.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundFourParity.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundFourParity.log",
+  "log_sha256": "b936a12010bfff209637ceeadd79b11919bedbbab2b41703df01ab01c7ba6098",
+  "axioms": {
+    "LRX.LowerBoundFourParity.step_four_odd": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.run_four_parity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFourParity.four_fin_native_even": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "9ecbd844987db66dcb3b44692b56ebc8d92884f224f4651716feea574e960e98"
+}

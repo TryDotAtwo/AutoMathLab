@@ -1,0 +1,27 @@
+{
+  "module": "LRX.Cycle11RigidPairMoves",
+  "source": "formal/LRX/Cycle11RigidPairMoves.lean",
+  "source_sha256": "1f83c4c6a442e5f99e62d6f072dbb3469cc95d85849330d96960b6c3c853dd47",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/Cycle11RigidPairMoves.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/Cycle11RigidPairMoves.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.Cycle11RigidPairMoves.log",
+  "log_sha256": "6e2f52edb1018536452bc45e0e92a986a0c092089b67718fdac869f48879347d",
+  "axioms": {
+    "LRX.Cycle11RigidPairMoves.next_to_wrap": [
+      "propext"
+    ],
+    "LRX.Cycle11RigidPairMoves.wrap_to_next": [
+      "propext"
+    ],
+    "LRX.Cycle11RigidPairMoves.remove_two_pair_swaps": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "f8fc04d1b8b3dd1cde09f7be78e5e6adf1778d9b9baa99ca4fce5aa37954c25f"
+}

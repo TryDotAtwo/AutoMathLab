@@ -1,0 +1,68 @@
+import LRX.LowerBoundExceptionalEndpoint
+import LRX.LowerBoundNativeTrace
+
+-- Audit every B theorem, not only the top-level gate.
+#check LRX.LowerBoundExceptional.swap_involutive
+#print axioms LRX.LowerBoundExceptional.swap_involutive
+#check LRX.LowerBoundExceptional.shortest_not_xx
+#print axioms LRX.LowerBoundExceptional.shortest_not_xx
+#check LRX.LowerBoundExceptional.shortest_exchange_budget_aux
+#print axioms LRX.LowerBoundExceptional.shortest_exchange_budget_aux
+#check LRX.LowerBoundExceptional.shortest_exchange_budget
+#print axioms LRX.LowerBoundExceptional.shortest_exchange_budget
+#check LRX.LowerBoundExceptionalCount.head_event_sum
+#print axioms LRX.LowerBoundExceptionalCount.head_event_sum
+#check LRX.LowerBoundExceptionalCount.actual_pair_count_sum
+#print axioms LRX.LowerBoundExceptionalCount.actual_pair_count_sum
+#check LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound
+#print axioms LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound
+#check LRX.LowerBoundExceptionalEndpoint.root_values
+#print axioms LRX.LowerBoundExceptionalEndpoint.root_values
+#check LRX.LowerBoundExceptionalEndpoint.target_values
+#print axioms LRX.LowerBoundExceptionalEndpoint.target_values
+#check LRX.LowerBoundExceptionalNative.other_class_card
+#print axioms LRX.LowerBoundExceptionalNative.other_class_card
+#check LRX.LowerBoundExceptionalNative.class_exchange_bound
+#print axioms LRX.LowerBoundExceptionalNative.class_exchange_bound
+#check LRX.LowerBoundExceptionalNative.empty_class_lower
+#print axioms LRX.LowerBoundExceptionalNative.empty_class_lower
+#check LRX.LowerBoundExceptionalNative.singleton_arithmetic
+#print axioms LRX.LowerBoundExceptionalNative.singleton_arithmetic
+#check LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five
+#print axioms LRX.LowerBoundExceptionalNative.singleton_class_lower_ge_five
+#check LRX.LowerBoundExceptionalNative.singleton_class_lower_four
+#print axioms LRX.LowerBoundExceptionalNative.singleton_class_lower_four
+#check LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower
+#print axioms LRX.LowerBoundExceptionalNative.shortest_exceptional_native_lower
+#check LRX.LowerBoundExceptionalReduction.exists_shortest_le
+#print axioms LRX.LowerBoundExceptionalReduction.exists_shortest_le
+#check LRX.LowerBoundExceptionalReduction.run_left_replicate
+#print axioms LRX.LowerBoundExceptionalReduction.run_left_replicate
+#check LRX.LowerBoundExceptionalReduction.left_replicate_rotations
+#print axioms LRX.LowerBoundExceptionalReduction.left_replicate_rotations
+#check LRX.LowerBoundExceptionalReduction.flip_class
+#print axioms LRX.LowerBoundExceptionalReduction.flip_class
+#check LRX.LowerBoundExceptionalReduction.flip_counts
+#print axioms LRX.LowerBoundExceptionalReduction.flip_counts
+#check LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order
+#print axioms LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order
+#check LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes
+#print axioms LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes
+#check LRX.LowerBoundFourParity.inversionBit_complement
+#print axioms LRX.LowerBoundFourParity.inversionBit_complement
+#check LRX.LowerBoundFourParity.step_four_odd
+#print axioms LRX.LowerBoundFourParity.step_four_odd
+#check LRX.LowerBoundFourParity.run_four_parity
+#print axioms LRX.LowerBoundFourParity.run_four_parity
+#check LRX.LowerBoundFourParity.four_native_even
+#print axioms LRX.LowerBoundFourParity.four_native_even
+#check LRX.LowerBoundFourParity.four_fin_native_even
+#print axioms LRX.LowerBoundFourParity.four_fin_native_even
+#check LRX.LowerBoundNativeTrace.represents_next
+#print axioms LRX.LowerBoundNativeTrace.represents_next
+#check LRX.LowerBoundNativeTrace.represents_prev
+#print axioms LRX.LowerBoundNativeTrace.represents_prev
+#check LRX.LowerBoundNativeTrace.exchange_physical
+#print axioms LRX.LowerBoundNativeTrace.exchange_physical
+#check LRX.LowerBoundNativeTrace.native_trace_lift
+#print axioms LRX.LowerBoundNativeTrace.native_trace_lift

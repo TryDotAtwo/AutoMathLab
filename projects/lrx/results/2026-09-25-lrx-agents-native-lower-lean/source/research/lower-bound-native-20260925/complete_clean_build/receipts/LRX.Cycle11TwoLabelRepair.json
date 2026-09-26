@@ -1,0 +1,36 @@
+{
+  "module": "LRX.Cycle11TwoLabelRepair",
+  "source": "formal/LRX/Cycle11TwoLabelRepair.lean",
+  "source_sha256": "8c18e014efe8956cf68893ddde3c7c33d2d4e7d3dca80e42c7858561159db9d7",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/Cycle11TwoLabelRepair.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11TwoLabelRepair.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.Cycle11TwoLabelRepair.log",
+  "log_sha256": "95eee3c088f12a91ac3fbab58b4a9f035218fdf2a6402312bc92383338590512",
+  "axioms": {
+    "LRX.Cycle11TwoLabelRepair.run_map": [
+      "propext"
+    ],
+    "LRX.Cycle11TwoLabelRepair.repair_head": [
+      "propext"
+    ],
+    "LRX.Cycle11TwoLabelRepair.repair_next": [
+      "propext"
+    ],
+    "LRX.Cycle11TwoLabelRepair.repair_wrap": [
+      "propext"
+    ],
+    "LRX.Cycle11TwoLabelRepair.repair_tail": [
+      "propext"
+    ],
+    "LRX.Cycle11TwoLabelRepair.encounter_bridge": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "0a66129e34b9d12369a614eb05d9bcbd478bf0cd9c42d4674a3a2cd64c8c1e2e"
+}

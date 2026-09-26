@@ -1,0 +1,3 @@
+'LRX.LowerBoundNoRepeat.actual_head_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundNoRepeat.remove_repeated_actual_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundNoRepeat.shortest_no_repeated_pair' depends on axioms: [propext, Classical.choice, Quot.sound]

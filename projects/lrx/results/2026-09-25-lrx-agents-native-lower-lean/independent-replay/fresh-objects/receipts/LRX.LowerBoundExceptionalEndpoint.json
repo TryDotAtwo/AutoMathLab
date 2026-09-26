@@ -1,0 +1,25 @@
+{
+  "module": "LRX.LowerBoundExceptionalEndpoint",
+  "source": "formal/LRX/LowerBoundExceptionalEndpoint.lean",
+  "source_sha256": "4a52e36bd2f5a9825c029a4911a5e081f66049b59ddb7ac7a6e8deeca3b03463",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundExceptionalEndpoint.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundExceptionalEndpoint.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptionalEndpoint.log",
+  "log_sha256": "67e714e2397b15b8a522aa179531510b1d2704267cc7eafa59aeb65954ba768e",
+  "axioms": {
+    "LRX.LowerBoundExceptionalEndpoint.root_values": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalEndpoint.target_values": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "7019de8025b68432635f522aae2d716c47193e2c7bc3452be590288b5187753f"
+}

@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "global_traces": [
+    {
+      "n": 4,
+      "a": 2,
+      "b": 2,
+      "u": 0,
+      "rotations": 4,
+      "exchanges": 2,
+      "length": 6
+    },
+    {
+      "n": 5,
+      "a": 2,
+      "b": 3,
+      "u": 0,
+      "rotations": 6,
+      "exchanges": 4,
+      "length": 10
+    },
+    {
+      "n": 6,
+      "a": 3,
+      "b": 3,
+      "u": 0,
+      "rotations": 9,
+      "exchanges": 6,
+      "length": 15
+    },
+    {
+      "n": 8,
+      "a": 4,
+      "b": 4,
+      "u": 1,
+      "rotations": 16,
+      "exchanges": 12,
+      "length": 28
+    },
+    {
+      "n": 12,
+      "a": 6,
+      "b": 6,
+      "u": 0,
+      "rotations": 36,
+      "exchanges": 30,
+      "length": 66
+    },
+    {
+      "n": 4,
+      "a": 1,
+      "b": 3,
+      "u": 1,
+      "rotations": 3,
+      "exchanges": 3,
+      "length": 6
+    },
+    {
+      "n": 5,
+      "a": 1,
+      "b": 4,
+      "u": 2,
+      "rotations": 6,
+      "exchanges": 6,
+      "length": 12
+    }
+  ],
+  "local_traces": [
+    {
+      "j": 2,
+      "u": 0,
+      "rotations": 2,
+      "outside_states": 1
+    },
+    {
+      "j": 2,
+      "u": 1,
+      "rotations": 2,
+      "outside_states": 2
+    },
+    {
+      "j": 3,
+      "u": 0,
+      "rotations": 4,
+      "outside_states": 1
+    },
+    {
+      "j": 4,
+      "u": 1,
+      "rotations": 8,
+      "outside_states": 1
+    },
+    {
+      "j": 3,
+      "u": 0,
+      "rotations": 13,
+      "outside_states": 4
+    }
+  ],
+  "data_sha256": "9823b95d2b1c6fca7584039c922f0aaaf4df871ceafcb93a6a3c0e8312fb647d",
+  "checker_sha256": "53aea02428641b444901b8f0ff3f0aae57daacc04ecdce1225bfa95db9ce5cba",
+  "scope": "Finite explicit-word and coordinate checks only; no BFS, no external arrays, no Lean claim."
+}

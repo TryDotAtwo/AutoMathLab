@@ -1,0 +1,33 @@
+{
+  "module": "LRX.Cycle11WordSymmetry",
+  "source": "formal/LRX/Cycle11WordSymmetry.lean",
+  "source_sha256": "4f02255f708eceb01d4792e4d66babb5bc10599e87c51f5b8e18797ca079e15b",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/Cycle11WordSymmetry.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/Cycle11WordSymmetry.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.Cycle11WordSymmetry.log",
+  "log_sha256": "6de232514a863b13d09b48a898d2d7bfdae8debc8aa56b9c63c09e9f8272601c",
+  "axioms": {
+    "LRX.Cycle11WordSymmetry.reflect_run": [
+      "propext"
+    ],
+    "LRX.Cycle11WordSymmetry.run_inverse": [
+      "propext"
+    ],
+    "LRX.Cycle11WordSymmetry.reverse_spin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.Cycle11WordSymmetry.spin_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "282fa9b07bc22533fef55ec26c912b5c1a3803188a96499a70f708e169806fd1"
+}

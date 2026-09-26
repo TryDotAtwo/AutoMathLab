@@ -1,0 +1,6 @@
+'LRX.Cycle11TwoLabelRepair.run_map' depends on axioms: [propext]
+'LRX.Cycle11TwoLabelRepair.repair_head' depends on axioms: [propext]
+'LRX.Cycle11TwoLabelRepair.repair_next' depends on axioms: [propext]
+'LRX.Cycle11TwoLabelRepair.repair_wrap' depends on axioms: [propext]
+'LRX.Cycle11TwoLabelRepair.repair_tail' depends on axioms: [propext]
+'LRX.Cycle11TwoLabelRepair.encounter_bridge' depends on axioms: [propext, Quot.sound]

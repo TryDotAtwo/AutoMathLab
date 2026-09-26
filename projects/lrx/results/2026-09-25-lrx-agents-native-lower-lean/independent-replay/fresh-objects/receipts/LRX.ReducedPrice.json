@@ -1,0 +1,26 @@
+{
+  "module": "LRX.ReducedPrice",
+  "source": "formal/LRX/ReducedPrice.lean",
+  "source_sha256": "83bbd4342abdb2206fef724f638e5d4eb64e99551222dac70516e20a79822921",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/ReducedPrice.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/ReducedPrice.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.ReducedPrice.log",
+  "log_sha256": "9f30396b1ecde459c94bf5c470c442ba49e688db755de950f33924cc2f368539",
+  "axioms": {
+    "LRX.ReducedPrice.reducedLift_correct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.ReducedPrice.reducedLift_length_le_raw": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "7838a9f009611d82237ef10a7f9e3093325c878a76fb2bdf51b71abe10d18f64"
+}

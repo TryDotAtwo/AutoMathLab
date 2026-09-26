@@ -1,0 +1,17 @@
+LRX/LowerBoundSwapCount.lean:46:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundSwapCount.shortest_tail`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundSwapCount.lean:97:32: warning: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [swapCount, he, ite_true] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.LowerBoundSwapCount.positive_has_event' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundSwapCount.shortest_count_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapCount.parity_of_small_count' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundSwapCount.shortest_reflection_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

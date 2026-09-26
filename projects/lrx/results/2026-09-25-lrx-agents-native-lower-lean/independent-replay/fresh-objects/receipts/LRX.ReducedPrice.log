@@ -1,0 +1,2 @@
+'LRX.ReducedPrice.reducedLift_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.ReducedPrice.reducedLift_length_le_raw' depends on axioms: [propext, Quot.sound]

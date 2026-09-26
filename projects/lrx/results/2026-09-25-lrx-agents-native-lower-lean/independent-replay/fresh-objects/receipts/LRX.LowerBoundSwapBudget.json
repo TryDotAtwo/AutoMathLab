@@ -1,0 +1,47 @@
+{
+  "module": "LRX.LowerBoundSwapBudget",
+  "source": "formal/LRX/LowerBoundSwapBudget.lean",
+  "source_sha256": "820562915833f003a02bb56239a3474bc3f8e852b7888ce58cc1eca8375052dd",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundSwapBudget.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundSwapBudget.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundSwapBudget.log",
+  "log_sha256": "20ffabe42b02c8f9160794efcd20042d415ea9e8c06666ecfff0ebbeef842432",
+  "axioms": {
+    "LRX.LowerBoundSwapBudget.scalar_swap_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapBudget.exchange_inversions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapBudget.pairs_double": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapBudget.trace_inversion_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapBudget.physical_swap_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapBudget.physical_two_block_total_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "d9a80b492f2b93b8056a0c6c7f0b3162b0613beafc5afd430e35517bbc691f27"
+}

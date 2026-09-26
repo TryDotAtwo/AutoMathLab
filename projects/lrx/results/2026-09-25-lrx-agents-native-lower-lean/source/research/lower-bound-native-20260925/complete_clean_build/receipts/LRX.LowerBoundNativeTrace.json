@@ -1,0 +1,76 @@
+{
+  "module": "LRX.LowerBoundNativeTrace",
+  "source": "formal/LRX/LowerBoundNativeTrace.lean",
+  "source_sha256": "502ec3a4d43aaab04dbe8ceab10f38f24653cf700fb6ceec62203a81f07688fc",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundNativeTrace.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundNativeTrace.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundNativeTrace.log",
+  "log_sha256": "67baf65d9ecea31af9ba8cc23b9bbb547d48101108517d8111ec9239dd7d6f3a",
+  "axioms": {
+    "LRX.LowerBoundNativeTrace.shortest_representative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.native_physical_reduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.shortest_indexed_presentation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.represents_arc_rotation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.contiguous_two_arcs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.reflected_position_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.arc_reflection_endpoints": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.native_indexed_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.represents_next": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.represents_prev": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.exchange_physical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeTrace.native_trace_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "b1d4cd4b8fc83c6fce909952df6bf9375511d1a01793e267f7a4feb6071e4bf0"
+}

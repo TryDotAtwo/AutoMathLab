@@ -1,0 +1,31 @@
+{
+  "module": "LRX.Cycle11PairEncounter",
+  "source": "formal/LRX/Cycle11PairEncounter.lean",
+  "source_sha256": "918ae70048d407965e509db84a964bb453ded28421dd5c421861eeabeffadff2",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/Cycle11PairEncounter.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/Cycle11PairEncounter.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.Cycle11PairEncounter.log",
+  "log_sha256": "9e1ebc1001b962906e8a0cb641af0b18c497e632ec16ac3406db547f05304424",
+  "axioms": {
+    "LRX.Cycle11PairEncounter.pair_left": [
+      "propext"
+    ],
+    "LRX.Cycle11PairEncounter.pair_right": [
+      "propext"
+    ],
+    "LRX.Cycle11PairEncounter.swap_birth": [
+      "propext"
+    ],
+    "LRX.Cycle11PairEncounter.first_encounter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "c04d4154a9212281114208e63a6ba5ede70549f4c93ca088b5fcccbd8e1c38fc"
+}

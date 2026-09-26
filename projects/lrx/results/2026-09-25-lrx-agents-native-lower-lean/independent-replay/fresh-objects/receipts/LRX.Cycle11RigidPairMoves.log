@@ -1,0 +1,3 @@
+'LRX.Cycle11RigidPairMoves.next_to_wrap' depends on axioms: [propext]
+'LRX.Cycle11RigidPairMoves.wrap_to_next' depends on axioms: [propext]
+'LRX.Cycle11RigidPairMoves.remove_two_pair_swaps' depends on axioms: [propext, Quot.sound]

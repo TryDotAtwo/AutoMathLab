@@ -1,0 +1,4 @@
+'LRX.LowerBoundProjectionBarrier.zig_alternation_count' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundProjectionBarrier.separate_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundProjectionBarrier.separate_rotation_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundProjectionBarrier.separate_words' depends on axioms: [propext, Classical.choice, Quot.sound]

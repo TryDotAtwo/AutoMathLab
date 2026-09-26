@@ -1,0 +1,82 @@
+{
+  "module": "LRX.LowerBoundFoldedTransport",
+  "source": "formal/LRX/LowerBoundFoldedTransport.lean",
+  "source_sha256": "b833cdd2f0b24416cfbc2b1c801851373688bb5349ba5afff96041c1c1753c4e",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundFoldedTransport.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundFoldedTransport.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundFoldedTransport.log",
+  "log_sha256": "ffc4c310722cae067e400714625d46942119d26de51306367d779953882993fe",
+  "axioms": {
+    "LRX.LowerBoundFoldedTransport.folded_exchange": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.folded_left_internal": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.folded_left_wrap": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.reflected_endpoints": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.external_coordinates": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.left_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.exchange_coords": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.trace_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.spread_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.permutation_spread": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.waypoint_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.internal_reversal_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.external_reversal_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundFoldedTransport.pointed_reversal_transport": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "acb097c9abece55624fe0f1918cad30eb56e492a96c071309f9d8a7272a2bb18"
+}

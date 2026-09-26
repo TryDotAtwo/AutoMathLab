@@ -1,0 +1,36 @@
+{
+  "module": "LRX.LowerBoundNativeComplete",
+  "source": "formal/LRX/LowerBoundNativeComplete.lean",
+  "source_sha256": "4ea21e24136b1c36ef806f522f2de1d9977b484adcd9900c029904c5e959309f",
+  "command": [
+    "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin/lean",
+    "LRX/LowerBoundNativeComplete.lean",
+    "-o",
+    "/persist/workspace/lrx2/research/coordinator-native-replay-20260925/fresh-objects/LRX/LowerBoundNativeComplete.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundNativeComplete.log",
+  "log_sha256": "723eb98c2da0d8aecf6e7f24ddcb8f3ccb22f8325d991ac5945898b918dc740e",
+  "axioms": {
+    "LRX.LowerBoundNativeComplete.indexed_false_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.indexed_true_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.reflect_eq_reverse_rotate": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundNativeComplete.native_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "39173be490e5210378053ec2830537c9c17ea05150f07f9707020643a21fb9bc"
+}

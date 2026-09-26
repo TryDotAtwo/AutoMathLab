@@ -1,0 +1,25 @@
+LRX/Cycle11PairEncounter.lean:19:45: warning: This simp argument is unused:
+  List.nil_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [edges, left, List.cons_append, List.zipWith_cons_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LRX/Cycle11PairEncounter.lean:65:57: warning: This simp argument is unused:
+  List.nil_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pair, edges, swap, left, List.cons_append, List.zipWith_cons_cons, List.mem_cons] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LRX/Cycle11PairEncounter.lean:73:73: warning: This simp argument is unused:
+  List.nil_append
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pair, edges, left, List.cons_append, List.zipWith_cons_cons, List.mem_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.Cycle11PairEncounter.pair_left' depends on axioms: [propext]
+'LRX.Cycle11PairEncounter.pair_right' depends on axioms: [propext]
+'LRX.Cycle11PairEncounter.swap_birth' depends on axioms: [propext]
+'LRX.Cycle11PairEncounter.first_encounter' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,27 @@
+{
+  "module": "LRX.LowerBoundExceptionalCount",
+  "source": "formal/LRX/LowerBoundExceptionalCount.lean",
+  "source_sha256": "66c9419a76d20705aed80e59837a7485cc3245f0cdd152e4c8ec69f33b1b685d",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundExceptionalCount.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundExceptionalCount.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundExceptionalCount.log",
+  "log_sha256": "00bae111afcb3e99c73b3f0d849e5a7732bdf9bef2066d7c3fe0aaba6da8854f",
+  "axioms": {
+    "LRX.LowerBoundExceptionalCount.actual_pair_count_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundExceptionalCount.complete_subset_exchange_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "5d70ab917b63af5a6510224ff8d3a395e0365a4c8a591c1608d0ae0d3126c724"
+}

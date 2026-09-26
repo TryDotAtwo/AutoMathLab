@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "local_native_transitions": 64152,
+  "reflection_endpoints": 80,
+  "binary_patterns": 2044,
+  "patterns_satisfying_contiguity": 348,
+  "scope": "a,b=1..4, all within-arc permutations/cursors; winding -1,0,1; binary patterns n=2..10. No BFS; diagnostic only."
+}

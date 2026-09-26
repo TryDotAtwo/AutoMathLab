@@ -1,0 +1,30 @@
+[
+  {
+    "path": "formal/LRX/LowerBoundExceptionalNative.lean",
+    "sha256": "eab76d67db92d3513257d018fc6a854d285d139a260f85c83c34d85c41a85c97"
+  },
+  {
+    "path": "formal/LRX/LowerBoundExceptionalCount.lean",
+    "sha256": "66c9419a76d20705aed80e59837a7485cc3245f0cdd152e4c8ec69f33b1b685d"
+  },
+  {
+    "path": "formal/LRX/LowerBoundExceptional.lean",
+    "sha256": "d0c0984d173b936286b7f6ff879daaf727aefe52b0e37c4451856c971beddfe5"
+  },
+  {
+    "path": "formal/LRX/LowerBoundExceptionalReduction.lean",
+    "sha256": "4647f9b6f9a30de3e7bf53f9ae29768c9d0bdebc2efefb98b96e56bbe20db6f7"
+  },
+  {
+    "path": "formal/LRX/LowerBoundFourParity.lean",
+    "sha256": "dae0590ee263fcf1523222f931dbd3d33bac94811345898c6e0ace866b40f36d"
+  },
+  {
+    "path": "formal/LRX/LowerBoundExceptionalAudit.lean",
+    "sha256": "b051e4f114fc95f51a806c921147e0bf235749d38c7c7404c0d262bba558bea9"
+  },
+  {
+    "path": "formal/LRX/LowerBoundExceptionalEndpoint.lean",
+    "sha256": "4a52e36bd2f5a9825c029a4911a5e081f66049b59ddb7ac7a6e8deeca3b03463"
+  }
+]

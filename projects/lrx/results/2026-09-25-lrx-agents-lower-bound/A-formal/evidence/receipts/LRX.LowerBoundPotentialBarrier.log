@@ -1,0 +1,6 @@
+'LRX.LowerBoundPotentialBarrier.telescope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPotentialBarrier.head_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPotentialBarrier.no_unit_head_potential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPotentialBarrier.two_head_step_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPotentialBarrier.two_head_unit_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundPotentialBarrier.two_head_endpoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

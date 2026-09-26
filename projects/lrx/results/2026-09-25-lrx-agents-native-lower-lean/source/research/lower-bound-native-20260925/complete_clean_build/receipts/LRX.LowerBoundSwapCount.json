@@ -1,0 +1,35 @@
+{
+  "module": "LRX.LowerBoundSwapCount",
+  "source": "formal/LRX/LowerBoundSwapCount.lean",
+  "source_sha256": "d163c585a761a53ef40991de79b2dc8d2967c38a56fd2f177972323a3a720393",
+  "command": [
+    "/persist/home/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean",
+    "LRX/LowerBoundSwapCount.lean",
+    "-o",
+    "/persist/workspace/lrx/research/lower-bound-native-20260925/complete_clean_build/LRX/LowerBoundSwapCount.olean"
+  ],
+  "returncode": 0,
+  "log": "receipts/LRX.LowerBoundSwapCount.log",
+  "log_sha256": "a06b5d3d2f775a348b25b0a4707f27c99f3867acb5e36e97d5c5dbf88c9bd458",
+  "axioms": {
+    "LRX.LowerBoundSwapCount.positive_has_event": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapCount.shortest_count_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapCount.parity_of_small_count": [
+      "propext",
+      "Quot.sound"
+    ],
+    "LRX.LowerBoundSwapCount.shortest_reflection_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "object_sha256": "c0155ad330c1e3ecdecaf58139b7e487bccfc0970f658d67b7970b122909bcde"
+}

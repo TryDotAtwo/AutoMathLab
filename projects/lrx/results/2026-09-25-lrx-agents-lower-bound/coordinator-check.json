@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "counts": {
+    "local_steps": 345126,
+    "endpoint_identities": 15147,
+    "geometric_bounds": 10494,
+    "projection_steps": 78208
+  },
+  "scope": "bounded independent identity checks; not proof for all n"
+}
