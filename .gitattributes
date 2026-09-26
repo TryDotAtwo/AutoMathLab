@@ -1,0 +1,7 @@
+# The registry digest binds its exact bytes to the generated views.
+# Keep this scope narrow: archived source and log bytes must not be rewritten.
+/projects/lrx/proof-map.json text eol=lf
+/projects/lrx/dashboard-template.html text eol=lf
+/projects/lrx/ROADMAP.md text eol=lf
+/projects/lrx/KANBAN.md text eol=lf
+/projects/lrx/dashboard.html text eol=lf

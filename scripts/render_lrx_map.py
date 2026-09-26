@@ -4,26 +4,30 @@ import argparse, hashlib, html, json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; P=ROOT/'projects/lrx'
 STATES={'backlog':'Очередь','working':'Работа','review':'Проверка','integration':'Интеграция','done':'Готово','blocked':'Блокер'}
+def require(condition, message):
+ if not condition:
+  raise ValueError(message)
+
 def validate(d):
- nodes=d['nodes']; ids=[n['id'] for n in nodes]; assert len(set(ids))==len(ids),'Duplicate id'
+ nodes=d['nodes']; ids=[n['id'] for n in nodes]; require(len(set(ids))==len(ids),'Duplicate id')
  by={n['id']:n for n in nodes}
  for n in nodes:
-  assert n['state'] in STATES
-  assert n['owner'] and n['reviewer'] and n['acceptance'] and n['statement']
-  assert set(n['requires'])<=set(ids),'Unknown dependency'
-  assert n['assignment'] in ['proposed','accepted','completed']
-  if n['state']=='done':assert n['evidence'] and n['claim']=='proved' and n['verification']!='not-reviewed','Unsupported done'
+  require(n['state'] in STATES,'Unknown state')
+  require(n['owner'] and n['reviewer'] and n['acceptance'] and n['statement'],'Missing obligation contract')
+  require(set(n['requires'])<=set(ids),'Unknown dependency')
+  require(n['assignment'] in ['proposed','accepted','completed'],'Unknown assignment')
+  if n['state']=='done':require(n['evidence'] and n['claim']=='proved' and n['verification']!='not-reviewed','Unsupported done')
  seen=set(); active=set()
  def visit(k):
-  assert k not in active,'Cycle'
+  require(k not in active,'Cycle')
   if k in seen:return
   active.add(k)
   for dep in by[k]['requires']:visit(dep)
   active.remove(k);seen.add(k)
  for k in ids:visit(k)
- assert 'ALT-C' not in by['EQ']['requires'],'Alternative incorrectly mandatory'
+ require('ALT-C' not in by['EQ']['requires'],'Alternative incorrectly mandatory')
  if by['EQ']['state']=='done':
-  assert all(by[k]['state']=='done' for k in seen if by[k]['strategy']=='main'),'Equality before prerequisites'
+  require(all(by[k]['state']=='done' for k in seen if by[k]['strategy']=='main'),'Equality before prerequisites')
  return d
 
 def render(d):
@@ -41,13 +45,13 @@ def render(d):
   for n in ns:
    if n['state']==state:kanban+=f"- **{n['id']} · {n['title']}** — {n['owner']} ({n['assignment']}). {n['next_action']}\n"
  payload=json.dumps(d,ensure_ascii=False).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
- template=(P/'dashboard-template.html').read_text()
+ template=(P/'dashboard-template.html').read_text(encoding='utf-8')
  page=template.replace('__DATA__',payload).replace('__HASH__',digest)
  return {'ROADMAP.md':roadmap.rstrip()+'\n','KANBAN.md':kanban.rstrip()+'\n','dashboard.html':page}
 if __name__=='__main__':
  a=argparse.ArgumentParser();a.add_argument('--check',action='store_true');args=a.parse_args()
- output=render(validate(json.loads((P/'proof-map.json').read_text())))
+ output=render(validate(json.loads((P/'proof-map.json').read_text(encoding='utf-8'))))
  for name,text in output.items():
-  if args.check:assert (P/name).exists() and (P/name).read_text()==text, f'Stale generated view: {name}'
-  else:(P/name).write_text(text)
+  if args.check:require((P/name).exists() and (P/name).read_text(encoding='utf-8')==text, f'Stale generated view: {name}')
+  else:(P/name).write_text(text, encoding='utf-8', newline='\n')
  print('PASS: obligation DAG, evidence gates, 3 synchronized views')
