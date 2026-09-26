@@ -1,0 +1,9 @@
+LRX/UpperExternalFamilies.lean:93:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+'LRX.UpperExternalFamilies.mem_catalogue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperExternalFamilies.mass_lower' depends on axioms: [propext, Quot.sound]
+'LRX.UpperExternalFamilies.member_mass_bound' depends on axioms: [propext, Quot.sound]
+'LRX.UpperExternalFamilies.catalogue_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperExternalFamilies.family_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperExternalFamilies.bounded_valid_family_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperExternalFamilies.family_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperExternalFamilies.mem_families' depends on axioms: [propext, Classical.choice, Quot.sound]

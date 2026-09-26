@@ -23,3 +23,7 @@ E_r(n) ≤ m(m+1)/2 + (r−1)(m−2), где n=m+r.
 
 ## Что ещё не импортировано
 Первичные PDF/TeX, Lean-проекты, каталоги слов и архивы сертификатов. До их загрузки сюда не переносим из переписки численные счётчики покрытия или статусы доказанности.
+
+## Archived B formal baseline — 26 September 2026
+
+[Eight scalar/enumeration modules and 29 checked exports](results/2026-09-26-lrxavm2-scalar-enumeration-baseline.md), with original source hashes, final logs and portable verification. This is a local/conditional upper-proof component: ScalarCapChecked 1/2, geometric necessity and full universal Lean U remain open. See issue #9 and the linked review provenance.

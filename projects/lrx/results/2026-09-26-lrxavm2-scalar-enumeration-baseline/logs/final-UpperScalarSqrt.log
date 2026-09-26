@@ -1,0 +1,9 @@
+LRX/UpperScalarSqrt.lean:71:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+LRX/UpperScalarSqrt.lean:80:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+'LRX.UpperScalarSqrt.le_intSqrt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarSqrt.le_floorSqrt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarSqrt.ceilSqrt_nonneg' depends on axioms: [propext, Quot.sound]
+'LRX.UpperScalarSqrt.ceilSqrt_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarSqrt.branch_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarSqrt.branch_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarSqrt.branch_union_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

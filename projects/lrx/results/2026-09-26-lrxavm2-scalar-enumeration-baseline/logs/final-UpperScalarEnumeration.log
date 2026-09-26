@@ -1,0 +1,3 @@
+'LRX.UpperScalarRows.admissible_mem_prunedCandidates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarRows.mem_prunedRows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarRows.prunedRows_eq_rows' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'LRX.UpperExternalFamilies.catalogue_card' depends on axioms: [propext, Classical.choice, Quot.sound]

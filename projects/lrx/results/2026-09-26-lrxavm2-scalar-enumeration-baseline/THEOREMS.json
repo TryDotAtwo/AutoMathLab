@@ -1,0 +1,118 @@
+[
+  {
+    "file": "formal/LRX/UpperExternalCatalogueCheck.lean",
+    "theorem": "catalogue_card"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "mem_catalogue"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "mass_lower"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "member_mass_bound"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "catalogue_coverage"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "family_coverage"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "bounded_valid_family_covered"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "family_sound"
+  },
+  {
+    "file": "formal/LRX/UpperExternalFamilies.lean",
+    "theorem": "mem_families"
+  },
+  {
+    "file": "formal/LRX/UpperScalarEnumeration.lean",
+    "theorem": "admissible_mem_prunedCandidates"
+  },
+  {
+    "file": "formal/LRX/UpperScalarEnumeration.lean",
+    "theorem": "mem_prunedRows"
+  },
+  {
+    "file": "formal/LRX/UpperScalarEnumeration.lean",
+    "theorem": "prunedRows_eq_rows"
+  },
+  {
+    "file": "formal/LRX/UpperScalarExternalBridge.lean",
+    "theorem": "external_family_of_scalar_cap"
+  },
+  {
+    "file": "formal/LRX/UpperScalarPruning.lean",
+    "theorem": "x_interval_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarPruning.lean",
+    "theorem": "admissible_x_covered"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRanges.lean",
+    "theorem": "ceil_half_tdiv_le"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRanges.lean",
+    "theorem": "triangular_div_agrees"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRanges.lean",
+    "theorem": "admissible_mv_covered"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRows.lean",
+    "theorem": "mem_box"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRows.lean",
+    "theorem": "mem_rows"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRows.lean",
+    "theorem": "range_nonnegative"
+  },
+  {
+    "file": "formal/LRX/UpperScalarRows.lean",
+    "theorem": "of_rows"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "le_intSqrt_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "le_floorSqrt_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "ceilSqrt_nonneg"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "ceilSqrt_le_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "branch_zero_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "branch_one_iff"
+  },
+  {
+    "file": "formal/LRX/UpperScalarSqrt.lean",
+    "theorem": "branch_union_iff"
+  }
+]

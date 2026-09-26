@@ -1,0 +1,211 @@
+{
+  "started_utc": "2026-09-26T00:58:48.536136+00:00",
+  "status": "passed",
+  "lean_bin": "/workspace/lrx2/research/lower-bound-lean-completion-20260925/toolchain/lean-4.34.0-linux/bin",
+  "packages": "/persist/workspace/lrx2/research/lower-bound-lean-completion-20260925/formal/.lake/packages",
+  "modules": [
+    {
+      "module": "UpperScalarRows",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarRows.olean",
+        "LRX/UpperScalarRows.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "8889143e6a8277a51f13660b4516754d2d970824fa6f2340c509a01ab3a4be78",
+      "log": "logs/final-UpperScalarRows.log",
+      "log_sha256": "6db3c08af4efce79548d288dc27bda1f57717d8b2c828429ad21ba7bc60fb178",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 2.516
+    },
+    {
+      "module": "UpperScalarSqrt",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarSqrt.olean",
+        "LRX/UpperScalarSqrt.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "09369f1f8a0c1fc823d617da3518a06634c182555c643a0c22a9a93e1f34a0b5",
+      "log": "logs/final-UpperScalarSqrt.log",
+      "log_sha256": "eb4128aafd2ca2870dea54d01496ed80e282db4fcbd8b4bddcc2f52d0f537c88",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 1.907
+    },
+    {
+      "module": "UpperScalarPruning",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarPruning.olean",
+        "LRX/UpperScalarPruning.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "ba6de3582ba0bd05adac256766bce5753e220681b1b67434e53b2261f8ed962e",
+      "log": "logs/final-UpperScalarPruning.log",
+      "log_sha256": "cb48ba08571c7faca33b18c0fe010ac799a0db3587825a4f1287caf6ca82f5e8",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 2.67
+    },
+    {
+      "module": "UpperScalarRanges",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarRanges.olean",
+        "LRX/UpperScalarRanges.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "1161ae4ff966f273f19502e7e0df8696df4b07ec13f07a501b10d3f56b3d6d47",
+      "log": "logs/final-UpperScalarRanges.log",
+      "log_sha256": "0ae9d39cc3dc2ecfe68ff500fd354b07cf6a90cf0ffa5a66244b0b1ab99b32ab",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 1.928
+    },
+    {
+      "module": "UpperScalarEnumeration",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarEnumeration.olean",
+        "LRX/UpperScalarEnumeration.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "5b078f916b9e922e15995f0d5758d5576a7d6c01b7782c6a341c60a282ec5376",
+      "log": "logs/final-UpperScalarEnumeration.log",
+      "log_sha256": "b7227574dbe790fb476b0c1d8f915cc3d14a867c59dc4ff57c50e106d41ac679",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 2.13
+    },
+    {
+      "module": "UpperExternalFamilies",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperExternalFamilies.olean",
+        "LRX/UpperExternalFamilies.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "e7d4cdfc42dc849ca44bcc4b48c2fb7bccc4787b529db0908e829a0dce4b8a40",
+      "log": "logs/final-UpperExternalFamilies.log",
+      "log_sha256": "af2cf40a4ac2162766828ffc2f1672e1988c3fecfe3c0c699cc32e1041859e28",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 1.821
+    },
+    {
+      "module": "UpperExternalCatalogueCheck",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperExternalCatalogueCheck.olean",
+        "LRX/UpperExternalCatalogueCheck.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "9b31be0c8b3a5895f27f78ccc102d38e20547052de5862ef6dffc60aad4237cc",
+      "log": "logs/final-UpperExternalCatalogueCheck.log",
+      "log_sha256": "e3820318a74b7ef9895ed7d8f4560f43d11e67a69edb550cac5ef558e550b85f",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 5.0
+    },
+    {
+      "module": "UpperScalarExternalBridge",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal/.lake/build/lib/lean/LRX/UpperScalarExternalBridge.olean",
+        "LRX/UpperScalarExternalBridge.lean"
+      ],
+      "cwd": "/persist/workspace/lrx2/research/u-cert-2810-20260925/formal",
+      "source_sha256": "5aee9b8c05eae924442b01de718a160ee3b5cd7dfc312482dc673e564c0564e0",
+      "log": "logs/final-UpperScalarExternalBridge.log",
+      "log_sha256": "072f02849bdb58a7fb83a89985dba09006d88527a3ff643d294e2da742e89a1c",
+      "exit_code": 0,
+      "passed": true,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "seconds": 1.793
+    }
+  ],
+  "lean_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "environment_sha256": {
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "lake-manifest.json": "93649f44044aaabd47b77d27ad59be61df311e2073019283866f41817172f6e5",
+    "lakefile.toml": "9bc4c7404d75a3702ef84fb99d87fab572c99777c81ed26dd489a8116708f2ad"
+  },
+  "finished_utc": "2026-09-26T00:59:08.773005+00:00",
+  "umbrella": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "LRX.lean"
+    ],
+    "exit_code": 0,
+    "source_sha256": "1c2f69f74086d50f71f50a7a3a857025d31d64d8650b02b90037d5dfa78c84f1",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verified_utc": "2026-09-26T01:00:22.801964+00:00"
+  }
+}

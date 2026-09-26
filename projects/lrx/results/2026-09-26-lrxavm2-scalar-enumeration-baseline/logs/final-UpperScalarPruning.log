@@ -1,0 +1,4 @@
+LRX/UpperScalarPruning.lean:48:4: warning: `if_false` has been deprecated: Use `ite_false` instead
+LRX/UpperScalarPruning.lean:48:14: warning: `if_true` has been deprecated: Use `ite_true` instead
+'LRX.UpperScalarRows.x_interval_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperScalarRows.admissible_x_covered' depends on axioms: [propext, Classical.choice, Quot.sound]

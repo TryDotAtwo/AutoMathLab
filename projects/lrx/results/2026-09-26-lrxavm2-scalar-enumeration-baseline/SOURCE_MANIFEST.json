@@ -1,0 +1,138 @@
+{
+  "archive": {
+    "source": "Telegram group -1004375515554, message 2844; private retention, archive not republished",
+    "sha256": "163f06f634f6db7137a45113365a01f2644d36bff889318aa8041fec1202af34",
+    "size": 128621
+  },
+  "author": "lrxavm2_bot (Agent B), owner-authorized publication",
+  "scope": "8 completed modules and 29 exported axiom reports only",
+  "source_dependency": {
+    "author": "Sergey Uskov",
+    "version": "19 September 2026, sections 12 and 14",
+    "sha256": "8547daf9560d5e022f9b5234b3ab72f661e873d14e84eadaa703b66f03336d9d",
+    "redistributed": false
+  },
+  "mathsavant_source_required": false,
+  "files": [
+    {
+      "path": "BUILD_RECEIPT.json",
+      "size": 7358,
+      "sha256": "ebbae477a4587289dd833380bbd2b6b349b3a35d392806d00fd3dce9ffca2d52"
+    },
+    {
+      "path": "THEOREMS.json",
+      "size": 2720,
+      "sha256": "8c1bb026762762632f3f1f09d6caaec3c90e28cc05c1e6e5d6d92ecfd46d772b"
+    },
+    {
+      "path": "VERIFICATION_SUMMARY.json",
+      "size": 454,
+      "sha256": "f1d3e23d3b867e7923d1fdecc7f47cacd02b40dd018e6fff266381877ab363da"
+    },
+    {
+      "path": "formal/LRX/UpperExternalCatalogueCheck.lean",
+      "size": 375,
+      "sha256": "9b31be0c8b3a5895f27f78ccc102d38e20547052de5862ef6dffc60aad4237cc"
+    },
+    {
+      "path": "formal/LRX/UpperExternalFamilies.lean",
+      "size": 5234,
+      "sha256": "e7d4cdfc42dc849ca44bcc4b48c2fb7bccc4787b529db0908e829a0dce4b8a40"
+    },
+    {
+      "path": "formal/LRX/UpperScalarEnumeration.lean",
+      "size": 2849,
+      "sha256": "5b078f916b9e922e15995f0d5758d5576a7d6c01b7782c6a341c60a282ec5376"
+    },
+    {
+      "path": "formal/LRX/UpperScalarExternalBridge.lean",
+      "size": 1232,
+      "sha256": "5aee9b8c05eae924442b01de718a160ee3b5cd7dfc312482dc673e564c0564e0"
+    },
+    {
+      "path": "formal/LRX/UpperScalarPruning.lean",
+      "size": 2712,
+      "sha256": "ba6de3582ba0bd05adac256766bce5753e220681b1b67434e53b2261f8ed962e"
+    },
+    {
+      "path": "formal/LRX/UpperScalarRanges.lean",
+      "size": 2163,
+      "sha256": "1161ae4ff966f273f19502e7e0df8696df4b07ec13f07a501b10d3f56b3d6d47"
+    },
+    {
+      "path": "formal/LRX/UpperScalarRows.lean",
+      "size": 4649,
+      "sha256": "8889143e6a8277a51f13660b4516754d2d970824fa6f2340c509a01ab3a4be78"
+    },
+    {
+      "path": "formal/LRX/UpperScalarSqrt.lean",
+      "size": 3166,
+      "sha256": "09369f1f8a0c1fc823d617da3518a06634c182555c643a0c22a9a93e1f34a0b5"
+    },
+    {
+      "path": "formal/LRX.lean",
+      "size": 110,
+      "sha256": "1c2f69f74086d50f71f50a7a3a857025d31d64d8650b02b90037d5dfa78c84f1"
+    },
+    {
+      "path": "formal/lake-manifest.json",
+      "size": 3121,
+      "sha256": "93649f44044aaabd47b77d27ad59be61df311e2073019283866f41817172f6e5"
+    },
+    {
+      "path": "formal/lakefile.toml",
+      "size": 190,
+      "sha256": "9bc4c7404d75a3702ef84fb99d87fab572c99777c81ed26dd489a8116708f2ad"
+    },
+    {
+      "path": "formal/lean-toolchain",
+      "size": 25,
+      "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+    },
+    {
+      "path": "logs/final-LRX.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/final-UpperExternalCatalogueCheck.log",
+      "size": 102,
+      "sha256": "e3820318a74b7ef9895ed7d8f4560f43d11e67a69edb550cac5ef558e550b85f"
+    },
+    {
+      "path": "logs/final-UpperExternalFamilies.log",
+      "size": 895,
+      "sha256": "af2cf40a4ac2162766828ffc2f1672e1988c3fecfe3c0c699cc32e1041859e28"
+    },
+    {
+      "path": "logs/final-UpperScalarEnumeration.log",
+      "size": 309,
+      "sha256": "b7227574dbe790fb476b0c1d8f915cc3d14a867c59dc4ff57c50e106d41ac679"
+    },
+    {
+      "path": "logs/final-UpperScalarExternalBridge.log",
+      "size": 111,
+      "sha256": "072f02849bdb58a7fb83a89985dba09006d88527a3ff643d294e2da742e89a1c"
+    },
+    {
+      "path": "logs/final-UpperScalarPruning.log",
+      "size": 395,
+      "sha256": "cb48ba08571c7faca33b18c0fe010ac799a0db3587825a4f1287caf6ca82f5e8"
+    },
+    {
+      "path": "logs/final-UpperScalarRanges.log",
+      "size": 305,
+      "sha256": "0ae9d39cc3dc2ecfe68ff500fd354b07cf6a90cf0ffa5a66244b0b1ab99b32ab"
+    },
+    {
+      "path": "logs/final-UpperScalarRows.log",
+      "size": 367,
+      "sha256": "6db3c08af4efce79548d288dc27bda1f57717d8b2c828429ad21ba7bc60fb178"
+    },
+    {
+      "path": "logs/final-UpperScalarSqrt.log",
+      "size": 854,
+      "sha256": "eb4128aafd2ca2870dea54d01496ed80e282db4fcbd8b4bddcc2f52d0f537c88"
+    }
+  ]
+}
