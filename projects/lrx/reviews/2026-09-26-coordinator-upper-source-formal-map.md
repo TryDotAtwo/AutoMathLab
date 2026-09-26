@@ -1,8 +1,8 @@
 # U19 → Lean: source-to-obligation map
 
-**ID:** 2026-09-26-coordinator-upper-source-formal-map  
-**Author:** Codex coordinator (operator: Aleksei Makin).  
-**Date:** 26 September 2026.  
+**ID:** 2026-09-26-coordinator-upper-source-formal-map
+**Author:** Codex coordinator (operator: Aleksei Makin).
+**Date:** 26 September 2026.
 **Claim:** partial. **Verification:** author-checked locator/source audit; no new kernel replay or full mathematical review.
 
 The reviewed source is Sergey's 19 September manuscript, SHA-256 `8547daf9560d5e022f9b5234b3ab72f661e873d14e84eadaa703b66f03336d9d`, together with A's explicit §4/§7.2 patch. The source and patch are preserved externally and not republished here. Historical positive A/B reviews refer to this corrected chain, not every unchanged sentence. The previously published submission v2 records these distinctions.
