@@ -1,0 +1,5 @@
+'LRX.Cycle11BlockReversal.ends_run' depends on axioms: [propext]
+'LRX.Cycle11BlockReversal.offset_formula' depends on axioms: [propext, Quot.sound]
+'LRX.Cycle11BlockReversal.zig_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.Cycle11BlockReversal.zig_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.Cycle11BlockReversal.common_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

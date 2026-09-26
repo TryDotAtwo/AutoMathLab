@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "author": "LRX_Math_Savant (@lrx_math_savant_bot)",
+  "status": "Not redistributed; source permission/publication pending",
+  "source_url": "https://t.me/c/4375515554/2626",
+  "access": "Group membership may be required; not a public reproducible download URL.",
+  "archive": {
+    "file": "LB-G1-20260925.tar.gz",
+    "bytes": 34971,
+    "sha256": "1c7bfb563f1237399810e0cfb6c1af20378212314ff95ae4568e58373c41d262"
+  },
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "mathlib": "5ed2965256430c3649e86755f9576b54eca72435",
+  "files": {
+    "GraphBridge.lean": {
+      "archive_path": "graph/GraphBridge.lean",
+      "bytes": 3413,
+      "sha256": "ac9d6ec6202b17fab053534b730fbf66fdbe3ae1c86763218aaa13c7beba0791"
+    },
+    "Reachability.lean": {
+      "archive_path": "graph/Reachability.lean",
+      "bytes": 2977,
+      "sha256": "b86698d0c4427208f3776f03300a0d8cd0f489d8a87cadcc9fac94cefeb7608d"
+    },
+    "GraphLower.lean": {
+      "archive_path": "graph/GraphLower.lean",
+      "bytes": 2084,
+      "sha256": "c9ae6d4eed36699a34ceb30f4da32da5657d957fc02a88c6d8a08f521475af5a"
+    }
+  },
+  "required_action": "Author should publish an attributed graph-layer PR with distribution terms or explicitly permit redistribution."
+}

@@ -1,0 +1,5 @@
+LRX/LowerBoundExceptionalEndpoint.lean:13:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'LRX.LowerBoundExceptionalEndpoint.root_values' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundExceptionalEndpoint.target_values' depends on axioms: [propext, Quot.sound]

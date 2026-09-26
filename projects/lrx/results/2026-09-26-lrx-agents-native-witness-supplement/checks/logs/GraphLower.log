@@ -1,0 +1,4 @@
+'LRX.GraphBridge.connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.GraphBridge.walk_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.GraphBridge.dist_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.GraphBridge.diam_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

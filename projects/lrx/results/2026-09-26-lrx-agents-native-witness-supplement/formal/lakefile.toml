@@ -1,0 +1,23 @@
+name = "lrx"
+version = "0.1.0"
+defaultTargets = ["LRX"]
+
+[[lean_lib]]
+name = "LRX"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.34.0"
+
+[[lean_lib]]
+name = "GraphBridge"
+
+[[lean_lib]]
+name = "Reachability"
+
+[[lean_lib]]
+name = "GraphLower"
+
+[[lean_lib]]
+name = "Submission"

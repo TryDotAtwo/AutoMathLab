@@ -1,0 +1,30 @@
+LRX/LowerBoundCyclicContiguity.lean:18:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundCyclicContiguity.pair_head`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundCyclicContiguity.lean:21:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundCyclicContiguity.near_false`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundCyclicContiguity.lean:43:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundCyclicContiguity.filtered_pair_left`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundCyclicContiguity.lean:107:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundCyclicContiguity.mono_tail`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.LowerBoundCyclicContiguity.filtered_separated_swap' depends on axioms: [propext]
+'LRX.LowerBoundCyclicContiguity.separated_mono_count_zero' depends on axioms: [propext, Quot.sound]
+'LRX.LowerBoundCyclicContiguity.counts_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundCyclicContiguity.shortest_reflection_contiguity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

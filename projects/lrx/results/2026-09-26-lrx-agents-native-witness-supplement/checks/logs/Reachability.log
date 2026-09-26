@@ -1,0 +1,2 @@
+'LRX.GraphReachability.exists_word_of_perm' depends on axioms: [propext]
+'LRX.GraphReachability.adjWord_spec' depends on axioms: [propext]

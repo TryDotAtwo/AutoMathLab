@@ -1,0 +1,482 @@
+{
+  "status": "PASS",
+  "scope": "Fresh local modules; pinned external package cache reused",
+  "lean": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "rev": "5ed2965256430c3649e86755f9576b54eca72435"
+    },
+    {
+      "name": "plausible",
+      "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "name": "importGraph",
+      "rev": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "name": "aesop",
+      "rev": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "name": "Qq",
+      "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "name": "batteries",
+      "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "name": "Cli",
+      "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  ],
+  "check_date": "2026-09-25",
+  "checker": "Local Codex coordinator, distinct execution from B author build, reusing existing authorized node and pinned external cache",
+  "original_receipt_sha256": "2552a88a54f01bf3a14a5d260ab8f823136c7e1037ef0ce8290f33016822f588",
+  "receipt_normalization": "Machine-specific executable/output paths replaced with placeholders; module/source/log hashes and outcomes preserved. No new Lean run during publication.",
+  "prior_independent_check": "Coordinator freshly rebuilt the 30 original B modules before checking the Submission entry; the preserved portable replay checked all 31 modules. Human peer review is not claimed.",
+  "packaged_source_count": 28,
+  "withheld_external_source_count": 3,
+  "pr5_base_commit": "29264dd2a6fe412a5ee7373a02b197782745d3e4",
+  "byte_identical_pr5_modules": {
+    "LRX.BlockExchange": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/BlockExchange.lean",
+    "LRX.ReducedPrice": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/ReducedPrice.lean",
+    "LRX.Cycle11BlockReversal": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11BlockReversal.lean",
+    "LRX.Cycle11TwoLabelRepair": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11TwoLabelRepair.lean",
+    "LRX.Cycle11PairEncounter": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11PairEncounter.lean",
+    "LRX.Cycle11StructuralBridge": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11StructuralBridge.lean",
+    "LRX.Cycle11WordSymmetry": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11WordSymmetry.lean",
+    "LRX.LowerBoundFoldedTransport": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundFoldedTransport.lean",
+    "LRX.LowerBoundPaidProjection": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundPaidProjection.lean",
+    "LRX.LowerBoundSwapBudget": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundSwapBudget.lean",
+    "LRX.Cycle11RigidPairMoves": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/Cycle11RigidPairMoves.lean",
+    "LRX.LowerBoundNoRepeat": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundNoRepeat.lean",
+    "LRX.LowerBoundSwapGraph": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundSwapGraph.lean",
+    "LRX.LowerBoundPairParity": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundPairParity.lean",
+    "LRX.LowerBoundSwapCount": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundSwapCount.lean",
+    "LRX.LowerBoundCyclicContiguity": "projects/lrx/results/2026-09-25-lrx-agents-lower-bound/A-formal/formal/LRX/LowerBoundCyclicContiguity.lean",
+    "LRX.LowerBoundNativeTrace": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundNativeTrace.lean",
+    "LRX.LowerBoundExceptional": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundExceptional.lean",
+    "LRX.LowerBoundExceptionalCount": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundExceptionalCount.lean",
+    "LRX.LowerBoundFourParity": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundFourParity.lean",
+    "LRX.LowerBoundExceptionalNative": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundExceptionalNative.lean",
+    "LRX.LowerBoundExceptionalReduction": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundExceptionalReduction.lean",
+    "LRX.LowerBoundExceptionalEndpoint": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundExceptionalEndpoint.lean",
+    "LRX.LowerBoundNativeComplete": "projects/lrx/results/2026-09-25-lrx-agents-native-lower-lean/source/formal/LRX/LowerBoundNativeComplete.lean"
+  },
+  "results": [
+    {
+      "module": "LRX.BlockExchange",
+      "exit_code": 0,
+      "source_sha256": "ea3ddc39c3ee43b4ebfc3942065ea73851cf63bd304329fa6d4e4108876b5cd0",
+      "log_sha256": "4fb3deb4012f0819d5eb2f7b6fa9aa610973159f5d617f18282e72a51ee2eb81",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/BlockExchange.olean",
+        "LRX/BlockExchange.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.ReducedPrice",
+      "exit_code": 0,
+      "source_sha256": "83bbd4342abdb2206fef724f638e5d4eb64e99551222dac70516e20a79822921",
+      "log_sha256": "9f30396b1ecde459c94bf5c470c442ba49e688db755de950f33924cc2f368539",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/ReducedPrice.olean",
+        "LRX/ReducedPrice.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11BlockReversal",
+      "exit_code": 0,
+      "source_sha256": "bfb349fc7a38c7d6a7b47c51f86d8a0266e4b0b471e4654554ba390b5deafb45",
+      "log_sha256": "1227e14f6f607167665537f6c9abb388c92b13545651f737040c84d2a11f5de5",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11BlockReversal.olean",
+        "LRX/Cycle11BlockReversal.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11TwoLabelRepair",
+      "exit_code": 0,
+      "source_sha256": "8c18e014efe8956cf68893ddde3c7c33d2d4e7d3dca80e42c7858561159db9d7",
+      "log_sha256": "95eee3c088f12a91ac3fbab58b4a9f035218fdf2a6402312bc92383338590512",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11TwoLabelRepair.olean",
+        "LRX/Cycle11TwoLabelRepair.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11PairEncounter",
+      "exit_code": 0,
+      "source_sha256": "918ae70048d407965e509db84a964bb453ded28421dd5c421861eeabeffadff2",
+      "log_sha256": "9e1ebc1001b962906e8a0cb641af0b18c497e632ec16ac3406db547f05304424",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11PairEncounter.olean",
+        "LRX/Cycle11PairEncounter.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11StructuralBridge",
+      "exit_code": 0,
+      "source_sha256": "86f9b85ed8d843d171a36ec1f8a6cc829aa4a991f8131449865075d2e9a14e28",
+      "log_sha256": "532ca8b3a6e94a65ea999183a2d22f095d7044be31c379d50d06ce67faae5a26",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11StructuralBridge.olean",
+        "LRX/Cycle11StructuralBridge.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11WordSymmetry",
+      "exit_code": 0,
+      "source_sha256": "4f02255f708eceb01d4792e4d66babb5bc10599e87c51f5b8e18797ca079e15b",
+      "log_sha256": "6de232514a863b13d09b48a898d2d7bfdae8debc8aa56b9c63c09e9f8272601c",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11WordSymmetry.olean",
+        "LRX/Cycle11WordSymmetry.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundFoldedTransport",
+      "exit_code": 0,
+      "source_sha256": "b833cdd2f0b24416cfbc2b1c801851373688bb5349ba5afff96041c1c1753c4e",
+      "log_sha256": "ffc4c310722cae067e400714625d46942119d26de51306367d779953882993fe",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundFoldedTransport.olean",
+        "LRX/LowerBoundFoldedTransport.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundPaidProjection",
+      "exit_code": 0,
+      "source_sha256": "238f4042c0f5a52496d7f02fe79006a7ce70302b4ace67b8c7690f953a1585f5",
+      "log_sha256": "55e235c4592c8adb4b24520d1fb7adba4eb5dde50ab5144309ee3146413d3dab",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundPaidProjection.olean",
+        "LRX/LowerBoundPaidProjection.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundSwapBudget",
+      "exit_code": 0,
+      "source_sha256": "820562915833f003a02bb56239a3474bc3f8e852b7888ce58cc1eca8375052dd",
+      "log_sha256": "20ffabe42b02c8f9160794efcd20042d415ea9e8c06666ecfff0ebbeef842432",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundSwapBudget.olean",
+        "LRX/LowerBoundSwapBudget.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.Cycle11RigidPairMoves",
+      "exit_code": 0,
+      "source_sha256": "1f83c4c6a442e5f99e62d6f072dbb3469cc95d85849330d96960b6c3c853dd47",
+      "log_sha256": "6e2f52edb1018536452bc45e0e92a986a0c092089b67718fdac869f48879347d",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/Cycle11RigidPairMoves.olean",
+        "LRX/Cycle11RigidPairMoves.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundNoRepeat",
+      "exit_code": 0,
+      "source_sha256": "5a2ae00a722cb1caee04a60713b57260ef799b7859a2f7e4ae59994ca1ed34aa",
+      "log_sha256": "17cfaba001ded3dd7ced1f65f9c7f7f052d5e7ad63d86d28ece5623f1725e513",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundNoRepeat.olean",
+        "LRX/LowerBoundNoRepeat.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundSwapGraph",
+      "exit_code": 0,
+      "source_sha256": "3bc343718fb55359e035312bb04f991277bb421f08bd182ba68dc3359f994cf5",
+      "log_sha256": "8c9195ef1ea90cf58d14716caa42b8f52652a450858ad8a20e45e4a5e607b235",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundSwapGraph.olean",
+        "LRX/LowerBoundSwapGraph.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundPairParity",
+      "exit_code": 0,
+      "source_sha256": "613131fb8092ee522dac28e482292fa9ee7b81ffeca6f580cf813dbb18cd621a",
+      "log_sha256": "ab0b2504865311ac35d9b1f007ee0af9bf36248e9b6fcf2afe2d5b27073121d7",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundPairParity.olean",
+        "LRX/LowerBoundPairParity.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundSwapCount",
+      "exit_code": 0,
+      "source_sha256": "d163c585a761a53ef40991de79b2dc8d2967c38a56fd2f177972323a3a720393",
+      "log_sha256": "a06b5d3d2f775a348b25b0a4707f27c99f3867acb5e36e97d5c5dbf88c9bd458",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundSwapCount.olean",
+        "LRX/LowerBoundSwapCount.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundCyclicContiguity",
+      "exit_code": 0,
+      "source_sha256": "de69d10f1cce9c32db997689e85f007a00b4207dc73b17273e37396b045ce94d",
+      "log_sha256": "6238642268b84613860b703c3de5ffac0cb53724c5cffc3372a66efcd236e6aa",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundCyclicContiguity.olean",
+        "LRX/LowerBoundCyclicContiguity.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundNativeTrace",
+      "exit_code": 0,
+      "source_sha256": "502ec3a4d43aaab04dbe8ceab10f38f24653cf700fb6ceec62203a81f07688fc",
+      "log_sha256": "67baf65d9ecea31af9ba8cc23b9bbb547d48101108517d8111ec9239dd7d6f3a",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundNativeTrace.olean",
+        "LRX/LowerBoundNativeTrace.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundExceptional",
+      "exit_code": 0,
+      "source_sha256": "d0c0984d173b936286b7f6ff879daaf727aefe52b0e37c4451856c971beddfe5",
+      "log_sha256": "4481c9c8f7e0e4508e5b1e1c01d96aae96d64aa7c84d6f219a4a92c183753ba2",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundExceptional.olean",
+        "LRX/LowerBoundExceptional.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalCount",
+      "exit_code": 0,
+      "source_sha256": "66c9419a76d20705aed80e59837a7485cc3245f0cdd152e4c8ec69f33b1b685d",
+      "log_sha256": "00bae111afcb3e99c73b3f0d849e5a7732bdf9bef2066d7c3fe0aaba6da8854f",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundExceptionalCount.olean",
+        "LRX/LowerBoundExceptionalCount.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundFourParity",
+      "exit_code": 0,
+      "source_sha256": "dae0590ee263fcf1523222f931dbd3d33bac94811345898c6e0ace866b40f36d",
+      "log_sha256": "b936a12010bfff209637ceeadd79b11919bedbbab2b41703df01ab01c7ba6098",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundFourParity.olean",
+        "LRX/LowerBoundFourParity.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalNative",
+      "exit_code": 0,
+      "source_sha256": "eab76d67db92d3513257d018fc6a854d285d139a260f85c83c34d85c41a85c97",
+      "log_sha256": "9078ba050ff95c68e135004102c25bc1648c77e29361e49a3f202466f9f6599f",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundExceptionalNative.olean",
+        "LRX/LowerBoundExceptionalNative.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalReduction",
+      "exit_code": 0,
+      "source_sha256": "4647f9b6f9a30de3e7bf53f9ae29768c9d0bdebc2efefb98b96e56bbe20db6f7",
+      "log_sha256": "f3c4c0f852eb56b2f8a4f954ea8f466d9bd96fc54aca2eb752b526ba6b66948c",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundExceptionalReduction.olean",
+        "LRX/LowerBoundExceptionalReduction.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundExceptionalEndpoint",
+      "exit_code": 0,
+      "source_sha256": "4a52e36bd2f5a9825c029a4911a5e081f66049b59ddb7ac7a6e8deeca3b03463",
+      "log_sha256": "67e714e2397b15b8a522aa179531510b1d2704267cc7eafa59aeb65954ba768e",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundExceptionalEndpoint.olean",
+        "LRX/LowerBoundExceptionalEndpoint.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.LowerBoundNativeComplete",
+      "exit_code": 0,
+      "source_sha256": "4ea21e24136b1c36ef806f522f2de1d9977b484adcd9900c029904c5e959309f",
+      "log_sha256": "723eb98c2da0d8aecf6e7f24ddcb8f3ccb22f8325d991ac5945898b918dc740e",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/LowerBoundNativeComplete.olean",
+        "LRX/LowerBoundNativeComplete.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.ReflectionWitness",
+      "exit_code": 0,
+      "source_sha256": "15be8b2c3a1c54a7bc180884d55c362eba39038810a86e106c8adda9bb9deccf",
+      "log_sha256": "084a0df48fe1de3c1489e29e5c6c36ce60af56641c6ac71aa3aee6929bbbe616",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/ReflectionWitness.olean",
+        "LRX/ReflectionWitness.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "GraphBridge",
+      "exit_code": 0,
+      "source_sha256": "ac9d6ec6202b17fab053534b730fbf66fdbe3ae1c86763218aaa13c7beba0791",
+      "log_sha256": "16639aa1fd8251bbd42823eae69c2e8e863fa4ff9ee7faa9599f431ff2488afd",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/GraphBridge.olean",
+        "GraphBridge.lean"
+      ],
+      "source_in_this_package": false
+    },
+    {
+      "module": "Reachability",
+      "exit_code": 0,
+      "source_sha256": "b86698d0c4427208f3776f03300a0d8cd0f489d8a87cadcc9fac94cefeb7608d",
+      "log_sha256": "29073f261ad5ce36b0becc27c378514f8c1cc129bc32e77e9836e88f579f72ec",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/Reachability.olean",
+        "Reachability.lean"
+      ],
+      "source_in_this_package": false
+    },
+    {
+      "module": "GraphLower",
+      "exit_code": 0,
+      "source_sha256": "c9ae6d4eed36699a34ceb30f4da32da5657d957fc02a88c6d8a08f521475af5a",
+      "log_sha256": "5004d3a7b0ea8b63311c7717a41a1845768bc7c84631f4d8f8d0e2f14da07d25",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/GraphLower.olean",
+        "GraphLower.lean"
+      ],
+      "source_in_this_package": false
+    },
+    {
+      "module": "LRX.ReflectionWitnessDistance",
+      "exit_code": 0,
+      "source_sha256": "2aa79f02e2bc55ae43c6c6540fc493e27081bd5755a7fac47787b8a8b2713ab6",
+      "log_sha256": "ed813d60c449016b1970166573e2eb9606678809603b97fe1cead1348b07e980",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/ReflectionWitnessDistance.olean",
+        "LRX/ReflectionWitnessDistance.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "LRX.ReflectionWitnessAudit",
+      "exit_code": 0,
+      "source_sha256": "3f4d4909945b90d3d1349713e6a54182f821c1281d99d5bea2249507472ca539",
+      "log_sha256": "1c059455688fa665023fce964e4a5c5d6ac6eceafaee60fbcbfe5f28bece8dad",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/LRX/ReflectionWitnessAudit.olean",
+        "LRX/ReflectionWitnessAudit.lean"
+      ],
+      "source_in_this_package": true
+    },
+    {
+      "module": "Submission",
+      "exit_code": 0,
+      "source_sha256": "68eb143235cea3bcfb1b10e8ce0df58d4319e85381071c2d7f232a5c3e82a30b",
+      "log_sha256": "f4dfed265fbc9928a5a16f6074257627f8d1948b3157f065b654fab6dcd94be5",
+      "command": [
+        "<pinned-lean>",
+        "-o",
+        "<fresh-output>/objects/Submission.olean",
+        "Submission.lean"
+      ],
+      "source_in_this_package": true
+    }
+  ]
+}

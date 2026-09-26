@@ -1,0 +1,62 @@
+LRX.ReflectionWitness.transfer_length (a b : ℕ) :
+  (LRX.ReducedPrice.spin (LRX.ReflectionWitness.transfer a b)).length = a
+'LRX.ReflectionWitness.transfer_length' depends on axioms: [propext]
+LRX.ReflectionWitness.inverse_length (w : List LRX.BlockExchange.Op) :
+  (LRX.Cycle11WordSymmetry.inverse w).length = w.length
+'LRX.ReflectionWitness.inverse_length' depends on axioms: [propext]
+LRX.ReflectionWitness.full_spin.{u_1} {α : Type u_1} (s : List α) :
+  LRX.BlockExchange.run (LRX.ReducedPrice.spin ↑s.length) s = s
+'LRX.ReflectionWitness.full_spin' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.spin_add_period.{u_1} {α : Type u_1} (k : ℤ) (s : List α) :
+  LRX.BlockExchange.run (LRX.ReducedPrice.spin (k + ↑s.length)) s = LRX.BlockExchange.run (LRX.ReducedPrice.spin k) s
+'LRX.ReflectionWitness.spin_add_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.transfer_cursor (a b : ℕ) (ha : 2 ≤ a) (hab : a ≤ b) (hba : b ≤ a + 1) :
+  ↑(LRX.Cycle11BlockReversal.offset a) + LRX.ReflectionWitness.transfer a b =
+      ↑a + ↑(LRX.Cycle11BlockReversal.offset b) ∨
+    ↑(LRX.Cycle11BlockReversal.offset a) + LRX.ReflectionWitness.transfer a b + (↑a + ↑b) =
+      ↑a + ↑(LRX.Cycle11BlockReversal.offset b)
+'LRX.ReflectionWitness.transfer_cursor' depends on axioms: [propext, Quot.sound]
+LRX.ReflectionWitness.transfer_run.{u_1} {α : Type u_1} (a b : ℕ) (ha : 2 ≤ a) (hab : a ≤ b) (hba : b ≤ a + 1)
+  (p q : List α) (hp : p.length = a) (hq : q.length = b) :
+  LRX.BlockExchange.run (LRX.ReducedPrice.spin (LRX.ReflectionWitness.transfer a b))
+      (LRX.BlockExchange.run (LRX.ReducedPrice.spin ↑(LRX.Cycle11BlockReversal.offset a)) (p.reverse ++ q)) =
+    LRX.BlockExchange.run (LRX.ReducedPrice.spin ↑(LRX.Cycle11BlockReversal.offset b)) (q ++ p.reverse)
+'LRX.ReflectionWitness.transfer_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.inverse_zig_run.{u_1} {α : Type u_1} (b : ℕ) (q rest : List α) (hq : q.length = b) :
+  LRX.BlockExchange.run (LRX.Cycle11WordSymmetry.inverse (LRX.Cycle11BlockReversal.zig b))
+      (LRX.BlockExchange.run (LRX.ReducedPrice.spin ↑(LRX.Cycle11BlockReversal.offset b)) (q ++ rest)) =
+    q.reverse ++ rest
+'LRX.ReflectionWitness.inverse_zig_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.two_block_endpoint.{u_1} {α : Type u_1} (a b : ℕ) (ha : 2 ≤ a) (hab : a ≤ b) (hba : b ≤ a + 1)
+  (p q : List α) (hp : p.length = a) (hq : q.length = b) :
+  LRX.BlockExchange.run
+      (LRX.Cycle11BlockReversal.zig a ++ LRX.ReducedPrice.spin (LRX.ReflectionWitness.transfer a b) ++
+          LRX.Cycle11WordSymmetry.inverse (LRX.Cycle11BlockReversal.zig b) ++
+        [LRX.BlockExchange.Op.R, LRX.BlockExchange.Op.R])
+      (p ++ q) =
+    LRX.Cycle11WordSymmetry.reflect (p ++ q)
+'LRX.ReflectionWitness.two_block_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.word_length {n : ℕ} (hn : 4 ≤ n) : (LRX.ReflectionWitness.word n).length = n * (n - 1) / 2
+'LRX.ReflectionWitness.word_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitness.word_endpoint {n : ℕ} (hn : 4 ≤ n) :
+  LRX.BlockExchange.run (LRX.ReflectionWitness.word n) (LRX.LowerBoundExceptionalNative.root n) =
+    LRX.LowerBoundExceptionalNative.target n
+'LRX.ReflectionWitness.word_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitnessDistance.witness_dist_le {n : ℕ} (hn : 4 ≤ n) :
+  (LRX.GraphBridge.graph n).dist (LRX.GraphBridge.root n) (LRX.GraphBridge.target n) ≤ n * (n - 1) / 2
+'LRX.ReflectionWitnessDistance.witness_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.ReflectionWitnessDistance.witness_dist_eq {n : ℕ} (hn : 4 ≤ n) :
+  (LRX.GraphBridge.graph n).dist (LRX.GraphBridge.root n) (LRX.GraphBridge.target n) = n * (n - 1) / 2
+'LRX.ReflectionWitnessDistance.witness_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.Cycle11BlockReversal.zig_run.{u_1} {α : Type u_1} (k : ℕ) (p rest : List α) (hp : p.length = k) :
+  LRX.BlockExchange.run (LRX.Cycle11BlockReversal.zig k) (p ++ rest) =
+    LRX.BlockExchange.run (LRX.ReducedPrice.spin ↑(LRX.Cycle11BlockReversal.offset k)) (p.reverse ++ rest)
+'LRX.Cycle11BlockReversal.zig_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.Cycle11BlockReversal.zig_length (k : ℕ) (hk : 2 ≤ k) : (LRX.Cycle11BlockReversal.zig k).length + 1 = k * (k - 1)
+'LRX.Cycle11BlockReversal.zig_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.GraphBridge.word_walk {n : ℕ} (hn : 2 ≤ n) (w : List LRX.BlockExchange.Op) (u : LRX.GraphBridge.Vertex n) :
+  ∃ p, p.length = w.length
+'LRX.GraphBridge.word_walk' depends on axioms: [propext, Classical.choice, Quot.sound]
+LRX.GraphBridge.dist_lower {n : ℕ} (hn : 4 ≤ n) :
+  n * (n - 1) / 2 ≤ (LRX.GraphBridge.graph n).dist (LRX.GraphBridge.root n) (LRX.GraphBridge.target n)
+'LRX.GraphBridge.dist_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

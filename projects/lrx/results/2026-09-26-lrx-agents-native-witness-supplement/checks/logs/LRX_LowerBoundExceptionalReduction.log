@@ -1,0 +1,30 @@
+LRX/LowerBoundExceptionalReduction.lean:11:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundExceptionalReduction.exists_shortest_le`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundExceptionalReduction.lean:23:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundExceptionalReduction.run_left_replicate`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LRX/LowerBoundExceptionalReduction.lean:30:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LRX/LowerBoundExceptionalReduction.lean:39:0: warning: automatically included section variable(s) unused in theorem `LRX.LowerBoundExceptionalReduction.flip_class`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'LRX.LowerBoundExceptionalReduction.exists_shortest_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundExceptionalReduction.flip_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundExceptionalReduction.flip_counts' depends on axioms: [propext]
+'LRX.LowerBoundExceptionalReduction.shortest_small_class_either_order' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LRX.LowerBoundExceptionalReduction.short_native_word_two_large_classes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

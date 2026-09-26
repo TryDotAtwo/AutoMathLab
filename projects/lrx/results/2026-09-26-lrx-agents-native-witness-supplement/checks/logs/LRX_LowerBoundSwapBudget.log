@@ -1,0 +1,6 @@
+'LRX.LowerBoundSwapBudget.scalar_swap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapBudget.exchange_inversions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapBudget.pairs_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapBudget.trace_inversion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapBudget.physical_swap_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.LowerBoundSwapBudget.physical_two_block_total_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

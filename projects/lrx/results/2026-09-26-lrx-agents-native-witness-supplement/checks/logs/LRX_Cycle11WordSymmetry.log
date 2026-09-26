@@ -1,0 +1,11 @@
+LRX/Cycle11WordSymmetry.lean:77:42: warning: This simp argument is unused:
+  spin
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [reflect, run, step, right, left, List.append_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'LRX.Cycle11WordSymmetry.reflect_run' depends on axioms: [propext]
+'LRX.Cycle11WordSymmetry.run_inverse' depends on axioms: [propext]
+'LRX.Cycle11WordSymmetry.reverse_spin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.Cycle11WordSymmetry.spin_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]

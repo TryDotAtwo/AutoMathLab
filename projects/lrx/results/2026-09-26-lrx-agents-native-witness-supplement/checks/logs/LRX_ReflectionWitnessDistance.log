@@ -1,0 +1,2 @@
+'LRX.ReflectionWitnessDistance.witness_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.ReflectionWitnessDistance.witness_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'LRX.GraphBridge.walk_word' depends on axioms: [propext]
+'LRX.GraphBridge.step_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.GraphBridge.word_walk' depends on axioms: [propext, Classical.choice, Quot.sound]
