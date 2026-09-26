@@ -1,0 +1,4 @@
+'LRX.UpperLiftSelection.initial_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperLiftSelection.exists_energy_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperLiftSelection.shift_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.UpperLiftSelection.exists_majorized_short_lift' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "algorithm": "SHA-256",
+  "scope": "All package files except this manifest; file integrity is not a mathematical review.",
+  "files": {
+    "BUILD_RECEIPT.json": "8ef3be8675cc23bffec2da8e36e641fe273e746cd8a64c4fdd0f0bca9054c31e",
+    "README.md": "fc9b1fd052c9d7be07c6ce1a393f43fb449c443509c05fac88b751be5c16be0a",
+    "UpperLiftSelection.lean": "ff83f12853c87c7461d50e69a70ed329152641d5502d676e9171f5703ea0648c",
+    "build.log": "6365f91b6582d1ea5c80d90c8e4906e0a1cef4efe250d025adcb8dc1f503c46c",
+    "lake-manifest.json": "93649f44044aaabd47b77d27ad59be61df311e2073019283866f41817172f6e5",
+    "lakefile.toml": "d257101b00a5f232a8a3f77bc407042320d0bba7a751dcffbaa3f133160c08d3",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "verify.py": "377c0888314c64300d41ccef39848f799a2a6885071c89f2425ef81dc5c0fd38"
+  }
+}
