@@ -26,6 +26,15 @@ NOT quotiented out. The exact declarations are in declarations.txt.
 - CollectorNavigation: the forward/backward arcs cover the actual input;
   their minimum is exactly the source modular distance between the two
   specific inter-pass endpoint coordinates relative to the selected cut.
+- GapRepresentation: arbitrary-list parser and exact reconstruction/labels;
+  paid selected-member cut; any prescribed nonempty U/V split; conversion to
+  leftward encounter order; composed packing with exact total word length.
+  Application selects a nonzero member; the generic lemma also allows zero.
+- NavigationCoordinates: simultaneous coordinate-shift invariance;
+  three-site averaging; explicit drop/take cyclic endpoint lists with proved
+  permutations, lengths and bounds. No Perm premise in cyclic_navigation.
+  The offset is below the site count for the collector application; siteShift
+  beyond the list length is identity, not modulo indexing.
 
 The collector accepts arbitrary natural gap lengths and token lists, with
 one distinguished initial/final token ensuring each of its two groups is
@@ -36,10 +45,9 @@ subsequent cocktail route, rather than assuming a free return to its start.
 
 ## Not established
 
-This package does not extract the gap representation from every admissible
-input, pay the original cursor's approach for all cuts, instantiate global
-cyclic-index averaging, prove gap/inversion averaging, or formalize the final
-sorting stage. Neither the full multiset eccentricity bound nor the distinct-
+This package does not yet connect extracted physical coordinates of every cut
+to the abstract cyclic-site enumeration, prove gap/inversion averaging, or
+formalize the final sorting stage. Neither the full multiset eccentricity bound nor the distinct-
 label LRX diameter conjecture is proved here. No finite-case counts are used
 as a substitute for universal statements.
 
@@ -68,4 +76,6 @@ to propext and Quot.sound. No sorry/admit/new axioms/native_decide. The receipt
 binds exact source, toolchain binary, generated dependency hashes, commands,
 logs and exit codes. This records reproducibility, not an external attestation.
 Saved text logs and receipt from the author's fresh package replay are under
-evidence/. They do not establish any of the unproved global claims above.
+evidence-v2/. Historical evidence/ applies only to the original six-module
+snapshot; it is deliberately retained, not relabeled as the new replay.
+Neither record establishes any of the unproved global claims above.

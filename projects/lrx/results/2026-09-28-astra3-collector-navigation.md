@@ -18,6 +18,13 @@ and prove the finite-list averaged bound under an explicit site-permutation
 condition. The collector's specific inter-pass endpoints are bounded and their
 modular distance equals the cost of the actual chosen approach word.
 
+Extension v2 extracts the gap representation from any input, pays the
+initial cut, constructs any nonempty prescribed split and composes it with
+the packing word. Coordinate translation and explicit cyclic-site list
+permutations give the navigation average without a Perm assumption in that
+enumeration theorem. Binding the extracted per-input coordinates to this
+site enumeration remains separate.
+
 The complete statements, trust boundary and open interfaces are documented in
 [the package README](2026-09-28-astra3-collector-navigation/README.md).
 Each letter, including rotations, has cost1. No cyclic quotient, free reflection,
@@ -25,10 +32,12 @@ Valid-plan assumption or numerical evidence replaces the word construction.
 
 ## Evidence and reproduction
 
-Six modules were freshly compiled from this package; all25 named declarations
+Eight modules were freshly compiled from this package; all40 named declarations
 were audited with only propext/Quot.sound. Source and dependency hashes, exact
 commands, toolchain binary hash, exit codes and raw text logs are in
-[evidence/receipt.json](2026-09-28-astra3-collector-navigation/evidence/receipt.json).
+[evidence-v2/receipt.json](2026-09-28-astra3-collector-navigation/evidence-v2/receipt.json).
+The original six-module receipt remains under evidence/ as historical evidence
+for the first commit, not evidence for the changed verifier/declaration list.
 Counts identify the audit surface, not a percentage of the full conjecture.
 
 Run from the package directory with an existing Linux Lean4.19.0 installation:
@@ -44,8 +53,8 @@ automatically. Each compile is capped at1 thread,10CPU seconds,15wall seconds,
 ## What is not established
 
 The package does not prove the final sorting stage, all-cut gap/inversion
-averaging, extraction/initial approach for every arbitrary admissible input,
-or global instantiation of the occupied-index permutation. In particular it
+averaging, or the complete connection from extracted physical coordinates
+to the cyclic enumeration theorem. In particular it
 does not prove either full distinct-label LRX diameter equality or the multiset
 eccentricity bound. The latter remains the originating task for n>=m>=8,
 including r0,1, and is not silently restricted to the repository's r>=2 note.

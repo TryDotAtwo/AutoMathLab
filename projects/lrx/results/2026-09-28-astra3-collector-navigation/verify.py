@@ -11,6 +11,7 @@ import time
 MODULES = (
     'BlockTransport', 'BlockTransportRight', 'GrowingCollector',
     'TwoBlockCollector', 'Navigation', 'CollectorNavigation',
+    'GapRepresentation', 'NavigationCoordinates',
 )
 ALLOWED = {'propext', 'Quot.sound'}
 AXIOMS = re.compile(r"^'([^']+)' (?:depends on axioms: \[([^\]]*)\]|does not depend on any axioms)$", re.M)

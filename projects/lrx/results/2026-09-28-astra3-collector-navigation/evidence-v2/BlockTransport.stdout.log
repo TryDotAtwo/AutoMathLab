@@ -1,0 +1,5 @@
+'Astra3Block.block_left' depends on axioms: [propext, Quot.sound]
+'Astra3Block.block_left_cost' depends on axioms: [propext, Quot.sound]
+'Astra3Block.block_left_gap' depends on axioms: [propext, Quot.sound]
+'Astra3Block.gap_repair' depends on axioms: [propext, Quot.sound]
+'Astra3Block.gap_repair_cost' depends on axioms: [propext, Quot.sound]
