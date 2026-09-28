@@ -1,0 +1,4 @@
+'Astra3Block.arcs_cover' depends on axioms: [propext]
+'Astra3Block.second_approach_exact' depends on axioms: [propext, Quot.sound]
+'Astra3Block.second_endpoints_bounded' depends on axioms: [propext, Quot.sound]
+'Astra3Block.second_approach_modular' depends on axioms: [propext, Quot.sound]

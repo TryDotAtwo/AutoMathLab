@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "scope": "Listed local collector/navigation declarations only; full LRX OPEN",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "lean_binary_sha256": "92c3d35b5bfaa5e0fea413a775d504cf46cd95e1345df61c2274f76779e7e023",
+  "child_limits": {
+    "cpu_seconds": 10,
+    "address_space_bytes": 1073741824,
+    "wall_seconds": 15,
+    "threads": 1
+  },
+  "inputs_before": {
+    "BlockTransport.lean": "8fb50970de6bfd668416f540828ff9e14b3049dfafb00513c6a8d8056602deee",
+    "BlockTransportRight.lean": "de94b441002898561e781517053facc1435c1380849166445146f65e76348b41",
+    "GrowingCollector.lean": "a607829927c00e96b035387a27da79de42c2ffb2cbc4c45f9ef260a43d32fc3f",
+    "TwoBlockCollector.lean": "93e246dce92cddbc2d78d3aa2585857409d526466ca76ab1a063a9c60938768d",
+    "Navigation.lean": "791268f2d9d979419be5a67f2c58fd6290e9e16b2a6f6f375b22478758fbe869",
+    "CollectorNavigation.lean": "bb3b84704d9713f7374aa733c47162eb25320c0fee33824627636151b40525f6",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "declarations.txt": "589f002d907d7ccbb3d2394e8e584604b16921db28942e654959cc781d40d235",
+    "verify.py": "760b7841a01dc60d4c4d62f0d82d0c49be0c3c2c2bd7f5395d980090e0a8d21c"
+  },
+  "phases": [
+    {
+      "module": "BlockTransport",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/BlockTransport.olean",
+        "BlockTransport.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "be4b3efd7a4f391416da0d087e11cfaa2e56daf3588ce91f7454bb08f01164bc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "63e56de02d57c1b59ee3456312f33dca31e7b139aafb384170fa10db14adf79a"
+    },
+    {
+      "module": "BlockTransportRight",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/BlockTransportRight.olean",
+        "BlockTransportRight.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "9d35c6c9cb5534e6f19840cb41871a8df8c61153fac040239593cd823db7476c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "f33548fd7f96b5da70a85b9b234337f7fe3b4af7aa45b0e82336f6fe25c269ec"
+    },
+    {
+      "module": "GrowingCollector",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/GrowingCollector.olean",
+        "GrowingCollector.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c7647badcec100835b61059cdaab63a3be59ef862ef98493ad5b790cd453f5b2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "876713cabde7e6e9a4660492318698061bcc14d29dee55705a8b9ab21af1ec05"
+    },
+    {
+      "module": "TwoBlockCollector",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/TwoBlockCollector.olean",
+        "TwoBlockCollector.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "cf378af6f28a42d5e7330af8707bc38ee7684db22b25d3d7156eb3eea1f99066",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "2474651f99e6ea7eb3c0dec3a583fef9fb312c987e4a137ad4c7867a423d6d32"
+    },
+    {
+      "module": "Navigation",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/Navigation.olean",
+        "Navigation.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "2c2e7c23db9fba5042966445dada7e7820564c1c41011b985868ce0e7d8f79b1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "1e001df06ce473b5736a626f2cb0e22f6ea2ac43404e978026ae7d4e11afc81e"
+    },
+    {
+      "module": "CollectorNavigation",
+      "command": [
+        "lean",
+        "-j1",
+        "-o",
+        "build/CollectorNavigation.olean",
+        "CollectorNavigation.lean"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "9e8195ff859ab09781048c2fb7897c7c054475280fef060e2fc0df625409485d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "olean_sha256": "5fdf3c2ee54fdbad562decb0992974b28cb7ff6f8c37d65bfadd1a27b24adf46"
+    }
+  ],
+  "axioms": {
+    "Astra3Block.block_left": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.block_left_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.block_left_gap": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.gap_repair": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.gap_repair_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.block_right": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.block_right_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.block_right_gap": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.growing_right": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.growing_right_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.growing_left": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.growing_left_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.merge_blocks": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.merge_blocks_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.two_block_collect": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.two_block_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.two_block_core_collect": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.two_block_core_cost": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Navigation.navigation_pair": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Navigation.distance_mod": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Navigation.navigation_average": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.arcs_cover": [
+      "propext"
+    ],
+    "Astra3Block.second_approach_exact": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.second_endpoints_bounded": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Astra3Block.second_approach_modular": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "success": true,
+  "inputs_after": {
+    "BlockTransport.lean": "8fb50970de6bfd668416f540828ff9e14b3049dfafb00513c6a8d8056602deee",
+    "BlockTransportRight.lean": "de94b441002898561e781517053facc1435c1380849166445146f65e76348b41",
+    "GrowingCollector.lean": "a607829927c00e96b035387a27da79de42c2ffb2cbc4c45f9ef260a43d32fc3f",
+    "TwoBlockCollector.lean": "93e246dce92cddbc2d78d3aa2585857409d526466ca76ab1a063a9c60938768d",
+    "Navigation.lean": "791268f2d9d979419be5a67f2c58fd6290e9e16b2a6f6f375b22478758fbe869",
+    "CollectorNavigation.lean": "bb3b84704d9713f7374aa733c47162eb25320c0fee33824627636151b40525f6",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "declarations.txt": "589f002d907d7ccbb3d2394e8e584604b16921db28942e654959cc781d40d235",
+    "verify.py": "760b7841a01dc60d4c4d62f0d82d0c49be0c3c2c2bd7f5395d980090e0a8d21c"
+  },
+  "elapsed_seconds": 4.7520740129984915
+}

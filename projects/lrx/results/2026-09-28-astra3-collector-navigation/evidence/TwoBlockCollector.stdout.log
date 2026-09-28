@@ -1,0 +1,4 @@
+'Astra3Block.two_block_collect' depends on axioms: [propext, Quot.sound]
+'Astra3Block.two_block_cost' depends on axioms: [propext, Quot.sound]
+'Astra3Block.two_block_core_collect' depends on axioms: [propext, Quot.sound]
+'Astra3Block.two_block_core_cost' depends on axioms: [propext, Quot.sound]
