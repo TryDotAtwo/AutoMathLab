@@ -1,0 +1,5 @@
+'Astra3Navigation.shift_coord' depends on axioms: [propext, Quot.sound]
+'Astra3Navigation.distance_shift' depends on axioms: [propext, Quot.sound]
+'Astra3Navigation.three_site_navigation' depends on axioms: [propext, Quot.sound]
+'Astra3Navigation.siteShift_perm' depends on axioms: [propext]
+'Astra3Navigation.cyclic_navigation' depends on axioms: [propext, Quot.sound]
